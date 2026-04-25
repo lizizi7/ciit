@@ -14995,13 +14995,12 @@ const uy = [
   sy = fe("zap", uy),
   bh = [
     { label: "项目背景", href: "#background" },
-    { label: "同类案例", href: "#cases" },
     { label: "语料库建设", href: "#corpus" },
     { label: "数据分析", href: "#analytics" },
     { label: "智能体功能", href: "#features" },
     { label: "形象设计", href: "#design" },
     { label: "未来规划", href: "#roadmap" },
-    
+    { label: "同类案例", href: "#cases" },
   ];
 function iy() {
   const [u, f] = j.useState(!1),
@@ -17803,8 +17802,8 @@ function Ry() {
       o.jsx(iy, { "code-path": "src/pages/Home.tsx:15:7" }),
       o.jsx(oy, { "code-path": "src/pages/Home.tsx:16:7" }),
       o.jsx(fy, { "code-path": "src/pages/Home.tsx:17:7" }),
-      o.jsx(vy, { "code-path": "src/pages/Home.tsx:18:7" }),
-      o.jsx(hy, { "code-path": "src/pages/Home.tsx:19:7" }),
+      o.jsx(hy, { "code-path": "src/pages/Home.tsx:18:7" }),
+      o.jsx(vy, { "code-path": "src/pages/Home.tsx:19:7" }),
       o.jsx(Sy, { "code-path": "src/pages/Home.tsx:20:7" }),
       o.jsx(Ny, { "code-path": "src/pages/Home.tsx:21:7" }),
       o.jsx(Ay, { "code-path": "src/pages/Home.tsx:22:7" }),
