@@ -16773,8 +16773,15 @@ function Ny() {
                                 "code-path": "src/sections/Design.tsx:66:19",
                                 className:
                                   "text-sm text-muted-foreground leading-relaxed",
-                                children:
-                                  '开放式双色环形：左蓝（科技）右橙（温暖）<br>双手托举形成心形：象征守护与关爱<br>品牌名 "守望・智伴" 与环形色彩呼应<br>标语 "出入相友・守望相助・智慧陪伴" 传递品牌温度',
+                                children: [
+                                  "开放式双色环形：左蓝（科技）右橙（温暖）",
+                                  o.jsx("br", {}),
+                                  "双手托举形成心形：象征守护与关爱",
+                                  o.jsx("br", {}),
+                                  '品牌名 "守望・智伴" 与环形色彩呼应',
+                                  o.jsx("br", {}),
+                                  '标语 "出入相友・守望相助・智慧陪伴" 传递品牌温度',
+                                ],
                               }),
                             ],
                           }),
