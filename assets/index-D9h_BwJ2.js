@@ -15353,132 +15353,240 @@ function fy() {
       return (d.current && i.observe(d.current), () => i.disconnect());
     }, []),
     o.jsx("section", {
-      "code-path": "src/sections/Background.tsx:50:5",
-      id: "background",
-      className: "section-padding bg-muted/30",
+      "code-path": "src/sections/Cases.tsx:74:5",
+      id: "cases",
+      className: "section-padding bg-muted/20",
       ref: d,
       children: o.jsxs("div", {
-        "code-path": "src/sections/Background.tsx:51:7",
+        "code-path": "src/sections/Cases.tsx:75:7",
         className: "max-w-7xl mx-auto",
         children: [
           o.jsxs("div", {
-            "code-path": "src/sections/Background.tsx:52:9",
+            "code-path": "src/sections/Cases.tsx:76:9",
             className: "text-center mb-16",
             children: [
               o.jsx("span", {
-                "code-path": "src/sections/Background.tsx:53:11",
+                "code-path": "src/sections/Cases.tsx:77:11",
                 className:
                   "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
-                children: "项目背景",
+                children: "同类案例",
               }),
               o.jsx("h2", {
-                "code-path": "src/sections/Background.tsx:56:11",
+                "code-path": "src/sections/Cases.tsx:80:11",
                 className:
                   "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "为什么建设AI智能体",
+                children: "全国高校AI智能体建设实践",
               }),
               o.jsx("p", {
-                "code-path": "src/sections/Background.tsx:59:11",
+                "code-path": "src/sections/Cases.tsx:83:11",
                 className: "text-muted-foreground text-lg max-w-3xl mx-auto",
                 children:
-                  '常州工业职业技术学院已建成全国A级"一站式"学生社区，但传统人工服务模式存在响应慢、覆盖窄、成本高等痛点，亟需AI技术赋能实现服务升级。',
+                  '借鉴全国同类高校AI智能体建设经验，为常州工业职业技术学院"守望智伴"提供参考与启示。',
               }),
             ],
           }),
           o.jsx("div", {
-            "code-path": "src/sections/Background.tsx:64:9",
-            className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
-            children: ry.map((i, h) =>
+            "code-path": "src/sections/Cases.tsx:88:9",
+            className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6",
+            children: zy.map((i, h) =>
               o.jsxs(
                 "div",
                 {
-                  "code-path": "src/sections/Background.tsx:66:13",
-                  className: `group relative p-6 rounded-2xl bg-white border border-border/50 shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                  "code-path": "src/sections/Cases.tsx:90:13",
+                  className: `group p-6 rounded-2xl bg-white border border-border shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
                   style: { transitionDelay: `${h * 100}ms` },
                   children: [
+                    o.jsxs("div", {
+                      "code-path": "src/sections/Cases.tsx:97:15",
+                      className: "flex items-start justify-between mb-4",
+                      children: [
+                        o.jsxs("div", {
+                          "code-path": "src/sections/Cases.tsx:98:17",
+                          className: "flex items-center gap-2",
+                          children: [
+                            o.jsx("div", {
+                              "code-path": "src/sections/Cases.tsx:99:19",
+                              className:
+                                "w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center",
+                              children: o.jsx(Dx, {
+                                "code-path": "src/sections/Cases.tsx:100:21",
+                                className: "w-5 h-5 text-primary",
+                              }),
+                            }),
+                            o.jsxs("div", {
+                              "code-path": "src/sections/Cases.tsx:102:19",
+                              children: [
+                                o.jsx("h3", {
+                                  "code-path": "src/sections/Cases.tsx:103:21",
+                                  className:
+                                    "font-bold text-foreground text-sm",
+                                  children: i.school,
+                                }),
+                                o.jsx("p", {
+                                  "code-path": "src/sections/Cases.tsx:104:21",
+                                  className: "text-xs text-muted-foreground",
+                                  children: i.name,
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                        o.jsx("span", {
+                          "code-path": "src/sections/Cases.tsx:107:17",
+                          className:
+                            "px-2 py-0.5 rounded-full bg-secondary/10 text-secondary text-xs font-semibold",
+                          children: i.type,
+                        }),
+                      ],
+                    }),
+                    o.jsxs("div", {
+                      "code-path": "src/sections/Cases.tsx:112:15",
+                      className: "mb-3",
+                      children: [
+                        o.jsxs("div", {
+                          "code-path": "src/sections/Cases.tsx:113:17",
+                          className: "flex items-center gap-2 mb-2",
+                          children: [
+                            o.jsx(Bx, {
+                              "code-path": "src/sections/Cases.tsx:114:19",
+                              className: "w-4 h-4 text-amber-500",
+                            }),
+                            o.jsx("span", {
+                              "code-path": "src/sections/Cases.tsx:115:19",
+                              className:
+                                "text-sm font-semibold text-foreground",
+                              children: i.highlight,
+                            }),
+                          ],
+                        }),
+                        o.jsx("p", {
+                          "code-path": "src/sections/Cases.tsx:117:17",
+                          className:
+                            "text-sm text-muted-foreground leading-relaxed",
+                          children: i.desc,
+                        }),
+                      ],
+                    }),
                     o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:73:15",
-                      className: `w-12 h-12 rounded-xl bg-gradient-to-br ${i.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`,
-                      children: o.jsx(i.icon, {
-                        "code-path": "src/sections/Background.tsx:76:17",
-                        className: "w-6 h-6 text-white",
-                      }),
-                    }),
-                    o.jsx("h3", {
-                      "code-path": "src/sections/Background.tsx:78:15",
-                      className: "text-lg font-bold text-foreground mb-2",
-                      children: i.title,
-                    }),
-                    o.jsx("p", {
-                      "code-path": "src/sections/Background.tsx:79:15",
+                      "code-path": "src/sections/Cases.tsx:120:15",
                       className:
-                        "text-sm text-muted-foreground leading-relaxed",
-                      children: i.desc,
+                        "flex items-center justify-between pt-4 border-t border-border/50",
+                      children: o.jsxs("span", {
+                        "code-path": "src/sections/Cases.tsx:121:17",
+                        className:
+                          "inline-flex items-center gap-1 px-2 py-1 rounded bg-emerald-50 text-emerald-700 text-xs font-semibold",
+                        children: [
+                          o.jsx(Gx, {
+                            "code-path": "src/sections/Cases.tsx:122:19",
+                            className: "w-3 h-3",
+                          }),
+                          i.outcome,
+                        ],
+                      }),
                     }),
                   ],
                 },
-                i.title,
+                i.school,
               ),
             ),
           }),
-          o.jsx("div", {
-            "code-path": "src/sections/Background.tsx:84:9",
-            className:
-              "mt-16 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white",
-            children: o.jsxs("div", {
-              "code-path": "src/sections/Background.tsx:85:11",
-              className: "grid md:grid-cols-3 gap-8",
-              children: [
-                o.jsxs("div", {
-                  "code-path": "src/sections/Background.tsx:86:13",
-                  className: "text-center",
-                  children: [
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:87:15",
-                      className: "text-4xl font-bold mb-2",
-                      children: "1900+",
-                    }),
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:88:15",
-                      className: "text-white/80 text-sm",
-                      children: "年均学生诉求响应量",
-                    }),
-                  ],
-                }),
-                o.jsxs("div", {
-                  "code-path": "src/sections/Background.tsx:90:13",
-                  className: "text-center",
-                  children: [
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:91:15",
-                      className: "text-4xl font-bold mb-2",
-                      children: "100%",
-                    }),
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:92:15",
-                      className: "text-white/80 text-sm",
-                      children: "诉求响应率",
-                    }),
-                  ],
-                }),
-                o.jsxs("div", {
-                  "code-path": "src/sections/Background.tsx:94:13",
-                  className: "text-center",
-                  children: [
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:95:15",
-                      className: "text-4xl font-bold mb-2",
-                      children: "300+",
-                    }),
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:96:15",
-                      className: "text-white/80 text-sm",
-                      children: "年度社区活动场次",
-                    }),
-                  ],
-                }),
-              ],
-            }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Cases.tsx:131:9",
+            className: `mt-12 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white transition-all duration-700 delay-600 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+            children: [
+              o.jsx("h3", {
+                "code-path": "src/sections/Cases.tsx:136:11",
+                className: "text-xl font-bold mb-4 text-center",
+                children: "经验启示",
+              }),
+              o.jsxs("div", {
+                "code-path": "src/sections/Cases.tsx:137:11",
+                className: "grid md:grid-cols-3 gap-6",
+                children: [
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Cases.tsx:138:13",
+                    className: "text-center",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Cases.tsx:139:15",
+                        className:
+                          "w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3",
+                        children: o.jsx("span", {
+                          "code-path": "src/sections/Cases.tsx:140:17",
+                          className: "text-2xl font-bold",
+                          children: "1",
+                        }),
+                      }),
+                      o.jsx("h4", {
+                        "code-path": "src/sections/Cases.tsx:142:15",
+                        className: "font-semibold mb-2",
+                        children: "语料库是核心",
+                      }),
+                      o.jsx("p", {
+                        "code-path": "src/sections/Cases.tsx:143:15",
+                        className: "text-sm text-white/70",
+                        children:
+                          "华中科大建设6类32项语料库，太原理工汇聚200余名辅导员智慧，高质量语料是智能体精准服务的基础。",
+                      }),
+                    ],
+                  }),
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Cases.tsx:147:13",
+                    className: "text-center",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Cases.tsx:148:15",
+                        className:
+                          "w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3",
+                        children: o.jsx("span", {
+                          "code-path": "src/sections/Cases.tsx:149:17",
+                          className: "text-2xl font-bold",
+                          children: "2",
+                        }),
+                      }),
+                      o.jsx("h4", {
+                        "code-path": "src/sections/Cases.tsx:151:15",
+                        className: "font-semibold mb-2",
+                        children: "安全机制不可少",
+                      }),
+                      o.jsx("p", {
+                        "code-path": "src/sections/Cases.tsx:152:15",
+                        className: "text-sm text-white/70",
+                        children:
+                          "必须建立心理危机识别与人工转接机制，确保学生安全。内容可控、风险屏蔽、隐私保护是底线要求。",
+                      }),
+                    ],
+                  }),
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Cases.tsx:156:13",
+                    className: "text-center",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Cases.tsx:157:15",
+                        className:
+                          "w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3",
+                        children: o.jsx("span", {
+                          "code-path": "src/sections/Cases.tsx:158:17",
+                          className: "text-2xl font-bold",
+                          children: "3",
+                        }),
+                      }),
+                      o.jsx("h4", {
+                        "code-path": "src/sections/Cases.tsx:160:15",
+                        className: "font-semibold mb-2",
+                        children: "文化融合有特色",
+                      }),
+                      o.jsx("p", {
+                        "code-path": "src/sections/Cases.tsx:161:15",
+                        className: "text-sm text-white/70",
+                        children:
+                          '上海中医大融入中医药文化，天津大学打造"海棠"品牌，结合学校特色打造差异化智能体更易获认可。',
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
           }),
         ],
       }),
@@ -17394,240 +17502,132 @@ function Ty() {
       return (d.current && i.observe(d.current), () => i.disconnect());
     }, []),
     o.jsx("section", {
-      "code-path": "src/sections/Cases.tsx:74:5",
-      id: "cases",
-      className: "section-padding bg-muted/20",
+      "code-path": "src/sections/Background.tsx:50:5",
+      id: "background",
+      className: "section-padding bg-muted/30",
       ref: d,
       children: o.jsxs("div", {
-        "code-path": "src/sections/Cases.tsx:75:7",
+        "code-path": "src/sections/Background.tsx:51:7",
         className: "max-w-7xl mx-auto",
         children: [
           o.jsxs("div", {
-            "code-path": "src/sections/Cases.tsx:76:9",
+            "code-path": "src/sections/Background.tsx:52:9",
             className: "text-center mb-16",
             children: [
               o.jsx("span", {
-                "code-path": "src/sections/Cases.tsx:77:11",
+                "code-path": "src/sections/Background.tsx:53:11",
                 className:
                   "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
-                children: "同类案例",
+                children: "项目背景",
               }),
               o.jsx("h2", {
-                "code-path": "src/sections/Cases.tsx:80:11",
+                "code-path": "src/sections/Background.tsx:56:11",
                 className:
                   "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "全国高校AI智能体建设实践",
+                children: "为什么建设AI智能体",
               }),
               o.jsx("p", {
-                "code-path": "src/sections/Cases.tsx:83:11",
+                "code-path": "src/sections/Background.tsx:59:11",
                 className: "text-muted-foreground text-lg max-w-3xl mx-auto",
                 children:
-                  '借鉴全国同类高校AI智能体建设经验，为常州工业职业技术学院"守望智伴"提供参考与启示。',
+                  '常州工业职业技术学院已建成全国A级"一站式"学生社区，但传统人工服务模式存在响应慢、覆盖窄、成本高等痛点，亟需AI技术赋能实现服务升级。',
               }),
             ],
           }),
           o.jsx("div", {
-            "code-path": "src/sections/Cases.tsx:88:9",
-            className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6",
-            children: zy.map((i, h) =>
+            "code-path": "src/sections/Background.tsx:64:9",
+            className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
+            children: ry.map((i, h) =>
               o.jsxs(
                 "div",
                 {
-                  "code-path": "src/sections/Cases.tsx:90:13",
-                  className: `group p-6 rounded-2xl bg-white border border-border shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                  "code-path": "src/sections/Background.tsx:66:13",
+                  className: `group relative p-6 rounded-2xl bg-white border border-border/50 shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
                   style: { transitionDelay: `${h * 100}ms` },
                   children: [
-                    o.jsxs("div", {
-                      "code-path": "src/sections/Cases.tsx:97:15",
-                      className: "flex items-start justify-between mb-4",
-                      children: [
-                        o.jsxs("div", {
-                          "code-path": "src/sections/Cases.tsx:98:17",
-                          className: "flex items-center gap-2",
-                          children: [
-                            o.jsx("div", {
-                              "code-path": "src/sections/Cases.tsx:99:19",
-                              className:
-                                "w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center",
-                              children: o.jsx(Dx, {
-                                "code-path": "src/sections/Cases.tsx:100:21",
-                                className: "w-5 h-5 text-primary",
-                              }),
-                            }),
-                            o.jsxs("div", {
-                              "code-path": "src/sections/Cases.tsx:102:19",
-                              children: [
-                                o.jsx("h3", {
-                                  "code-path": "src/sections/Cases.tsx:103:21",
-                                  className:
-                                    "font-bold text-foreground text-sm",
-                                  children: i.school,
-                                }),
-                                o.jsx("p", {
-                                  "code-path": "src/sections/Cases.tsx:104:21",
-                                  className: "text-xs text-muted-foreground",
-                                  children: i.name,
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                        o.jsx("span", {
-                          "code-path": "src/sections/Cases.tsx:107:17",
-                          className:
-                            "px-2 py-0.5 rounded-full bg-secondary/10 text-secondary text-xs font-semibold",
-                          children: i.type,
-                        }),
-                      ],
-                    }),
-                    o.jsxs("div", {
-                      "code-path": "src/sections/Cases.tsx:112:15",
-                      className: "mb-3",
-                      children: [
-                        o.jsxs("div", {
-                          "code-path": "src/sections/Cases.tsx:113:17",
-                          className: "flex items-center gap-2 mb-2",
-                          children: [
-                            o.jsx(Bx, {
-                              "code-path": "src/sections/Cases.tsx:114:19",
-                              className: "w-4 h-4 text-amber-500",
-                            }),
-                            o.jsx("span", {
-                              "code-path": "src/sections/Cases.tsx:115:19",
-                              className:
-                                "text-sm font-semibold text-foreground",
-                              children: i.highlight,
-                            }),
-                          ],
-                        }),
-                        o.jsx("p", {
-                          "code-path": "src/sections/Cases.tsx:117:17",
-                          className:
-                            "text-sm text-muted-foreground leading-relaxed",
-                          children: i.desc,
-                        }),
-                      ],
-                    }),
                     o.jsx("div", {
-                      "code-path": "src/sections/Cases.tsx:120:15",
-                      className:
-                        "flex items-center justify-between pt-4 border-t border-border/50",
-                      children: o.jsxs("span", {
-                        "code-path": "src/sections/Cases.tsx:121:17",
-                        className:
-                          "inline-flex items-center gap-1 px-2 py-1 rounded bg-emerald-50 text-emerald-700 text-xs font-semibold",
-                        children: [
-                          o.jsx(Gx, {
-                            "code-path": "src/sections/Cases.tsx:122:19",
-                            className: "w-3 h-3",
-                          }),
-                          i.outcome,
-                        ],
+                      "code-path": "src/sections/Background.tsx:73:15",
+                      className: `w-12 h-12 rounded-xl bg-gradient-to-br ${i.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`,
+                      children: o.jsx(i.icon, {
+                        "code-path": "src/sections/Background.tsx:76:17",
+                        className: "w-6 h-6 text-white",
                       }),
+                    }),
+                    o.jsx("h3", {
+                      "code-path": "src/sections/Background.tsx:78:15",
+                      className: "text-lg font-bold text-foreground mb-2",
+                      children: i.title,
+                    }),
+                    o.jsx("p", {
+                      "code-path": "src/sections/Background.tsx:79:15",
+                      className:
+                        "text-sm text-muted-foreground leading-relaxed",
+                      children: i.desc,
                     }),
                   ],
                 },
-                i.school,
+                i.title,
               ),
             ),
           }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Cases.tsx:131:9",
-            className: `mt-12 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white transition-all duration-700 delay-600 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-            children: [
-              o.jsx("h3", {
-                "code-path": "src/sections/Cases.tsx:136:11",
-                className: "text-xl font-bold mb-4 text-center",
-                children: "经验启示",
-              }),
-              o.jsxs("div", {
-                "code-path": "src/sections/Cases.tsx:137:11",
-                className: "grid md:grid-cols-3 gap-6",
-                children: [
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Cases.tsx:138:13",
-                    className: "text-center",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Cases.tsx:139:15",
-                        className:
-                          "w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3",
-                        children: o.jsx("span", {
-                          "code-path": "src/sections/Cases.tsx:140:17",
-                          className: "text-2xl font-bold",
-                          children: "1",
-                        }),
-                      }),
-                      o.jsx("h4", {
-                        "code-path": "src/sections/Cases.tsx:142:15",
-                        className: "font-semibold mb-2",
-                        children: "语料库是核心",
-                      }),
-                      o.jsx("p", {
-                        "code-path": "src/sections/Cases.tsx:143:15",
-                        className: "text-sm text-white/70",
-                        children:
-                          "华中科大建设6类32项语料库，太原理工汇聚200余名辅导员智慧，高质量语料是智能体精准服务的基础。",
-                      }),
-                    ],
-                  }),
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Cases.tsx:147:13",
-                    className: "text-center",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Cases.tsx:148:15",
-                        className:
-                          "w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3",
-                        children: o.jsx("span", {
-                          "code-path": "src/sections/Cases.tsx:149:17",
-                          className: "text-2xl font-bold",
-                          children: "2",
-                        }),
-                      }),
-                      o.jsx("h4", {
-                        "code-path": "src/sections/Cases.tsx:151:15",
-                        className: "font-semibold mb-2",
-                        children: "安全机制不可少",
-                      }),
-                      o.jsx("p", {
-                        "code-path": "src/sections/Cases.tsx:152:15",
-                        className: "text-sm text-white/70",
-                        children:
-                          "必须建立心理危机识别与人工转接机制，确保学生安全。内容可控、风险屏蔽、隐私保护是底线要求。",
-                      }),
-                    ],
-                  }),
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Cases.tsx:156:13",
-                    className: "text-center",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Cases.tsx:157:15",
-                        className:
-                          "w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3",
-                        children: o.jsx("span", {
-                          "code-path": "src/sections/Cases.tsx:158:17",
-                          className: "text-2xl font-bold",
-                          children: "3",
-                        }),
-                      }),
-                      o.jsx("h4", {
-                        "code-path": "src/sections/Cases.tsx:160:15",
-                        className: "font-semibold mb-2",
-                        children: "文化融合有特色",
-                      }),
-                      o.jsx("p", {
-                        "code-path": "src/sections/Cases.tsx:161:15",
-                        className: "text-sm text-white/70",
-                        children:
-                          '上海中医大融入中医药文化，天津大学打造"海棠"品牌，结合学校特色打造差异化智能体更易获认可。',
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-            ],
+          o.jsx("div", {
+            "code-path": "src/sections/Background.tsx:84:9",
+            className:
+              "mt-16 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white",
+            children: o.jsxs("div", {
+              "code-path": "src/sections/Background.tsx:85:11",
+              className: "grid md:grid-cols-3 gap-8",
+              children: [
+                o.jsxs("div", {
+                  "code-path": "src/sections/Background.tsx:86:13",
+                  className: "text-center",
+                  children: [
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:87:15",
+                      className: "text-4xl font-bold mb-2",
+                      children: "1900+",
+                    }),
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:88:15",
+                      className: "text-white/80 text-sm",
+                      children: "年均学生诉求响应量",
+                    }),
+                  ],
+                }),
+                o.jsxs("div", {
+                  "code-path": "src/sections/Background.tsx:90:13",
+                  className: "text-center",
+                  children: [
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:91:15",
+                      className: "text-4xl font-bold mb-2",
+                      children: "100%",
+                    }),
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:92:15",
+                      className: "text-white/80 text-sm",
+                      children: "诉求响应率",
+                    }),
+                  ],
+                }),
+                o.jsxs("div", {
+                  "code-path": "src/sections/Background.tsx:94:13",
+                  className: "text-center",
+                  children: [
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:95:15",
+                      className: "text-4xl font-bold mb-2",
+                      children: "300+",
+                    }),
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:96:15",
+                      className: "text-white/80 text-sm",
+                      children: "年度社区活动场次",
+                    }),
+                  ],
+                }),
+              ],
+            }),
           }),
         ],
       }),
