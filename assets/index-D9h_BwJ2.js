@@ -15485,61 +15485,7 @@ function fy() {
     })
   );
 }
-const On = [
-    {
-      icon: zx,
-      title: "原始采集",
-      desc: "从学校学工处、团委、心理中心等部门收集原始FAQ文档，涵盖学生常见问题与政策文件。",
-      detail: "共采集原始问题400+条",
-    },
-    {
-      icon: Cx,
-      title: "清洗去重",
-      desc: "去除重复问题、合并相似问题、修正错别字与格式问题，确保数据质量。",
-      detail: "去重后剩余343条核心问题",
-    },
-    {
-      icon: Hx,
-      title: "分类体系",
-      desc: '建立"一级分类→二级分类→三级分类"的三层分类体系，确保问题归属清晰。',
-      detail: "6大一级分类、16个二级分类",
-    },
-    {
-      icon: Ix,
-      title: "标签标注",
-      desc: "为每条问题打上3-5个关键词标签，便于后续检索与语义匹配。",
-      detail: "共产生330+个独立标签",
-    },
-    {
-      icon: Xh,
-      title: "答案优化",
-      desc: '按照"一句话+详细说明+相关指引"三段式模板，优化每条问题的回答。',
-      detail: "平均答案长度238字",
-    },
-    {
-      icon: Sx,
-      title: "质检入库",
-      desc: "质检员逐条审核答案质量，合格后导入扣子平台知识库，完成入库。",
-      detail: "8人团队、100%完成率",
-    },
-  ],
-  dy = [
-    {
-      name: "学生事务",
-      count: 184,
-      sub: "组织建设、资助育人、学业发展、日常服务",
-    },
-    {
-      name: "生活服务",
-      count: 73,
-      sub: "住宿管理、医疗健康、心理健康、校园安全",
-    },
-    { name: "职业发展", count: 47, sub: "就业指导、升学深造、应征入伍" },
-    { name: "党团建设", count: 27, sub: "入党流程、团员管理、组织关系转接" },
-    { name: "网络思政", count: 1, sub: "网络文化活动、网络素养" },
-    { name: "其他", count: 10, sub: "综合性问题" },
-  ];
-function hy() {
+function Ty() {
   const [u, f] = j.useState(!1),
     d = j.useRef(null);
   return (
@@ -15793,7 +15739,7 @@ function hy() {
     })
   );
 }
-function Cy() {
+function hy() {
   const [u, f] = j.useState(!1),
     [d, i] = j.useState(0),
     h = j.useRef(null);
@@ -16153,111 +16099,6 @@ function Cy() {
     })
   );
 }
-const my = [
-    { name: "学生事务", count: 184, color: "#2563eb" },
-    { name: "生活服务", count: 73, color: "#f59e0b" },
-    { name: "职业发展", count: 47, color: "#8b5cf6" },
-    { name: "党团建设", count: 27, color: "#10b981" },
-    { name: "其他", count: 10, color: "#6b7280" },
-    { name: "网络思政", count: 1, color: "#ec4899" },
-  ],
-  py = [
-    { name: "学业发展", count: 54 },
-    { name: "资助育人", count: 39 },
-    { name: "日常服务", count: 39 },
-    { name: "就业指导", count: 37 },
-    { name: "心理健康", count: 35 },
-    { name: "住宿管理", count: 30 },
-    { name: "校园安全", count: 19 },
-    { name: "组织建设", count: 17 },
-    { name: "团员管理", count: 16 },
-  ];
-function xy({ data: u, maxVal: f }) {
-  return o.jsx("div", {
-    "code-path": "src/sections/Analytics.tsx:29:5",
-    className: "space-y-3",
-    children: u.map((d) =>
-      o.jsxs(
-        "div",
-        {
-          "code-path": "src/sections/Analytics.tsx:31:9",
-          className: "flex items-center gap-3",
-          children: [
-            o.jsx("span", {
-              "code-path": "src/sections/Analytics.tsx:32:11",
-              className:
-                "text-sm text-muted-foreground w-20 text-right shrink-0",
-              children: d.name,
-            }),
-            o.jsx("div", {
-              "code-path": "src/sections/Analytics.tsx:33:11",
-              className: "flex-1 h-8 bg-muted rounded-full overflow-hidden",
-              children: o.jsx("div", {
-                "code-path": "src/sections/Analytics.tsx:34:13",
-                className:
-                  "h-full rounded-full transition-all duration-1000 ease-out flex items-center justify-end pr-3",
-                style: {
-                  width: `${(d.count / f) * 100}%`,
-                  backgroundColor: d.color || "#2563eb",
-                },
-                children: o.jsx("span", {
-                  "code-path": "src/sections/Analytics.tsx:41:15",
-                  className: "text-xs font-semibold text-white",
-                  children: d.count,
-                }),
-              }),
-            }),
-          ],
-        },
-        d.name,
-      ),
-    ),
-  });
-}
-function yy({ data: u }) {
-  const f = Math.max(...u.map((d) => d.count));
-  return o.jsx("div", {
-    "code-path": "src/sections/Analytics.tsx:53:5",
-    className: "space-y-2.5",
-    children: u.map((d) =>
-      o.jsxs(
-        "div",
-        {
-          "code-path": "src/sections/Analytics.tsx:55:9",
-          children: [
-            o.jsxs("div", {
-              "code-path": "src/sections/Analytics.tsx:56:11",
-              className: "flex justify-between text-sm mb-1",
-              children: [
-                o.jsx("span", {
-                  "code-path": "src/sections/Analytics.tsx:57:13",
-                  className: "text-foreground font-medium",
-                  children: d.name,
-                }),
-                o.jsxs("span", {
-                  "code-path": "src/sections/Analytics.tsx:58:13",
-                  className: "text-muted-foreground",
-                  children: [d.count, "条"],
-                }),
-              ],
-            }),
-            o.jsx("div", {
-              "code-path": "src/sections/Analytics.tsx:60:11",
-              className: "h-2.5 bg-muted rounded-full overflow-hidden",
-              children: o.jsx("div", {
-                "code-path": "src/sections/Analytics.tsx:61:13",
-                className:
-                  "h-full rounded-full bg-gradient-to-r from-blue-500 to-blue-400 transition-all duration-1000",
-                style: { width: `${(d.count / f) * 100}%` },
-              }),
-            }),
-          ],
-        },
-        d.name,
-      ),
-    ),
-  });
-}
 function vy() {
   const [u, f] = j.useState(!1),
     d = j.useRef(null);
@@ -16457,102 +16298,6 @@ function vy() {
     })
   );
 }
-function gy({ className: u }) {
-  return o.jsxs("svg", {
-    "code-path": "src/sections/Analytics.tsx:190:5",
-    className: u,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor",
-    strokeWidth: "2",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    children: [
-      o.jsx("path", {
-        "code-path": "src/sections/Analytics.tsx:191:7",
-        d: "M22 11.08V12a10 10 0 1 1-5.93-9.14",
-      }),
-      o.jsx("polyline", {
-        "code-path": "src/sections/Analytics.tsx:192:7",
-        points: "22 4 12 14.01 9 11.01",
-      }),
-    ],
-  });
-}
-function by({ className: u }) {
-  return o.jsxs("svg", {
-    "code-path": "src/sections/Analytics.tsx:199:5",
-    className: u,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor",
-    strokeWidth: "2",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    children: [
-      o.jsx("path", {
-        "code-path": "src/sections/Analytics.tsx:200:7",
-        d: "M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z",
-      }),
-      o.jsx("line", {
-        "code-path": "src/sections/Analytics.tsx:201:7",
-        x1: "7",
-        y1: "7",
-        x2: "7.01",
-        y2: "7",
-      }),
-    ],
-  });
-}
-const Un = [
-    {
-      icon: $i,
-      title: "语义理解与模糊匹配",
-      desc: '基于大模型语义理解能力，支持学生用不同方式表达同一问题。如"奖学金啥时候发"和"奖学金什么时候到账"会被识别为同一问题，理解口语化、简化的表达方式。',
-      highlight: "支持口语化提问",
-    },
-    {
-      icon: Vx,
-      title: "知识库智能检索",
-      desc: "从已配置的343条知识库中检索最匹配的答案，召回数量3-5条，相似度阈值0.6-0.7。提供结构化、清晰的回答，优先匹配变体问题字段，结合标签进行语义扩展。",
-      highlight: "343条精准语料",
-    },
-    {
-      icon: Jh,
-      title: "关键场景识别与转接",
-      desc: "智能识别心理危机（自杀倾向、严重抑郁）、紧急安全事件、复杂投诉等需人工介入的场景，自动触发转接机制，提供辅导员联系方式和危机热线，确保学生安全。",
-      highlight: "安全第一",
-    },
-    {
-      icon: Fi,
-      title: "未匹配问题记录",
-      desc: "当匹配度低于50%或检索为空时，自动记录问题到数据库（支持扣子数据库/飞书表格/企微群），包含提问时间、问题意图、匹配分数等，便于辅导员后期补充知识库。",
-      highlight: "持续优化",
-    },
-    {
-      icon: sy,
-      title: "三段式回答模板",
-      desc: '所有回答统一采用"一句话概括+详细说明（要点化）+相关指引（联系方式/关联问题）"的结构，确保学生快速获取核心信息，同时提供深度解答。',
-      highlight: "结构清晰",
-    },
-    {
-      icon: Kh,
-      title: "亲切温暖的交互风格",
-      desc: '像朋友一样聊天，避免官方语气。使用"同学你好呀～"等亲切问候，适度使用emoji增加亲切感，回答末尾主动提供延伸建议，让技术有温度。',
-      highlight: "有温度的AI",
-    },
-  ],
-  Bi = {
-    name: "学生一站式社区助手",
-    welcome:
-      "你好呀！我是学生社区助手，有什么想问的尽管说～不管是选课、奖学金、宿舍问题还是心情不好想聊聊，我都在哦！",
-    principles: [
-      "亲切感：像朋友一样聊天",
-      "准确性：不知道就说不知道",
-      "主动性：提供延伸建议",
-      "安全性：关注心理健康",
-    ],
-  };
 function Sy() {
   const [u, f] = j.useState(!1),
     [d, i] = j.useState(0),
@@ -17285,94 +17030,6 @@ function Ny() {
     })
   );
 }
-const Ey = [
-    {
-      phase: "第一阶段",
-      period: "2025 Q2-Q3",
-      title: "基础能力建设",
-      items: [
-        "完成343条核心语料库建设",
-        "搭建扣子平台智能体基础框架",
-        "实现模糊搜索与知识库检索",
-        "配置心理危机识别与转接机制",
-      ],
-      status: "已完成",
-    },
-    {
-      phase: "第二阶段",
-      period: "2025 Q3-Q4",
-      title: "数据库连接与小范围试点",
-      items: [
-        "连接扣子数据库实现问题记录",
-        "接入未匹配问题自动记录功能",
-        "在1-2个学院开展小范围试点",
-        "收集反馈优化回答质量",
-      ],
-      status: "进行中",
-    },
-    {
-      phase: "第三阶段",
-      period: "2025 Q4-2026 Q1",
-      title: "AI数据分析与可视化",
-      items: [
-        "对接学工系统获取基础数据",
-        "构建学生行为分析模型",
-        "开发数据可视化大屏",
-        "实现高频问题预警机制",
-      ],
-      status: "规划中",
-    },
-    {
-      phase: "第四阶段",
-      period: "2026 Q1-Q2",
-      title: "学生画像与精准服务",
-      items: [
-        "构建多维度学生用户画像",
-        "实现个性化推荐与预警",
-        "打通家校数据闭环",
-        "全校推广覆盖15000+学生",
-      ],
-      status: "规划中",
-    },
-  ],
-  jy = [
-    {
-      icon: Wi,
-      label: "学业成绩",
-      desc: "绩点趋势、挂科预警、选课偏好",
-      color: "blue",
-    },
-    {
-      icon: $i,
-      label: "心理健康",
-      desc: "情绪波动、咨询记录、压力指数",
-      color: "violet",
-    },
-    {
-      icon: Ex,
-      label: "生活状态",
-      desc: "消费行为、作息规律、社交关系",
-      color: "emerald",
-    },
-    {
-      icon: _x,
-      label: "职业发展",
-      desc: "就业意向、技能评估、实习匹配",
-      color: "orange",
-    },
-    {
-      icon: Vh,
-      label: "活动参与",
-      desc: "社团活动、志愿服务、二课学分",
-      color: "pink",
-    },
-    {
-      icon: Fi,
-      label: "资助需求",
-      desc: "经济状况、奖助申请、困难等级",
-      color: "cyan",
-    },
-  ];
 function Ay() {
   const [u, f] = j.useState(!1),
     d = j.useRef(null);
@@ -17577,57 +17234,7 @@ function Ay() {
     })
   );
 }
-const zy = [
-  {
-    school: "太原理工大学",
-    name: "AI辅导员",
-    type: "综合性AI辅导员",
-    highlight: "汇聚200余名优秀辅导员经验智慧",
-    desc: '覆盖校园事务办理、学习答疑、心理咨询与情绪陪伴等服务，实现对学生全天候、全方位的陪伴与关怀。入选教育部2025年高校"一站式"学生社区创新亮点。',
-    outcome: "教育部优秀成果入选",
-  },
-  {
-    school: "上海中医药大学",
-    name: "和小合",
-    type: "心理健康AI助手",
-    highlight: "传统文化+心理AI融合",
-    desc: "以中医药文化为基座的心理健康教育智能体，将《黄帝内经》智慧融入AI算法。被人民日报、中国新闻网报道，一周阅读量超46万。",
-    outcome: "全国优秀案例",
-  },
-  {
-    school: "天津大学",
-    name: "海棠棠",
-    type: "新生智能体",
-    highlight: "24小时实时在线",
-    desc: '以商业大模型为基座，汇集百余个官方媒体平台信息，为新生"秒抓取"全网信息，解决学习科研、校园生活、个人发展等常见问题。',
-    outcome: "新生服务全覆盖",
-  },
-  {
-    school: "华中科技大学",
-    name: "爱华导",
-    type: "AI思政教育",
-    highlight: "6类32项语料库",
-    desc: '构建知识图谱涵盖思政工作、安全保障、成长发展等6类32项语料库。提出"三级架构，六支队伍，两个融合"建设模式。',
-    outcome: "思政教育创新",
-  },
-  {
-    school: "重庆工程职业技术学院",
-    name: "筑智DeepSeek",
-    type: "DeepSeek本地化",
-    highlight: "全市高职首个DeepSeek",
-    desc: "依托华为昇腾AI计算集群，本地化部署DeepSeek-R1-671B大模型，具备政策解读、文献翻译、科研辅助等核心功能。",
-    outcome: "技术标杆",
-  },
-  {
-    school: "浙江大学",
-    name: "浙大先生",
-    type: "智能体开发平台",
-    highlight: "师生自建智能体",
-    desc: '推出智能体应用开发平台，完成从大模型到校园应用的"最后一公里"，让师生像拼乐高一样搭建智能体。',
-    outcome: "平台化创新",
-  },
-];
-function Ty() {
+function Cy() {
   return o.jsx("footer", {
     "code-path": "src/sections/Footer.tsx:5:5",
     className: "bg-[#0f172a] text-white",
