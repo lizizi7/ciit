@@ -14995,12 +14995,12 @@ const uy = [
   sy = fe("zap", uy),
   bh = [
     { label: "项目背景", href: "#background" },
-    { label: "同类案例", href: "#cases" },
     { label: "语料库建设", href: "#corpus" },
     { label: "数据分析", href: "#analytics" },
     { label: "智能体功能", href: "#features" },
     { label: "形象设计", href: "#design" },
     { label: "未来规划", href: "#roadmap" },
+    { label: "同类案例", href: "#cases" },
   ];
 function iy() {
   const [u, f] = j.useState(!1),
@@ -15353,6 +15353,197 @@ function fy() {
       return (d.current && i.observe(d.current), () => i.disconnect());
     }, []),
     o.jsx("section", {
+      "code-path": "src/sections/Background.tsx:50:5",
+      id: "background",
+      className: "section-padding bg-muted/30",
+      ref: d,
+      children: o.jsxs("div", {
+        "code-path": "src/sections/Background.tsx:51:7",
+        className: "max-w-7xl mx-auto",
+        children: [
+          o.jsxs("div", {
+            "code-path": "src/sections/Background.tsx:52:9",
+            className: "text-center mb-16",
+            children: [
+              o.jsx("span", {
+                "code-path": "src/sections/Background.tsx:53:11",
+                className:
+                  "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
+                children: "项目背景",
+              }),
+              o.jsx("h2", {
+                "code-path": "src/sections/Background.tsx:56:11",
+                className:
+                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
+                children: "为什么建设AI智能体",
+              }),
+              o.jsx("p", {
+                "code-path": "src/sections/Background.tsx:59:11",
+                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
+                children:
+                  '常州工业职业技术学院已建成全国A级"一站式"学生社区，但传统人工服务模式存在响应慢、覆盖窄、成本高等痛点，亟需AI技术赋能实现服务升级。',
+              }),
+            ],
+          }),
+          o.jsx("div", {
+            "code-path": "src/sections/Background.tsx:64:9",
+            className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
+            children: ry.map((i, h) =>
+              o.jsxs(
+                "div",
+                {
+                  "code-path": "src/sections/Background.tsx:66:13",
+                  className: `group relative p-6 rounded-2xl bg-white border border-border/50 shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                  style: { transitionDelay: `${h * 100}ms` },
+                  children: [
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:73:15",
+                      className: `w-12 h-12 rounded-xl bg-gradient-to-br ${i.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`,
+                      children: o.jsx(i.icon, {
+                        "code-path": "src/sections/Background.tsx:76:17",
+                        className: "w-6 h-6 text-white",
+                      }),
+                    }),
+                    o.jsx("h3", {
+                      "code-path": "src/sections/Background.tsx:78:15",
+                      className: "text-lg font-bold text-foreground mb-2",
+                      children: i.title,
+                    }),
+                    o.jsx("p", {
+                      "code-path": "src/sections/Background.tsx:79:15",
+                      className:
+                        "text-sm text-muted-foreground leading-relaxed",
+                      children: i.desc,
+                    }),
+                  ],
+                },
+                i.title,
+              ),
+            ),
+          }),
+          o.jsx("div", {
+            "code-path": "src/sections/Background.tsx:84:9",
+            className:
+              "mt-16 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white",
+            children: o.jsxs("div", {
+              "code-path": "src/sections/Background.tsx:85:11",
+              className: "grid md:grid-cols-3 gap-8",
+              children: [
+                o.jsxs("div", {
+                  "code-path": "src/sections/Background.tsx:86:13",
+                  className: "text-center",
+                  children: [
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:87:15",
+                      className: "text-4xl font-bold mb-2",
+                      children: "1900+",
+                    }),
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:88:15",
+                      className: "text-white/80 text-sm",
+                      children: "年均学生诉求响应量",
+                    }),
+                  ],
+                }),
+                o.jsxs("div", {
+                  "code-path": "src/sections/Background.tsx:90:13",
+                  className: "text-center",
+                  children: [
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:91:15",
+                      className: "text-4xl font-bold mb-2",
+                      children: "100%",
+                    }),
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:92:15",
+                      className: "text-white/80 text-sm",
+                      children: "诉求响应率",
+                    }),
+                  ],
+                }),
+                o.jsxs("div", {
+                  "code-path": "src/sections/Background.tsx:94:13",
+                  className: "text-center",
+                  children: [
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:95:15",
+                      className: "text-4xl font-bold mb-2",
+                      children: "300+",
+                    }),
+                    o.jsx("div", {
+                      "code-path": "src/sections/Background.tsx:96:15",
+                      className: "text-white/80 text-sm",
+                      children: "年度社区活动场次",
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          }),
+        ],
+      }),
+    })
+  );
+}
+const On = [
+    {
+      icon: zx,
+      title: "原始采集",
+      desc: "从学校学工处、团委、心理中心等部门收集原始FAQ文档，涵盖学生常见问题与政策文件。",
+      detail: "共采集原始问题400+条",
+    },
+    {
+      icon: Cx,
+      title: "清洗去重",
+      desc: "去除重复问题、合并相似问题、修正错别字与格式问题，确保数据质量。",
+      detail: "去重后剩余343条核心问题",
+    },
+    {
+      icon: Hx,
+      title: "分类体系",
+      desc: '建立"一级分类→二级分类→三级分类"的三层分类体系，确保问题归属清晰。',
+      detail: "6大一级分类、16个二级分类",
+    },
+    {
+      icon: Ix,
+      title: "标签标注",
+      desc: "为每条问题打上3-5个关键词标签，便于后续检索与语义匹配。",
+      detail: "共产生330+个独立标签",
+    },
+    {
+      icon: Xh,
+      title: "答案优化",
+      desc: '按照"一句话+详细说明+相关指引"三段式模板，优化每条问题的回答。',
+      detail: "平均答案长度238字",
+    },
+    {
+      icon: Sx,
+      title: "质检入库",
+      desc: "质检员逐条审核答案质量，合格后导入扣子平台知识库，完成入库。",
+      detail: "8人团队、100%完成率",
+    },
+  ],
+  dy = [
+    {
+      name: "学生事务",
+      count: 184,
+      sub: "组织建设、资助育人、学业发展、日常服务",
+    },
+    {
+      name: "生活服务",
+      count: 73,
+      sub: "住宿管理、医疗健康、心理健康、校园安全",
+    },
+    { name: "职业发展", count: 47, sub: "就业指导、升学深造、应征入伍" },
+    { name: "党团建设", count: 27, sub: "入党流程、团员管理、组织关系转接" },
+    { name: "网络思政", count: 1, sub: "网络文化活动、网络素养" },
+    { name: "其他", count: 10, sub: "综合性问题" },
+  ];
+function Ty() {
+  const [u, f] = j.useState(!1),
+    d = j.useRef(null);
+  return (
+    j.useEffect(() => {
       const i = new IntersectionObserver(
         ([h]) => {
           h.isIntersecting && (f(!0), i.disconnect());
@@ -15362,8 +15553,7 @@ function fy() {
       return (d.current && i.observe(d.current), () => i.disconnect());
     }, []),
     o.jsx("section", {
-      "code-path": "src/sections/Background.tsx:50:5",
-      id: "background",
+      "code-path": "src/sections/Cases.tsx:74:5",
       id: "cases",
       className: "section-padding bg-muted/20",
       ref: d,
@@ -15504,136 +15694,21 @@ function fy() {
             "code-path": "src/sections/Cases.tsx:131:9",
             className: `mt-12 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white transition-all duration-700 delay-600 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
             children: [
-      className: "section-padding bg-muted/30",
-      ref: d,
-      children: o.jsxs("div", {
-        "code-path": "src/sections/Background.tsx:51:7",
-        className: "max-w-7xl mx-auto",
-        children: [
-          o.jsxs("div", {
-            "code-path": "src/sections/Background.tsx:52:9",
-            className: "text-center mb-16",
-            children: [
-              o.jsx("span", {
-                "code-path": "src/sections/Background.tsx:53:11",
-                className:
-                  "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
-                children: "项目背景",
+              o.jsx("h3", {
+                "code-path": "src/sections/Cases.tsx:136:11",
+                className: "text-xl font-bold mb-4 text-center",
+                children: "经验启示",
               }),
-              o.jsx("h2", {
-                "code-path": "src/sections/Background.tsx:56:11",
-                className:
-                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "为什么建设AI智能体",
-              }),
-              o.jsx("p", {
-                "code-path": "src/sections/Background.tsx:59:11",
-                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
-                children:
-                  '常州工业职业技术学院已建成全国A级"一站式"学生社区，但传统人工服务模式存在响应慢、覆盖窄、成本高等痛点，亟需AI技术赋能实现服务升级。',
-              }),
-            ],
-          }),
-          o.jsx("div", {
-            "code-path": "src/sections/Background.tsx:64:9",
-            className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
-            children: ry.map((i, h) =>
-              o.jsxs(
-                "div",
-                {
-                  "code-path": "src/sections/Background.tsx:66:13",
-                  className: `group relative p-6 rounded-2xl bg-white border border-border/50 shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-                  style: { transitionDelay: `${h * 100}ms` },
-                  children: [
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:73:15",
-                      className: `w-12 h-12 rounded-xl bg-gradient-to-br ${i.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`,
-                      children: o.jsx(i.icon, {
-                        "code-path": "src/sections/Background.tsx:76:17",
-                        className: "w-6 h-6 text-white",
-                      }),
-                    }),
-                    o.jsx("h3", {
-                      "code-path": "src/sections/Background.tsx:78:15",
-                      className: "text-lg font-bold text-foreground mb-2",
-                      children: i.title,
-                    }),
-                    o.jsx("p", {
-                      "code-path": "src/sections/Background.tsx:79:15",
-                      className:
-                        "text-sm text-muted-foreground leading-relaxed",
-                      children: i.desc,
-                    }),
-                  ],
-                },
-                i.title,
-              ),
-            ),
-          }),
-          o.jsx("div", {
-            "code-path": "src/sections/Background.tsx:84:9",
-            className:
-              "mt-16 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white",
-            children: o.jsxs("div", {
-              "code-path": "src/sections/Background.tsx:85:11",
-              className: "grid md:grid-cols-3 gap-8",
-              children: [
-                o.jsxs("div", {
-                  "code-path": "src/sections/Background.tsx:86:13",
-                  className: "text-center",
-                  children: [
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:87:15",
-                      className: "text-4xl font-bold mb-2",
-                      children: "1900+",
-                    }),
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:88:15",
-                      className: "text-white/80 text-sm",
-                      children: "年均学生诉求响应量",
-                    }),
-                  ],
-                }),
-                o.jsxs("div", {
-                  "code-path": "src/sections/Background.tsx:90:13",
-                  className: "text-center",
-                  children: [
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:91:15",
-                      className: "text-4xl font-bold mb-2",
-                      children: "100%",
-                    }),
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:92:15",
-                      className: "text-white/80 text-sm",
-                      children: "诉求响应率",
-                    }),
-                  ],
-                }),
-                o.jsxs("div", {
-                  "code-path": "src/sections/Background.tsx:94:13",
-                  className: "text-center",
-                  children: [
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:95:15",
-                      className: "text-4xl font-bold mb-2",
-                      children: "300+",
-                    }),
-                    o.jsx("div", {
-                      "code-path": "src/sections/Background.tsx:96:15",
-                      className: "text-white/80 text-sm",
-                      children: "年度社区活动场次",
-                    }),
-                  ],
-                }),
-              ],
-            }),
-          }),
-        ],
-      }),
-    })
-  );
-}
+              o.jsxs("div", {
+                "code-path": "src/sections/Cases.tsx:137:11",
+                className: "grid md:grid-cols-3 gap-6",
+                children: [
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Cases.tsx:138:13",
+                    className: "text-center",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Cases.tsx:139:15",
                         className:
                           "w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-3",
                         children: o.jsx("span", {
@@ -15718,60 +15793,6 @@ function fy() {
     })
   );
 }
-const On = [
-    {
-      icon: zx,
-      title: "原始采集",
-      desc: "从学校学工处、团委、心理中心等部门收集原始FAQ文档，涵盖学生常见问题与政策文件。",
-      detail: "共采集原始问题400+条",
-    },
-    {
-      icon: Cx,
-      title: "清洗去重",
-      desc: "去除重复问题、合并相似问题、修正错别字与格式问题，确保数据质量。",
-      detail: "去重后剩余343条核心问题",
-    },
-    {
-      icon: Hx,
-      title: "分类体系",
-      desc: '建立"一级分类→二级分类→三级分类"的三层分类体系，确保问题归属清晰。',
-      detail: "6大一级分类、16个二级分类",
-    },
-    {
-      icon: Ix,
-      title: "标签标注",
-      desc: "为每条问题打上3-5个关键词标签，便于后续检索与语义匹配。",
-      detail: "共产生330+个独立标签",
-    },
-    {
-      icon: Xh,
-      title: "答案优化",
-      desc: '按照"一句话+详细说明+相关指引"三段式模板，优化每条问题的回答。',
-      detail: "平均答案长度238字",
-    },
-    {
-      icon: Sx,
-      title: "质检入库",
-      desc: "质检员逐条审核答案质量，合格后导入扣子平台知识库，完成入库。",
-      detail: "8人团队、100%完成率",
-    },
-  ],
-  dy = [
-    {
-      name: "学生事务",
-      count: 184,
-      sub: "组织建设、资助育人、学业发展、日常服务",
-    },
-    {
-      name: "生活服务",
-      count: 73,
-      sub: "住宿管理、医疗健康、心理健康、校园安全",
-    },
-    { name: "职业发展", count: 47, sub: "就业指导、升学深造、应征入伍" },
-    { name: "党团建设", count: 27, sub: "入党流程、团员管理、组织关系转接" },
-    { name: "网络思政", count: 1, sub: "网络文化活动、网络素养" },
-    { name: "其他", count: 10, sub: "综合性问题" },
-  ];
 function hy() {
   const [u, f] = j.useState(!1),
     [d, i] = j.useState(0),
@@ -17006,15 +17027,8 @@ function Ny() {
                                 "code-path": "src/sections/Design.tsx:66:19",
                                 className:
                                   "text-sm text-muted-foreground leading-relaxed",
-                                children: [
-                                  "开放式双色环形：左蓝（科技）右橙（温暖）",
-                                  o.jsx("br", {}),
-                                  "双手托举形成心形：象征守护与关爱",
-                                  o.jsx("br", {}),
-                                  '品牌名 "守望・智伴" 与环形色彩呼应',
-                                  o.jsx("br", {}),
-                                  '标语 "出入相友・守望相助・智慧陪伴" 传递品牌温度',
-                                ],
+                                children:
+                                  '开放式双色环形：左蓝（科技）右橙（温暖）<br>双手托举形成心形：象征守护与关爱<br>品牌名 "守望・智伴" 与环形色彩呼应<br>标语 "出入相友・守望相助・智慧陪伴" 传递品牌温度',
                               }),
                             ],
                           }),
@@ -17613,27 +17627,6 @@ const zy = [
     outcome: "平台化创新",
   },
 ];
-function Ty() {
-  const [u, f] = j.useState(!1),
-    d = j.useRef(null);
-  return (
-    j.useEffect(() => {
-      "code-path": "src/sections/Cases.tsx:74:5",
-              o.jsx("h3", {
-                "code-path": "src/sections/Cases.tsx:136:11",
-                className: "text-xl font-bold mb-4 text-center",
-                children: "经验启示",
-              }),
-              o.jsxs("div", {
-                "code-path": "src/sections/Cases.tsx:137:11",
-                className: "grid md:grid-cols-3 gap-6",
-                children: [
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Cases.tsx:138:13",
-                    className: "text-center",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Cases.tsx:139:15",
 function Cy() {
   return o.jsx("footer", {
     "code-path": "src/sections/Footer.tsx:5:5",
