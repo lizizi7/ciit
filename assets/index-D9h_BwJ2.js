@@ -14995,12 +14995,12 @@ const uy = [
   sy = fe("zap", uy),
   bh = [
     { label: "项目背景", href: "#background" },
+    { label: "同类案例", href: "#cases" },
     { label: "语料库建设", href: "#corpus" },
     { label: "数据分析", href: "#analytics" },
     { label: "智能体功能", href: "#features" },
     { label: "形象设计", href: "#design" },
     { label: "未来规划", href: "#roadmap" },
-    { label: "同类案例", href: "#cases" },
   ];
 function iy() {
   const [u, f] = j.useState(!1),
