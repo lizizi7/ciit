@@ -15539,7 +15539,7 @@ const On = [
     { name: "网络思政", count: 1, sub: "网络文化活动、网络素养" },
     { name: "其他", count: 10, sub: "综合性问题" },
   ];
-function Ty() {
+function hy() {
   const [u, f] = j.useState(!1),
     d = j.useRef(null);
   return (
@@ -15793,7 +15793,7 @@ function Ty() {
     })
   );
 }
-function hy() {
+function Cy() {
   const [u, f] = j.useState(!1),
     [d, i] = j.useState(0),
     h = j.useRef(null);
@@ -17627,7 +17627,7 @@ const zy = [
     outcome: "平台化创新",
   },
 ];
-function Cy() {
+function Ty() {
   return o.jsx("footer", {
     "code-path": "src/sections/Footer.tsx:5:5",
     className: "bg-[#0f172a] text-white",
