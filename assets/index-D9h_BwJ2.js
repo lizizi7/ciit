@@ -15251,7 +15251,9 @@ function oy() {
                 }),
                 o.jsxs("a", {
                   "code-path": "src/sections/Hero.tsx:117:11",
-                  href: "#features",
+                  href: "https://www.coze.cn/store/agent/7630086871384899627",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
                   className:
                     "px-8 py-3.5 rounded-xl bg-white/10 backdrop-blur-sm text-white font-semibold border border-white/30 hover:bg-white/20 transition-all flex items-center gap-2",
                   children: [
