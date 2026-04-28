@@ -17639,7 +17639,7 @@ function Ty() {
 function Cy() {
   return o.jsx("footer", {
     "code-path": "src/sections/Footer.tsx:5:5",
-    className: "bg-[#0f172a] text-white mt-auto",
+    className: "bg-[#0f172a] text-white",
     children: o.jsxs("div", {
       "code-path": "src/sections/Footer.tsx:6:7",
       className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12",
@@ -17799,7 +17799,7 @@ function Cy() {
 function Ry() {
   return o.jsxs("div", {
     "code-path": "src/pages/Home.tsx:14:5",
-    className: "min-h-screen bg-background flex flex-col",
+    className: "min-h-screen bg-background",
     children: [
       o.jsx(iy, { "code-path": "src/pages/Home.tsx:15:7" }),
       o.jsx(oy, { "code-path": "src/pages/Home.tsx:16:7" }),
