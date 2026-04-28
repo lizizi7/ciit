@@ -11,60 +11,64 @@
     <div id="root"></div>
     <script>
       // 页面sections重新排序脚本
-      // 目标顺序：项目背景 → 同类案例 → 语料库建设 → 数据分析 → 智能体功能 → 形象设计 → 未来规划
-      const targetOrder = ['background', 'cases', 'corpus', 'analytics', 'features', 'design', 'roadmap'];
-      
+      // 目标顺序：Navbar → Hero → Background → Cases → Corpus → Analytics → Features → Design → Roadmap → Footer
+
       function reorderSections() {
         const root = document.getElementById('root');
         if (!root) return;
-        
-        // 获取所有section元素
-        const sections = Array.from(root.querySelectorAll('section[id]'));
-        
-        if (sections.length === 0) {
-          // 如果还没有加载，稍后重试
-          setTimeout(reorderSections, 500);
-          return;
-        }
-        
-        // 创建id到元素的映射
+
+        // 获取主容器（通常是root的第一个子元素）
+        const mainContainer = root.firstElementChild;
+        if (!mainContainer) return;
+
+        // 获取所有需要排序的元素
+        const navbar = mainContainer.querySelector('nav, header');
+        const hero = mainContainer.querySelector('[class*="hero"], section:first-of-type');
+        const footer = mainContainer.querySelector('footer');
+
+        // 按目标顺序排列所有section
+        const sections = Array.from(mainContainer.querySelectorAll('section[id]'));
+        const sectionOrder = ['background', 'cases', 'corpus', 'analytics', 'features', 'design', 'roadmap'];
+
+        // 创建映射
         const sectionMap = {};
         sections.forEach(section => {
           sectionMap[section.id] = section;
         });
-        
-        // 获取主容器（通常是root的第一个子元素）
-        const mainContainer = root.firstElementChild;
-        if (!mainContainer) return;
-        
-        // 按目标顺序重新排列
-        targetOrder.forEach(id => {
+
+        // 清空容器（保留Navbar和Hero，它们位置不变）
+        // 将section按目标顺序重新排列
+        sectionOrder.forEach(id => {
           if (sectionMap[id]) {
             mainContainer.appendChild(sectionMap[id]);
           }
         });
-        
-        console.log('✓ Sections reordered successfully');
-        console.log('New order:', targetOrder);
+
+        // 确保Footer在最后
+        if (footer) {
+          mainContainer.appendChild(footer);
+        }
+
+        console.log('Sections reordered successfully');
       }
-      
+
       // 页面加载完成后执行
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', reorderSections);
       } else {
-        // DOM已加载
         setTimeout(reorderSections, 100);
       }
-      
+
       // 监听root变化，重新排序
       const observer = new MutationObserver(() => {
         const sections = document.querySelectorAll('section[id]');
-        if (sections.length === 7) {
+        const footer = document.querySelector('footer');
+        if (sections.length >= 7 && footer) {
           observer.disconnect();
           reorderSections();
         }
       });
-      
+
       const root = document.getElementById('root');
       if (root) {
         observer.observe(root, { childList: true, subtree: true });
