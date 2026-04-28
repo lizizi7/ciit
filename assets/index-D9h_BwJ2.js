@@ -14995,12 +14995,12 @@ const uy = [
   sy = fe("zap", uy),
   bh = [
     { label: "项目背景", href: "#background" },
+    { label: "同类案例", href: "#cases" },
     { label: "语料库建设", href: "#corpus" },
     { label: "数据分析", href: "#analytics" },
     { label: "智能体功能", href: "#features" },
     { label: "形象设计", href: "#design" },
     { label: "未来规划", href: "#roadmap" },
-    { label: "同类案例", href: "#cases" },
   ];
 function iy() {
   const [u, f] = j.useState(!1),
@@ -17697,39 +17697,39 @@ function Cy() {
                     }),
                     o.jsx("a", {
                       "code-path": "src/sections/Footer.tsx:24:15",
+                      href: "#cases",
+                      className: "hover:text-white transition-colors",
+                      children: "同类案例",
+                    }),
+                    o.jsx("a", {
+                      "code-path": "src/sections/Footer.tsx:25:15",
                       href: "#corpus",
                       className: "hover:text-white transition-colors",
                       children: "语料库建设",
                     }),
                     o.jsx("a", {
-                      "code-path": "src/sections/Footer.tsx:25:15",
+                      "code-path": "src/sections/Footer.tsx:26:15",
                       href: "#analytics",
                       className: "hover:text-white transition-colors",
                       children: "数据分析",
                     }),
                     o.jsx("a", {
-                      "code-path": "src/sections/Footer.tsx:26:15",
+                      "code-path": "src/sections/Footer.tsx:27:15",
                       href: "#features",
                       className: "hover:text-white transition-colors",
                       children: "智能体功能",
                     }),
                     o.jsx("a", {
-                      "code-path": "src/sections/Footer.tsx:27:15",
+                      "code-path": "src/sections/Footer.tsx:28:15",
                       href: "#design",
                       className: "hover:text-white transition-colors",
                       children: "形象设计",
                     }),
                     o.jsx("a", {
-                      "code-path": "src/sections/Footer.tsx:28:15",
+                      "code-path": "src/sections/Footer.tsx:29:15",
                       href: "#roadmap",
                       className: "hover:text-white transition-colors",
                       children: "未来规划",
-                    }),
-                    o.jsx("a", {
-                      "code-path": "src/sections/Footer.tsx:29:15",
-                      href: "#cases",
-                      className: "hover:text-white transition-colors",
-                      children: "同类案例",
                     }),
                   ],
                 }),
