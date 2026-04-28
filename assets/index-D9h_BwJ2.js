@@ -13369,7 +13369,7 @@ function dp() {
     (b = j.createElement(
       j.Fragment,
       null,
-      j.createElement("p", null, "💿 Hey developer 👋"),
+      j.createElement("p", null, "ðŸ’¿ Hey developer ðŸ‘‹"),
       j.createElement(
         "p",
         null,
@@ -14994,13 +14994,13 @@ const uy = [
   ],
   sy = fe("zap", uy),
   bh = [
-    { label: "项目背景", href: "#background" },
-    { label: "语料库建设", href: "#corpus" },
-    { label: "数据分析", href: "#analytics" },
-    { label: "智能体功能", href: "#features" },
-    { label: "形象设计", href: "#design" },
-    { label: "未来规划", href: "#roadmap" },
-    { label: "同类案例", href: "#cases" },
+    { label: "é¡¹ç›®èƒŒæ™¯", href: "#background" },
+    { label: "åŒç±»æ¡ˆä¾‹", href: "#cases" },
+    { label: "è¯­æ–™åº“å»ºè®¾", href: "#corpus" },
+    { label: "æ•°æ®åˆ†æž", href: "#analytics" },
+    { label: "æ™ºèƒ½ä½“åŠŸèƒ½", href: "#features" },
+    { label: "å½¢è±¡è®¾è®¡", href: "#design" },
+    { label: "æœªæ¥è§„åˆ’", href: "#roadmap" },
   ];
 function iy() {
   const [u, f] = j.useState(!1),
@@ -15041,7 +15041,7 @@ function iy() {
                   o.jsx("span", {
                     "code-path": "src/sections/Navbar.tsx:38:13",
                     className: `font-bold text-lg transition-colors ${u ? "text-foreground" : "text-white"}`,
-                    children: "守望智伴",
+                    children: "å®ˆæœ›æ™ºä¼´",
                   }),
                 ],
               }),
@@ -15203,7 +15203,7 @@ function oy() {
                   "code-path": "src/sections/Hero.tsx:94:11",
                   className: "w-4 h-4 text-orange-400",
                 }),
-                "常州工业职业技术学院 · 一站式学生社区AI智能体",
+                "å¸¸å·žå·¥ä¸šèŒä¸šæŠ€æœ¯å­¦é™¢ Â· ä¸€ç«™å¼å­¦ç”Ÿç¤¾åŒºAIæ™ºèƒ½ä½“",
               ],
             }),
             o.jsxs("h1", {
@@ -15214,13 +15214,13 @@ function oy() {
                 o.jsx("span", {
                   "code-path": "src/sections/Hero.tsx:99:11",
                   className: "block",
-                  children: "守望智伴",
+                  children: "å®ˆæœ›æ™ºä¼´",
                 }),
                 o.jsx("span", {
                   "code-path": "src/sections/Hero.tsx:100:11",
                   className:
                     "block text-2xl sm:text-3xl md:text-4xl font-normal text-white/80 mt-4",
-                  children: "打造有温度的学生社区AI服务新生态",
+                  children: "æ‰“é€ æœ‰æ¸©åº¦çš„å­¦ç”Ÿç¤¾åŒºAIæœåŠ¡æ–°ç”Ÿæ€",
                 }),
               ],
             }),
@@ -15229,7 +15229,7 @@ function oy() {
               className:
                 "text-lg sm:text-xl text-white/70 max-w-3xl mx-auto mb-10 leading-relaxed",
               children:
-                "依托343条精准语料库与智能语义理解技术，构建覆盖学生事务、生活服务、心理健康、职业发展等全场景的智慧社区服务体系，让每位学生都能获得7×24小时的精准陪伴与专业指导。",
+                "ä¾æ‰˜343æ¡ç²¾å‡†è¯­æ–™åº“ä¸Žæ™ºèƒ½è¯­ä¹‰ç†è§£æŠ€æœ¯ï¼Œæž„å»ºè¦†ç›–å­¦ç”Ÿäº‹åŠ¡ã€ç”Ÿæ´»æœåŠ¡ã€å¿ƒç†å¥åº·ã€èŒä¸šå‘å±•ç­‰å…¨åœºæ™¯çš„æ™ºæ…§ç¤¾åŒºæœåŠ¡ä½“ç³»ï¼Œè®©æ¯ä½å­¦ç”Ÿéƒ½èƒ½èŽ·å¾—7Ã—24å°æ—¶çš„ç²¾å‡†é™ªä¼´ä¸Žä¸“ä¸šæŒ‡å¯¼ã€‚",
             }),
             o.jsxs("div", {
               "code-path": "src/sections/Hero.tsx:109:9",
@@ -15246,7 +15246,7 @@ function oy() {
                       "code-path": "src/sections/Hero.tsx:114:13",
                       className: "w-5 h-5",
                     }),
-                    "查看语料库建设",
+                    "æŸ¥çœ‹è¯­æ–™åº“å»ºè®¾",
                   ],
                 }),
                 o.jsxs("a", {
@@ -15259,7 +15259,7 @@ function oy() {
                       "code-path": "src/sections/Hero.tsx:121:13",
                       className: "w-5 h-5",
                     }),
-                    "探索智能体功能",
+                    "æŽ¢ç´¢æ™ºèƒ½ä½“åŠŸèƒ½",
                   ],
                 }),
               ],
@@ -15269,10 +15269,10 @@ function oy() {
               className:
                 "grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto",
               children: [
-                { label: "语料条目", value: "343+" },
-                { label: "问题分类", value: "6大类" },
-                { label: "覆盖场景", value: "30+" },
-                { label: "变体问题", value: "1400+" },
+                { label: "è¯­æ–™æ¡ç›®", value: "343+" },
+                { label: "é—®é¢˜åˆ†ç±»", value: "6å¤§ç±»" },
+                { label: "è¦†ç›–åœºæ™¯", value: "30+" },
+                { label: "å˜ä½“é—®é¢˜", value: "1400+" },
               ].map((f) =>
                 o.jsxs(
                   "div",
@@ -15316,26 +15316,26 @@ function oy() {
 const ry = [
   {
     icon: ey,
-    title: "项目定位",
-    desc: '依托学校全国A级"一站式"学生社区建设基础，打造"守望智伴"AI智能体，实现学生服务从"人工响应"到"智能陪伴"的转型升级。',
+    title: "é¡¹ç›®å®šä½",
+    desc: 'ä¾æ‰˜å­¦æ ¡å…¨å›½Açº§"ä¸€ç«™å¼"å­¦ç”Ÿç¤¾åŒºå»ºè®¾åŸºç¡€ï¼Œæ‰“é€ "å®ˆæœ›æ™ºä¼´"AIæ™ºèƒ½ä½“ï¼Œå®žçŽ°å­¦ç”ŸæœåŠ¡ä»Ž"äººå·¥å“åº”"åˆ°"æ™ºèƒ½é™ªä¼´"çš„è½¬åž‹å‡çº§ã€‚',
     color: "from-blue-500 to-cyan-400",
   },
   {
     icon: Wi,
-    title: "建设目标",
-    desc: "构建覆盖学业发展、资助育人、心理健康、职业规划等六大领域的智能服务体系，实现7×24小时精准问答与情感陪伴。",
+    title: "å»ºè®¾ç›®æ ‡",
+    desc: "æž„å»ºè¦†ç›–å­¦ä¸šå‘å±•ã€èµ„åŠ©è‚²äººã€å¿ƒç†å¥åº·ã€èŒä¸šè§„åˆ’ç­‰å…­å¤§é¢†åŸŸçš„æ™ºèƒ½æœåŠ¡ä½“ç³»ï¼Œå®žçŽ°7Ã—24å°æ—¶ç²¾å‡†é—®ç­”ä¸Žæƒ…æ„Ÿé™ªä¼´ã€‚",
     color: "from-orange-500 to-amber-400",
   },
   {
     icon: ay,
-    title: "服务群体",
-    desc: "面向全校15000+在校学生，特别是新生、困难学生、心理关注群体等，提供个性化的精准服务与成长指导。",
+    title: "æœåŠ¡ç¾¤ä½“",
+    desc: "é¢å‘å…¨æ ¡15000+åœ¨æ ¡å­¦ç”Ÿï¼Œç‰¹åˆ«æ˜¯æ–°ç”Ÿã€å›°éš¾å­¦ç”Ÿã€å¿ƒç†å…³æ³¨ç¾¤ä½“ç­‰ï¼Œæä¾›ä¸ªæ€§åŒ–çš„ç²¾å‡†æœåŠ¡ä¸Žæˆé•¿æŒ‡å¯¼ã€‚",
     color: "from-violet-500 to-purple-400",
   },
   {
     icon: hx,
-    title: "成果基础",
-    desc: '学校已获评教育部"一站式"学生社区A级高校，形成"守望·常工业"育人品牌，为智能体建设奠定坚实基础。',
+    title: "æˆæžœåŸºç¡€",
+    desc: 'å­¦æ ¡å·²èŽ·è¯„æ•™è‚²éƒ¨"ä¸€ç«™å¼"å­¦ç”Ÿç¤¾åŒºAçº§é«˜æ ¡ï¼Œå½¢æˆ"å®ˆæœ›Â·å¸¸å·¥ä¸š"è‚²äººå“ç‰Œï¼Œä¸ºæ™ºèƒ½ä½“å»ºè®¾å¥ å®šåšå®žåŸºç¡€ã€‚',
     color: "from-emerald-500 to-teal-400",
   },
 ];
@@ -15369,19 +15369,19 @@ function fy() {
                 "code-path": "src/sections/Background.tsx:53:11",
                 className:
                   "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
-                children: "项目背景",
+                children: "é¡¹ç›®èƒŒæ™¯",
               }),
               o.jsx("h2", {
                 "code-path": "src/sections/Background.tsx:56:11",
                 className:
                   "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "为什么建设AI智能体",
+                children: "ä¸ºä»€ä¹ˆå»ºè®¾AIæ™ºèƒ½ä½“",
               }),
               o.jsx("p", {
                 "code-path": "src/sections/Background.tsx:59:11",
                 className: "text-muted-foreground text-lg max-w-3xl mx-auto",
                 children:
-                  '常州工业职业技术学院已建成全国A级"一站式"学生社区，但传统人工服务模式存在响应慢、覆盖窄、成本高等痛点，亟需AI技术赋能实现服务升级。',
+                  'å¸¸å·žå·¥ä¸šèŒä¸šæŠ€æœ¯å­¦é™¢å·²å»ºæˆå…¨å›½Açº§"ä¸€ç«™å¼"å­¦ç”Ÿç¤¾åŒºï¼Œä½†ä¼ ç»Ÿäººå·¥æœåŠ¡æ¨¡å¼å­˜åœ¨å“åº”æ…¢ã€è¦†ç›–çª„ã€æˆæœ¬é«˜ç­‰ç—›ç‚¹ï¼ŒäºŸéœ€AIæŠ€æœ¯èµ‹èƒ½å®žçŽ°æœåŠ¡å‡çº§ã€‚',
               }),
             ],
           }),
@@ -15441,7 +15441,7 @@ function fy() {
                     o.jsx("div", {
                       "code-path": "src/sections/Background.tsx:88:15",
                       className: "text-white/80 text-sm",
-                      children: "年均学生诉求响应量",
+                      children: "å¹´å‡å­¦ç”Ÿè¯‰æ±‚å“åº”é‡",
                     }),
                   ],
                 }),
@@ -15457,7 +15457,7 @@ function fy() {
                     o.jsx("div", {
                       "code-path": "src/sections/Background.tsx:92:15",
                       className: "text-white/80 text-sm",
-                      children: "诉求响应率",
+                      children: "è¯‰æ±‚å“åº”çŽ‡",
                     }),
                   ],
                 }),
@@ -15473,7 +15473,7 @@ function fy() {
                     o.jsx("div", {
                       "code-path": "src/sections/Background.tsx:96:15",
                       className: "text-white/80 text-sm",
-                      children: "年度社区活动场次",
+                      children: "å¹´åº¦ç¤¾åŒºæ´»åŠ¨åœºæ¬¡",
                     }),
                   ],
                 }),
@@ -15488,56 +15488,56 @@ function fy() {
 const On = [
     {
       icon: zx,
-      title: "原始采集",
-      desc: "从学校学工处、团委、心理中心等部门收集原始FAQ文档，涵盖学生常见问题与政策文件。",
-      detail: "共采集原始问题400+条",
+      title: "åŽŸå§‹é‡‡é›†",
+      desc: "ä»Žå­¦æ ¡å­¦å·¥å¤„ã€å›¢å§”ã€å¿ƒç†ä¸­å¿ƒç­‰éƒ¨é—¨æ”¶é›†åŽŸå§‹FAQæ–‡æ¡£ï¼Œæ¶µç›–å­¦ç”Ÿå¸¸è§é—®é¢˜ä¸Žæ”¿ç­–æ–‡ä»¶ã€‚",
+      detail: "å…±é‡‡é›†åŽŸå§‹é—®é¢˜400+æ¡",
     },
     {
       icon: Cx,
-      title: "清洗去重",
-      desc: "去除重复问题、合并相似问题、修正错别字与格式问题，确保数据质量。",
-      detail: "去重后剩余343条核心问题",
+      title: "æ¸…æ´—åŽ»é‡",
+      desc: "åŽ»é™¤é‡å¤é—®é¢˜ã€åˆå¹¶ç›¸ä¼¼é—®é¢˜ã€ä¿®æ­£é”™åˆ«å­—ä¸Žæ ¼å¼é—®é¢˜ï¼Œç¡®ä¿æ•°æ®è´¨é‡ã€‚",
+      detail: "åŽ»é‡åŽå‰©ä½™343æ¡æ ¸å¿ƒé—®é¢˜",
     },
     {
       icon: Hx,
-      title: "分类体系",
-      desc: '建立"一级分类→二级分类→三级分类"的三层分类体系，确保问题归属清晰。',
-      detail: "6大一级分类、16个二级分类",
+      title: "åˆ†ç±»ä½“ç³»",
+      desc: 'å»ºç«‹"ä¸€çº§åˆ†ç±»â†’äºŒçº§åˆ†ç±»â†’ä¸‰çº§åˆ†ç±»"çš„ä¸‰å±‚åˆ†ç±»ä½“ç³»ï¼Œç¡®ä¿é—®é¢˜å½’å±žæ¸…æ™°ã€‚',
+      detail: "6å¤§ä¸€çº§åˆ†ç±»ã€16ä¸ªäºŒçº§åˆ†ç±»",
     },
     {
       icon: Ix,
-      title: "标签标注",
-      desc: "为每条问题打上3-5个关键词标签，便于后续检索与语义匹配。",
-      detail: "共产生330+个独立标签",
+      title: "æ ‡ç­¾æ ‡æ³¨",
+      desc: "ä¸ºæ¯æ¡é—®é¢˜æ‰“ä¸Š3-5ä¸ªå…³é”®è¯æ ‡ç­¾ï¼Œä¾¿äºŽåŽç»­æ£€ç´¢ä¸Žè¯­ä¹‰åŒ¹é…ã€‚",
+      detail: "å…±äº§ç”Ÿ330+ä¸ªç‹¬ç«‹æ ‡ç­¾",
     },
     {
       icon: Xh,
-      title: "答案优化",
-      desc: '按照"一句话+详细说明+相关指引"三段式模板，优化每条问题的回答。',
-      detail: "平均答案长度238字",
+      title: "ç­”æ¡ˆä¼˜åŒ–",
+      desc: 'æŒ‰ç…§"ä¸€å¥è¯+è¯¦ç»†è¯´æ˜Ž+ç›¸å…³æŒ‡å¼•"ä¸‰æ®µå¼æ¨¡æ¿ï¼Œä¼˜åŒ–æ¯æ¡é—®é¢˜çš„å›žç­”ã€‚',
+      detail: "å¹³å‡ç­”æ¡ˆé•¿åº¦238å­—",
     },
     {
       icon: Sx,
-      title: "质检入库",
-      desc: "质检员逐条审核答案质量，合格后导入扣子平台知识库，完成入库。",
-      detail: "8人团队、100%完成率",
+      title: "è´¨æ£€å…¥åº“",
+      desc: "è´¨æ£€å‘˜é€æ¡å®¡æ ¸ç­”æ¡ˆè´¨é‡ï¼Œåˆæ ¼åŽå¯¼å…¥æ‰£å­å¹³å°çŸ¥è¯†åº“ï¼Œå®Œæˆå…¥åº“ã€‚",
+      detail: "8äººå›¢é˜Ÿã€100%å®ŒæˆçŽ‡",
     },
   ],
   dy = [
     {
-      name: "学生事务",
+      name: "å­¦ç”Ÿäº‹åŠ¡",
       count: 184,
-      sub: "组织建设、资助育人、学业发展、日常服务",
+      sub: "ç»„ç»‡å»ºè®¾ã€èµ„åŠ©è‚²äººã€å­¦ä¸šå‘å±•ã€æ—¥å¸¸æœåŠ¡",
     },
     {
-      name: "生活服务",
+      name: "ç”Ÿæ´»æœåŠ¡",
       count: 73,
-      sub: "住宿管理、医疗健康、心理健康、校园安全",
+      sub: "ä½å®¿ç®¡ç†ã€åŒ»ç–—å¥åº·ã€å¿ƒç†å¥åº·ã€æ ¡å›­å®‰å…¨",
     },
-    { name: "职业发展", count: 47, sub: "就业指导、升学深造、应征入伍" },
-    { name: "党团建设", count: 27, sub: "入党流程、团员管理、组织关系转接" },
-    { name: "网络思政", count: 1, sub: "网络文化活动、网络素养" },
-    { name: "其他", count: 10, sub: "综合性问题" },
+    { name: "èŒä¸šå‘å±•", count: 47, sub: "å°±ä¸šæŒ‡å¯¼ã€å‡å­¦æ·±é€ ã€åº”å¾å…¥ä¼" },
+    { name: "å…šå›¢å»ºè®¾", count: 27, sub: "å…¥å…šæµç¨‹ã€å›¢å‘˜ç®¡ç†ã€ç»„ç»‡å…³ç³»è½¬æŽ¥" },
+    { name: "ç½‘ç»œæ€æ”¿", count: 1, sub: "ç½‘ç»œæ–‡åŒ–æ´»åŠ¨ã€ç½‘ç»œç´ å…»" },
+    { name: "å…¶ä»–", count: 10, sub: "ç»¼åˆæ€§é—®é¢˜" },
   ];
 function hy() {
   const [u, f] = j.useState(!1),
@@ -15552,1846 +15552,6 @@ function hy() {
         { threshold: 0.15 },
       );
       return (h.current && m.observe(h.current), () => m.disconnect());
-    }, []),
-    o.jsx("section", {
-      "code-path": "src/sections/Corpus.tsx:72:5",
-      id: "corpus",
-      className: "section-padding bg-white",
-      ref: h,
-      children: o.jsxs("div", {
-        "code-path": "src/sections/Corpus.tsx:73:7",
-        className: "max-w-7xl mx-auto",
-        children: [
-          o.jsxs("div", {
-            "code-path": "src/sections/Corpus.tsx:74:9",
-            className: "text-center mb-16",
-            children: [
-              o.jsx("span", {
-                "code-path": "src/sections/Corpus.tsx:75:11",
-                className:
-                  "inline-block px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium mb-4",
-                children: "语料库建设",
-              }),
-              o.jsx("h2", {
-                "code-path": "src/sections/Corpus.tsx:78:11",
-                className:
-                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "语料库的整理、清洗与分类",
-              }),
-              o.jsx("p", {
-                "code-path": "src/sections/Corpus.tsx:81:11",
-                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
-                children:
-                  "通过系统化的六步处理流程，将400+条原始问题转化为343条标准化、结构化的高质量语料，为智能体提供精准知识支撑。",
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Corpus.tsx:87:9",
-            className: "mb-20",
-            children: [
-              o.jsx("div", {
-                "code-path": "src/sections/Corpus.tsx:88:11",
-                className: "flex flex-wrap justify-center gap-3 mb-8",
-                children: On.map((m, b) =>
-                  o.jsxs(
-                    "button",
-                    {
-                      "code-path": "src/sections/Corpus.tsx:90:15",
-                      onClick: () => i(b),
-                      className: `flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${d === b ? "bg-primary text-white shadow-lg" : "bg-muted text-muted-foreground hover:bg-muted/80"}`,
-                      children: [
-                        o.jsx(m.icon, {
-                          "code-path": "src/sections/Corpus.tsx:99:17",
-                          className: "w-4 h-4",
-                        }),
-                        m.title,
-                      ],
-                    },
-                    m.title,
-                  ),
-                ),
-              }),
-              o.jsx("div", {
-                "code-path": "src/sections/Corpus.tsx:105:11",
-                className: `p-8 rounded-2xl bg-gradient-to-br from-muted/50 to-muted border border-border transition-all duration-500 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`,
-                children: o.jsxs("div", {
-                  "code-path": "src/sections/Corpus.tsx:110:13",
-                  className: "flex items-start gap-4",
-                  children: [
-                    o.jsx("div", {
-                      "code-path": "src/sections/Corpus.tsx:111:15",
-                      className:
-                        "w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center shrink-0",
-                      children: (() => {
-                        const m = On[d].icon;
-                        return o.jsx(m, {
-                          "code-path": "src/sections/Corpus.tsx:114:26",
-                          className: "w-7 h-7 text-primary",
-                        });
-                      })(),
-                    }),
-                    o.jsxs("div", {
-                      "code-path": "src/sections/Corpus.tsx:117:15",
-                      children: [
-                        o.jsxs("h3", {
-                          "code-path": "src/sections/Corpus.tsx:118:17",
-                          className: "text-xl font-bold text-foreground mb-2",
-                          children: [d + 1, ". ", On[d].title],
-                        }),
-                        o.jsx("p", {
-                          "code-path": "src/sections/Corpus.tsx:121:17",
-                          className:
-                            "text-muted-foreground leading-relaxed mb-3",
-                          children: On[d].desc,
-                        }),
-                        o.jsx("span", {
-                          "code-path": "src/sections/Corpus.tsx:124:17",
-                          className:
-                            "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold",
-                          children: On[d].detail,
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Corpus.tsx:133:9",
-            className: "grid lg:grid-cols-2 gap-8",
-            children: [
-              o.jsxs("div", {
-                "code-path": "src/sections/Corpus.tsx:134:11",
-                children: [
-                  o.jsx("h3", {
-                    "code-path": "src/sections/Corpus.tsx:135:13",
-                    className: "text-xl font-bold text-foreground mb-6",
-                    children: "分类体系字典",
-                  }),
-                  o.jsx("div", {
-                    "code-path": "src/sections/Corpus.tsx:136:13",
-                    className: "space-y-3",
-                    children: dy.map((m) =>
-                      o.jsxs(
-                        "div",
-                        {
-                          "code-path": "src/sections/Corpus.tsx:138:17",
-                          className:
-                            "p-4 rounded-xl bg-muted/50 border border-border/50 hover:border-primary/30 transition-all",
-                          children: [
-                            o.jsxs("div", {
-                              "code-path": "src/sections/Corpus.tsx:142:19",
-                              className:
-                                "flex items-center justify-between mb-1",
-                              children: [
-                                o.jsx("span", {
-                                  "code-path": "src/sections/Corpus.tsx:143:21",
-                                  className: "font-semibold text-foreground",
-                                  children: m.name,
-                                }),
-                                o.jsxs("span", {
-                                  "code-path": "src/sections/Corpus.tsx:144:21",
-                                  className: "text-sm font-bold text-primary",
-                                  children: [m.count, "条"],
-                                }),
-                              ],
-                            }),
-                            o.jsx("div", {
-                              "code-path": "src/sections/Corpus.tsx:146:19",
-                              className: "text-sm text-muted-foreground",
-                              children: m.sub,
-                            }),
-                            o.jsx("div", {
-                              "code-path": "src/sections/Corpus.tsx:147:19",
-                              className:
-                                "mt-2 h-2 rounded-full bg-muted overflow-hidden",
-                              children: o.jsx("div", {
-                                "code-path": "src/sections/Corpus.tsx:148:21",
-                                className:
-                                  "h-full rounded-full bg-gradient-brand transition-all duration-1000",
-                                style: { width: `${(m.count / 184) * 100}%` },
-                              }),
-                            }),
-                          ],
-                        },
-                        m.name,
-                      ),
-                    ),
-                  }),
-                ],
-              }),
-              o.jsxs("div", {
-                "code-path": "src/sections/Corpus.tsx:158:11",
-                children: [
-                  o.jsx("h3", {
-                    "code-path": "src/sections/Corpus.tsx:159:13",
-                    className: "text-xl font-bold text-foreground mb-6",
-                    children: "处理标准规范",
-                  }),
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Corpus.tsx:160:13",
-                    className: "space-y-4",
-                    children: [
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Corpus.tsx:161:15",
-                        className:
-                          "p-5 rounded-xl bg-gradient-to-br from-blue-50 to-blue-100/50 border border-blue-200",
-                        children: [
-                          o.jsx("h4", {
-                            "code-path": "src/sections/Corpus.tsx:162:17",
-                            className: "font-semibold text-blue-900 mb-2",
-                            children: "答案模板（三段式）",
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Corpus.tsx:163:17",
-                            className: "text-sm text-blue-800 space-y-1",
-                            children: [
-                              o.jsx("p", {
-                                "code-path": "src/sections/Corpus.tsx:164:19",
-                                children: "【一句话回答】30字以内概括核心答案",
-                              }),
-                              o.jsx("p", {
-                                "code-path": "src/sections/Corpus.tsx:165:19",
-                                children:
-                                  "【详细说明】条件要求、办理流程、所需材料、注意事项",
-                              }),
-                              o.jsx("p", {
-                                "code-path": "src/sections/Corpus.tsx:166:19",
-                                children:
-                                  "【相关指引】办理地点、咨询电话、关联问题",
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Corpus.tsx:170:15",
-                        className:
-                          "p-5 rounded-xl bg-gradient-to-br from-orange-50 to-orange-100/50 border border-orange-200",
-                        children: [
-                          o.jsx("h4", {
-                            "code-path": "src/sections/Corpus.tsx:171:17",
-                            className: "font-semibold text-orange-900 mb-2",
-                            children: "变体问题生成技巧",
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Corpus.tsx:172:17",
-                            className:
-                              "grid grid-cols-2 gap-2 text-sm text-orange-800",
-                            children: [
-                              o.jsxs("div", {
-                                "code-path": "src/sections/Corpus.tsx:173:19",
-                                className: "flex items-center gap-2",
-                                children: [
-                                  o.jsx("div", {
-                                    "code-path":
-                                      "src/sections/Corpus.tsx:174:21",
-                                    className:
-                                      "w-2 h-2 rounded-full bg-orange-500",
-                                  }),
-                                  "换主语（奖学金→助学金）",
-                                ],
-                              }),
-                              o.jsxs("div", {
-                                "code-path": "src/sections/Corpus.tsx:177:19",
-                                className: "flex items-center gap-2",
-                                children: [
-                                  o.jsx("div", {
-                                    "code-path":
-                                      "src/sections/Corpus.tsx:178:21",
-                                    className:
-                                      "w-2 h-2 rounded-full bg-orange-500",
-                                  }),
-                                  "换动词（申请→办理）",
-                                ],
-                              }),
-                              o.jsxs("div", {
-                                "code-path": "src/sections/Corpus.tsx:181:19",
-                                className: "flex items-center gap-2",
-                                children: [
-                                  o.jsx("div", {
-                                    "code-path":
-                                      "src/sections/Corpus.tsx:182:21",
-                                    className:
-                                      "w-2 h-2 rounded-full bg-orange-500",
-                                  }),
-                                  "加口语（咋申请、啥流程）",
-                                ],
-                              }),
-                              o.jsxs("div", {
-                                "code-path": "src/sections/Corpus.tsx:185:19",
-                                className: "flex items-center gap-2",
-                                children: [
-                                  o.jsx("div", {
-                                    "code-path":
-                                      "src/sections/Corpus.tsx:186:21",
-                                    className:
-                                      "w-2 h-2 rounded-full bg-orange-500",
-                                  }),
-                                  "加场景（大一新生怎么）",
-                                ],
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Corpus.tsx:192:15",
-                        className:
-                          "p-5 rounded-xl bg-gradient-to-br from-violet-50 to-violet-100/50 border border-violet-200",
-                        children: [
-                          o.jsx("h4", {
-                            "code-path": "src/sections/Corpus.tsx:193:17",
-                            className: "font-semibold text-violet-900 mb-2",
-                            children: "状态流转管理",
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Corpus.tsx:194:17",
-                            className:
-                              "flex items-center gap-2 text-sm text-violet-800",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Corpus.tsx:195:19",
-                                className: "px-2 py-1 rounded bg-gray-200",
-                                children: "待处理",
-                              }),
-                              o.jsx("span", {
-                                "code-path": "src/sections/Corpus.tsx:196:19",
-                                children: "→",
-                              }),
-                              o.jsx("span", {
-                                "code-path": "src/sections/Corpus.tsx:197:19",
-                                className: "px-2 py-1 rounded bg-yellow-200",
-                                children: "编辑中",
-                              }),
-                              o.jsx("span", {
-                                "code-path": "src/sections/Corpus.tsx:198:19",
-                                children: "→",
-                              }),
-                              o.jsx("span", {
-                                "code-path": "src/sections/Corpus.tsx:199:19",
-                                className: "px-2 py-1 rounded bg-orange-200",
-                                children: "待质检",
-                              }),
-                              o.jsx("span", {
-                                "code-path": "src/sections/Corpus.tsx:200:19",
-                                children: "→",
-                              }),
-                              o.jsx("span", {
-                                "code-path": "src/sections/Corpus.tsx:201:19",
-                                className: "px-2 py-1 rounded bg-green-200",
-                                children: "已完成",
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-            ],
-          }),
-        ],
-      }),
-    })
-  );
-}
-const my = [
-    { name: "学生事务", count: 184, color: "#2563eb" },
-    { name: "生活服务", count: 73, color: "#f59e0b" },
-    { name: "职业发展", count: 47, color: "#8b5cf6" },
-    { name: "党团建设", count: 27, color: "#10b981" },
-    { name: "其他", count: 10, color: "#6b7280" },
-    { name: "网络思政", count: 1, color: "#ec4899" },
-  ],
-  py = [
-    { name: "学业发展", count: 54 },
-    { name: "资助育人", count: 39 },
-    { name: "日常服务", count: 39 },
-    { name: "就业指导", count: 37 },
-    { name: "心理健康", count: 35 },
-    { name: "住宿管理", count: 30 },
-    { name: "校园安全", count: 19 },
-    { name: "组织建设", count: 17 },
-    { name: "团员管理", count: 16 },
-  ];
-function xy({ data: u, maxVal: f }) {
-  return o.jsx("div", {
-    "code-path": "src/sections/Analytics.tsx:29:5",
-    className: "space-y-3",
-    children: u.map((d) =>
-      o.jsxs(
-        "div",
-        {
-          "code-path": "src/sections/Analytics.tsx:31:9",
-          className: "flex items-center gap-3",
-          children: [
-            o.jsx("span", {
-              "code-path": "src/sections/Analytics.tsx:32:11",
-              className:
-                "text-sm text-muted-foreground w-20 text-right shrink-0",
-              children: d.name,
-            }),
-            o.jsx("div", {
-              "code-path": "src/sections/Analytics.tsx:33:11",
-              className: "flex-1 h-8 bg-muted rounded-full overflow-hidden",
-              children: o.jsx("div", {
-                "code-path": "src/sections/Analytics.tsx:34:13",
-                className:
-                  "h-full rounded-full transition-all duration-1000 ease-out flex items-center justify-end pr-3",
-                style: {
-                  width: `${(d.count / f) * 100}%`,
-                  backgroundColor: d.color || "#2563eb",
-                },
-                children: o.jsx("span", {
-                  "code-path": "src/sections/Analytics.tsx:41:15",
-                  className: "text-xs font-semibold text-white",
-                  children: d.count,
-                }),
-              }),
-            }),
-          ],
-        },
-        d.name,
-      ),
-    ),
-  });
-}
-function yy({ data: u }) {
-  const f = Math.max(...u.map((d) => d.count));
-  return o.jsx("div", {
-    "code-path": "src/sections/Analytics.tsx:53:5",
-    className: "space-y-2.5",
-    children: u.map((d) =>
-      o.jsxs(
-        "div",
-        {
-          "code-path": "src/sections/Analytics.tsx:55:9",
-          children: [
-            o.jsxs("div", {
-              "code-path": "src/sections/Analytics.tsx:56:11",
-              className: "flex justify-between text-sm mb-1",
-              children: [
-                o.jsx("span", {
-                  "code-path": "src/sections/Analytics.tsx:57:13",
-                  className: "text-foreground font-medium",
-                  children: d.name,
-                }),
-                o.jsxs("span", {
-                  "code-path": "src/sections/Analytics.tsx:58:13",
-                  className: "text-muted-foreground",
-                  children: [d.count, "条"],
-                }),
-              ],
-            }),
-            o.jsx("div", {
-              "code-path": "src/sections/Analytics.tsx:60:11",
-              className: "h-2.5 bg-muted rounded-full overflow-hidden",
-              children: o.jsx("div", {
-                "code-path": "src/sections/Analytics.tsx:61:13",
-                className:
-                  "h-full rounded-full bg-gradient-to-r from-blue-500 to-blue-400 transition-all duration-1000",
-                style: { width: `${(d.count / f) * 100}%` },
-              }),
-            }),
-          ],
-        },
-        d.name,
-      ),
-    ),
-  });
-}
-function vy() {
-  const [u, f] = j.useState(!1),
-    d = j.useRef(null);
-  return (
-    j.useEffect(() => {
-      const i = new IntersectionObserver(
-        ([h]) => {
-          h.isIntersecting && (f(!0), i.disconnect());
-        },
-        { threshold: 0.15 },
-      );
-      return (d.current && i.observe(d.current), () => i.disconnect());
-    }, []),
-    o.jsx("section", {
-      "code-path": "src/sections/Analytics.tsx:91:5",
-      id: "analytics",
-      className: "section-padding bg-muted/20",
-      ref: d,
-      children: o.jsxs("div", {
-        "code-path": "src/sections/Analytics.tsx:92:7",
-        className: "max-w-7xl mx-auto",
-        children: [
-          o.jsxs("div", {
-            "code-path": "src/sections/Analytics.tsx:93:9",
-            className: "text-center mb-16",
-            children: [
-              o.jsx("span", {
-                "code-path": "src/sections/Analytics.tsx:94:11",
-                className:
-                  "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
-                children: "数据分析",
-              }),
-              o.jsx("h2", {
-                "code-path": "src/sections/Analytics.tsx:97:11",
-                className:
-                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "知识库数据可视化分析",
-              }),
-              o.jsx("p", {
-                "code-path": "src/sections/Analytics.tsx:100:11",
-                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
-                children:
-                  "对343条语料进行多维度分析，洞察学生关注热点，为智能体优化与服务改进提供数据支撑。",
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Analytics.tsx:105:9",
-            className: "grid lg:grid-cols-2 gap-8 mb-12",
-            children: [
-              o.jsxs("div", {
-                "code-path": "src/sections/Analytics.tsx:107:11",
-                className: `p-6 md:p-8 rounded-2xl bg-white border border-border shadow-sm transition-all duration-700 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-                children: [
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Analytics.tsx:112:13",
-                    className: "flex items-center gap-3 mb-6",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Analytics.tsx:113:15",
-                        className:
-                          "w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center",
-                        children: o.jsx(gx, {
-                          "code-path": "src/sections/Analytics.tsx:114:17",
-                          className: "w-5 h-5 text-primary",
-                        }),
-                      }),
-                      o.jsx("h3", {
-                        "code-path": "src/sections/Analytics.tsx:116:15",
-                        className: "text-lg font-bold text-foreground",
-                        children: "一级分类分布",
-                      }),
-                    ],
-                  }),
-                  o.jsx(xy, {
-                    "code-path": "src/sections/Analytics.tsx:118:13",
-                    data: my,
-                    maxVal: 184,
-                  }),
-                ],
-              }),
-              o.jsxs("div", {
-                "code-path": "src/sections/Analytics.tsx:122:11",
-                className: `p-6 md:p-8 rounded-2xl bg-white border border-border shadow-sm transition-all duration-700 delay-100 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-                children: [
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Analytics.tsx:127:13",
-                    className: "flex items-center gap-3 mb-6",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Analytics.tsx:128:15",
-                        className:
-                          "w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center",
-                        children: o.jsx(Vh, {
-                          "code-path": "src/sections/Analytics.tsx:129:17",
-                          className: "w-5 h-5 text-secondary",
-                        }),
-                      }),
-                      o.jsx("h3", {
-                        "code-path": "src/sections/Analytics.tsx:131:15",
-                        className: "text-lg font-bold text-foreground",
-                        children: "二级分类TOP9",
-                      }),
-                    ],
-                  }),
-                  o.jsx(yy, {
-                    "code-path": "src/sections/Analytics.tsx:133:13",
-                    data: py,
-                  }),
-                ],
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Analytics.tsx:138:9",
-            className: `p-6 md:p-8 rounded-2xl bg-white border border-border shadow-sm mb-8 transition-all duration-700 delay-200 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-            children: [
-              o.jsxs("div", {
-                "code-path": "src/sections/Analytics.tsx:143:11",
-                className: "flex items-center gap-3 mb-6",
-                children: [
-                  o.jsx("div", {
-                    "code-path": "src/sections/Analytics.tsx:144:13",
-                    className:
-                      "w-10 h-10 rounded-lg bg-violet-100 flex items-center justify-center",
-                    children: o.jsx(gh, {
-                      "code-path": "src/sections/Analytics.tsx:145:15",
-                      className: "w-5 h-5 text-violet-600",
-                    }),
-                  }),
-                  o.jsx("h3", {
-                    "code-path": "src/sections/Analytics.tsx:147:13",
-                    className: "text-lg font-bold text-foreground",
-                    children: "问题关键词云",
-                  }),
-                ],
-              }),
-              o.jsx("div", {
-                "code-path": "src/sections/Analytics.tsx:149:11",
-                className: "relative",
-                children: o.jsx("img", {
-                  "code-path": "src/sections/Analytics.tsx:150:13",
-                  src: "/images/wordcloud.png",
-                  alt: "问题词云",
-                  className: "w-full rounded-xl",
-                }),
-              }),
-            ],
-          }),
-          o.jsx("div", {
-            "code-path": "src/sections/Analytics.tsx:159:9",
-            className: `grid grid-cols-2 lg:grid-cols-4 gap-4 transition-all duration-700 delay-300 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-            children: [
-              { label: "平均答案字数", value: "238", unit: "字", icon: Wi },
-              { label: "平均变体数", value: "4.1", unit: "个/问题", icon: gh },
-              { label: "质检合格率", value: "99.4", unit: "%", icon: gy },
-              { label: "唯一标签数", value: "330", unit: "个", icon: by },
-            ].map((i) =>
-              o.jsxs(
-                "div",
-                {
-                  "code-path": "src/sections/Analytics.tsx:170:13",
-                  className:
-                    "p-5 rounded-xl bg-gradient-to-br from-white to-muted border border-border text-center",
-                  children: [
-                    o.jsx(i.icon, {
-                      "code-path": "src/sections/Analytics.tsx:174:15",
-                      className: "w-6 h-6 text-primary mx-auto mb-2",
-                    }),
-                    o.jsxs("div", {
-                      "code-path": "src/sections/Analytics.tsx:175:15",
-                      className:
-                        "text-2xl md:text-3xl font-bold text-foreground",
-                      children: [
-                        i.value,
-                        o.jsx("span", {
-                          "code-path": "src/sections/Analytics.tsx:177:17",
-                          className:
-                            "text-sm font-normal text-muted-foreground ml-1",
-                          children: i.unit,
-                        }),
-                      ],
-                    }),
-                    o.jsx("div", {
-                      "code-path": "src/sections/Analytics.tsx:179:15",
-                      className: "text-sm text-muted-foreground mt-1",
-                      children: i.label,
-                    }),
-                  ],
-                },
-                i.label,
-              ),
-            ),
-          }),
-        ],
-      }),
-    })
-  );
-}
-function gy({ className: u }) {
-  return o.jsxs("svg", {
-    "code-path": "src/sections/Analytics.tsx:190:5",
-    className: u,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor",
-    strokeWidth: "2",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    children: [
-      o.jsx("path", {
-        "code-path": "src/sections/Analytics.tsx:191:7",
-        d: "M22 11.08V12a10 10 0 1 1-5.93-9.14",
-      }),
-      o.jsx("polyline", {
-        "code-path": "src/sections/Analytics.tsx:192:7",
-        points: "22 4 12 14.01 9 11.01",
-      }),
-    ],
-  });
-}
-function by({ className: u }) {
-  return o.jsxs("svg", {
-    "code-path": "src/sections/Analytics.tsx:199:5",
-    className: u,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor",
-    strokeWidth: "2",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    children: [
-      o.jsx("path", {
-        "code-path": "src/sections/Analytics.tsx:200:7",
-        d: "M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z",
-      }),
-      o.jsx("line", {
-        "code-path": "src/sections/Analytics.tsx:201:7",
-        x1: "7",
-        y1: "7",
-        x2: "7.01",
-        y2: "7",
-      }),
-    ],
-  });
-}
-const Un = [
-    {
-      icon: $i,
-      title: "语义理解与模糊匹配",
-      desc: '基于大模型语义理解能力，支持学生用不同方式表达同一问题。如"奖学金啥时候发"和"奖学金什么时候到账"会被识别为同一问题，理解口语化、简化的表达方式。',
-      highlight: "支持口语化提问",
-    },
-    {
-      icon: Vx,
-      title: "知识库智能检索",
-      desc: "从已配置的343条知识库中检索最匹配的答案，召回数量3-5条，相似度阈值0.6-0.7。提供结构化、清晰的回答，优先匹配变体问题字段，结合标签进行语义扩展。",
-      highlight: "343条精准语料",
-    },
-    {
-      icon: Jh,
-      title: "关键场景识别与转接",
-      desc: "智能识别心理危机（自杀倾向、严重抑郁）、紧急安全事件、复杂投诉等需人工介入的场景，自动触发转接机制，提供辅导员联系方式和危机热线，确保学生安全。",
-      highlight: "安全第一",
-    },
-    {
-      icon: Fi,
-      title: "未匹配问题记录",
-      desc: "当匹配度低于50%或检索为空时，自动记录问题到数据库（支持扣子数据库/飞书表格/企微群），包含提问时间、问题意图、匹配分数等，便于辅导员后期补充知识库。",
-      highlight: "持续优化",
-    },
-    {
-      icon: sy,
-      title: "三段式回答模板",
-      desc: '所有回答统一采用"一句话概括+详细说明（要点化）+相关指引（联系方式/关联问题）"的结构，确保学生快速获取核心信息，同时提供深度解答。',
-      highlight: "结构清晰",
-    },
-    {
-      icon: Kh,
-      title: "亲切温暖的交互风格",
-      desc: '像朋友一样聊天，避免官方语气。使用"同学你好呀～"等亲切问候，适度使用emoji增加亲切感，回答末尾主动提供延伸建议，让技术有温度。',
-      highlight: "有温度的AI",
-    },
-  ],
-  Bi = {
-    name: "学生一站式社区助手",
-    welcome:
-      "你好呀！我是学生社区助手，有什么想问的尽管说～不管是选课、奖学金、宿舍问题还是心情不好想聊聊，我都在哦！",
-    principles: [
-      "亲切感：像朋友一样聊天",
-      "准确性：不知道就说不知道",
-      "主动性：提供延伸建议",
-      "安全性：关注心理健康",
-    ],
-  };
-function Sy() {
-  const [u, f] = j.useState(!1),
-    [d, i] = j.useState(0),
-    h = j.useRef(null);
-  return (
-    j.useEffect(() => {
-      const m = new IntersectionObserver(
-        ([b]) => {
-          b.isIntersecting && (f(!0), m.disconnect());
-        },
-        { threshold: 0.15 },
-      );
-      return (h.current && m.observe(h.current), () => m.disconnect());
-    }, []),
-    o.jsx("section", {
-      "code-path": "src/sections/Features.tsx:70:5",
-      id: "features",
-      className: "section-padding bg-white",
-      ref: h,
-      children: o.jsxs("div", {
-        "code-path": "src/sections/Features.tsx:71:7",
-        className: "max-w-7xl mx-auto",
-        children: [
-          o.jsxs("div", {
-            "code-path": "src/sections/Features.tsx:72:9",
-            className: "text-center mb-16",
-            children: [
-              o.jsx("span", {
-                "code-path": "src/sections/Features.tsx:73:11",
-                className:
-                  "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
-                children: "智能体功能",
-              }),
-              o.jsx("h2", {
-                "code-path": "src/sections/Features.tsx:76:11",
-                className:
-                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: '"守望智伴"核心能力',
-              }),
-              o.jsx("p", {
-                "code-path": "src/sections/Features.tsx:79:11",
-                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
-                children:
-                  "基于扣子平台搭建的智能体具备六大核心能力，覆盖从语义理解到安全转接的全链路服务场景。",
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Features.tsx:84:9",
-            className: "grid lg:grid-cols-3 gap-8 mb-16",
-            children: [
-              o.jsx("div", {
-                "code-path": "src/sections/Features.tsx:86:11",
-                className: "lg:col-span-1 space-y-3",
-                children: Un.map((m, b) =>
-                  o.jsx(
-                    "button",
-                    {
-                      "code-path": "src/sections/Features.tsx:88:15",
-                      onClick: () => i(b),
-                      className: `w-full text-left p-4 rounded-xl transition-all duration-300 ${d === b ? "bg-primary text-white shadow-lg" : "bg-muted text-foreground hover:bg-muted/80"}`,
-                      children: o.jsxs("div", {
-                        "code-path": "src/sections/Features.tsx:97:17",
-                        className: "flex items-center gap-3",
-                        children: [
-                          o.jsx(m.icon, {
-                            "code-path": "src/sections/Features.tsx:98:19",
-                            className: `w-5 h-5 ${d === b ? "text-white" : "text-primary"}`,
-                          }),
-                          o.jsx("span", {
-                            "code-path": "src/sections/Features.tsx:99:19",
-                            className: "font-semibold text-sm",
-                            children: m.title,
-                          }),
-                        ],
-                      }),
-                    },
-                    m.title,
-                  ),
-                ),
-              }),
-              o.jsx("div", {
-                "code-path": "src/sections/Features.tsx:106:11",
-                className: "lg:col-span-2",
-                children: o.jsxs("div", {
-                  "code-path": "src/sections/Features.tsx:107:13",
-                  className: `p-8 rounded-2xl bg-gradient-to-br from-muted/50 to-muted border border-border h-full transition-all duration-500 ${u ? "opacity-100 translate-x-0" : "opacity-0 translate-x-6"}`,
-                  children: [
-                    o.jsxs("div", {
-                      "code-path": "src/sections/Features.tsx:112:15",
-                      className: "flex items-center gap-3 mb-4",
-                      children: [
-                        o.jsx("div", {
-                          "code-path": "src/sections/Features.tsx:113:17",
-                          className:
-                            "w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center",
-                          children: (() => {
-                            const m = Un[d].icon;
-                            return o.jsx(m, {
-                              "code-path": "src/sections/Features.tsx:116:28",
-                              className: "w-6 h-6 text-primary",
-                            });
-                          })(),
-                        }),
-                        o.jsxs("div", {
-                          "code-path": "src/sections/Features.tsx:119:17",
-                          children: [
-                            o.jsx("h3", {
-                              "code-path": "src/sections/Features.tsx:120:19",
-                              className: "text-xl font-bold text-foreground",
-                              children: Un[d].title,
-                            }),
-                            o.jsx("span", {
-                              "code-path": "src/sections/Features.tsx:123:19",
-                              className:
-                                "inline-block mt-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary text-xs font-semibold",
-                              children: Un[d].highlight,
-                            }),
-                          ],
-                        }),
-                      ],
-                    }),
-                    o.jsx("p", {
-                      "code-path": "src/sections/Features.tsx:128:15",
-                      className: "text-muted-foreground leading-relaxed mb-6",
-                      children: Un[d].desc,
-                    }),
-                    d === 0 &&
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Features.tsx:134:17",
-                        className: "space-y-3",
-                        children: [
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:135:19",
-                            className:
-                              "p-3 rounded-xl bg-white border border-border text-sm",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:136:21",
-                                className:
-                                  "text-muted-foreground text-xs block mb-1",
-                                children: "学生提问A",
-                              }),
-                              '"奖学金啥时候发？"',
-                            ],
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:139:19",
-                            className:
-                              "p-3 rounded-xl bg-white border border-border text-sm",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:140:21",
-                                className:
-                                  "text-muted-foreground text-xs block mb-1",
-                                children: "学生提问B",
-                              }),
-                              '"奖学金什么时候到账"',
-                            ],
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:143:19",
-                            className:
-                              "p-3 rounded-xl bg-primary/5 border border-primary/20 text-sm text-primary",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:144:21",
-                                className: "text-xs block mb-1",
-                                children: "智能体识别结果",
-                              }),
-                              "语义相似度 95% → 匹配同一答案",
-                            ],
-                          }),
-                        ],
-                      }),
-                    d === 2 &&
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Features.tsx:151:17",
-                        className: "space-y-3",
-                        children: [
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:152:19",
-                            className:
-                              "p-3 rounded-xl bg-red-50 border border-red-200 text-sm text-red-800",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:153:21",
-                                className: "text-xs block mb-1",
-                                children: "危机关键词触发",
-                              }),
-                              '"我觉得活着没意义，特别绝望"',
-                            ],
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:156:19",
-                            className:
-                              "p-3 rounded-xl bg-primary/5 border border-primary/20 text-sm",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:157:21",
-                                className: "text-primary text-xs block mb-1",
-                                children: "智能体响应",
-                              }),
-                              "识别到心理危机信号 → 自动推送辅导员联系方式 + 心理热线",
-                            ],
-                          }),
-                        ],
-                      }),
-                    d === 3 &&
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Features.tsx:164:17",
-                        className: "space-y-3",
-                        children: [
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:165:19",
-                            className:
-                              "p-3 rounded-xl bg-muted border border-border text-sm",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:166:21",
-                                className:
-                                  "text-muted-foreground text-xs block mb-1",
-                                children: "学生提问（知识库未覆盖）",
-                              }),
-                              '"学校新开的咖啡店老板是谁？"',
-                            ],
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:169:19",
-                            className:
-                              "p-3 rounded-xl bg-yellow-50 border border-yellow-200 text-sm text-yellow-800",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:170:21",
-                                className: "text-xs block mb-1",
-                                children: "系统记录",
-                              }),
-                              '匹配度: 12% | 自动记录到"未匹配问题"表 | 状态: 待处理',
-                            ],
-                          }),
-                        ],
-                      }),
-                    d === 5 &&
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Features.tsx:177:17",
-                        className: "space-y-3",
-                        children: [
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:178:19",
-                            className:
-                              "p-3 rounded-xl bg-primary/5 border border-primary/20 text-sm text-primary",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:179:21",
-                                className: "text-xs block mb-1",
-                                children: "开场白示例",
-                              }),
-                              "你好呀！我是学生社区助手 🌟 无论是学业问题、生活困扰，还是心情不好想聊聊，都可以问我哦！",
-                            ],
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Features.tsx:182:19",
-                            className:
-                              "p-3 rounded-xl bg-muted border border-border text-sm",
-                            children: [
-                              o.jsx("span", {
-                                "code-path": "src/sections/Features.tsx:183:21",
-                                className:
-                                  "text-muted-foreground text-xs block mb-1",
-                                children: "回答示例",
-                              }),
-                              "同学你好呀～关于奖学金发放时间，每学期评奖结束后发放，上半年约6月，下半年约12月。如果你还有疑问，可以继续问我哦 💡",
-                            ],
-                          }),
-                        ],
-                      }),
-                  ],
-                }),
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Features.tsx:193:9",
-            className: `p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white transition-all duration-700 delay-200 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-            children: [
-              o.jsx("h3", {
-                "code-path": "src/sections/Features.tsx:198:11",
-                className: "text-xl font-bold mb-4",
-                children: "Bot配置概览",
-              }),
-              o.jsxs("div", {
-                "code-path": "src/sections/Features.tsx:199:11",
-                className: "grid md:grid-cols-2 gap-6",
-                children: [
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Features.tsx:200:13",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Features.tsx:201:15",
-                        className: "text-white/60 text-sm mb-1",
-                        children: "Bot名称",
-                      }),
-                      o.jsx("div", {
-                        "code-path": "src/sections/Features.tsx:202:15",
-                        className: "font-semibold",
-                        children: Bi.name,
-                      }),
-                    ],
-                  }),
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Features.tsx:204:13",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Features.tsx:205:15",
-                        className: "text-white/60 text-sm mb-1",
-                        children: "欢迎语",
-                      }),
-                      o.jsx("div", {
-                        "code-path": "src/sections/Features.tsx:206:15",
-                        className: "font-semibold text-sm",
-                        children: Bi.welcome,
-                      }),
-                    ],
-                  }),
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Features.tsx:208:13",
-                    className: "md:col-span-2",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Features.tsx:209:15",
-                        className: "text-white/60 text-sm mb-2",
-                        children: "核心原则",
-                      }),
-                      o.jsx("div", {
-                        "code-path": "src/sections/Features.tsx:210:15",
-                        className: "flex flex-wrap gap-2",
-                        children: Bi.principles.map((m) =>
-                          o.jsx(
-                            "span",
-                            {
-                              "code-path": "src/sections/Features.tsx:212:19",
-                              className:
-                                "px-3 py-1 rounded-full bg-white/10 text-sm",
-                              children: m,
-                            },
-                            m,
-                          ),
-                        ),
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-            ],
-          }),
-        ],
-      }),
-    })
-  );
-}
-function Ny() {
-  const [u, f] = j.useState(!1),
-    d = j.useRef(null);
-  return (
-    j.useEffect(() => {
-      const i = new IntersectionObserver(
-        ([h]) => {
-          h.isIntersecting && (f(!0), i.disconnect());
-        },
-        { threshold: 0.15 },
-      );
-      return (d.current && i.observe(d.current), () => i.disconnect());
-    }, []),
-    o.jsx("section", {
-      "code-path": "src/sections/Design.tsx:23:5",
-      id: "design",
-      className: "section-padding bg-muted/20",
-      ref: d,
-      children: o.jsxs("div", {
-        "code-path": "src/sections/Design.tsx:24:7",
-        className: "max-w-7xl mx-auto",
-        children: [
-          o.jsxs("div", {
-            "code-path": "src/sections/Design.tsx:25:9",
-            className: "text-center mb-16",
-            children: [
-              o.jsx("span", {
-                "code-path": "src/sections/Design.tsx:26:11",
-                className:
-                  "inline-block px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium mb-4",
-                children: "形象设计",
-              }),
-              o.jsx("h2", {
-                "code-path": "src/sections/Design.tsx:29:11",
-                className:
-                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "Logo与智能体形象",
-              }),
-              o.jsx("p", {
-                "code-path": "src/sections/Design.tsx:32:11",
-                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
-                children:
-                  '"守望智伴"品牌视觉体系融合常州工业职业技术学院特色与一站式学生社区理念，传递"出入相友、守望相助"的社区文化。',
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Design.tsx:37:9",
-            className: "grid lg:grid-cols-2 gap-8 mb-12",
-            children: [
-              o.jsxs("div", {
-                "code-path": "src/sections/Design.tsx:39:11",
-                className: `p-8 rounded-2xl bg-white border border-border shadow-sm transition-all duration-700 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-                children: [
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Design.tsx:44:13",
-                    className: "flex items-center gap-3 mb-6",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Design.tsx:45:15",
-                        className:
-                          "w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center",
-                        children: o.jsx(kx, {
-                          "code-path": "src/sections/Design.tsx:46:17",
-                          className: "w-5 h-5 text-primary",
-                        }),
-                      }),
-                      o.jsx("h3", {
-                        "code-path": "src/sections/Design.tsx:48:15",
-                        className: "text-lg font-bold text-foreground",
-                        children: "品牌Logo",
-                      }),
-                    ],
-                  }),
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Design.tsx:51:13",
-                    className: "flex flex-col items-center",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Design.tsx:52:15",
-                        className:
-                          "w-64 h-64 rounded-2xl bg-gradient-to-br from-muted/50 to-muted flex items-center justify-center p-6 mb-6",
-                        children: o.jsx("img", {
-                          "code-path": "src/sections/Design.tsx:53:17",
-                          src: "/images/logo.png",
-                          alt: "守望智伴Logo",
-                          className: "w-full h-full object-contain",
-                        }),
-                      }),
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Design.tsx:60:15",
-                        className: "space-y-3 w-full",
-                        children: [
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Design.tsx:61:17",
-                            className: "p-4 rounded-xl bg-muted/50",
-                            children: [
-                              o.jsxs("h4", {
-                                "code-path": "src/sections/Design.tsx:62:19",
-                                className:
-                                  "font-semibold text-foreground mb-2 flex items-center gap-2",
-                                children: [
-                                  o.jsx(kh, {
-                                    "code-path":
-                                      "src/sections/Design.tsx:63:21",
-                                    className: "w-4 h-4 text-secondary",
-                                  }),
-                                  "设计理念",
-                                ],
-                              }),
-                              o.jsx("p", {
-                                "code-path": "src/sections/Design.tsx:66:19",
-                                className:
-                                  "text-sm text-muted-foreground leading-relaxed",
-                                children: [
-                                  "开放式双色环形：左蓝（科技）右橙（温暖）",
-                                  o.jsx("br", {}),
-                                  "双手托举形成心形：象征守护与关爱",
-                                  o.jsx("br", {}),
-                                  '品牌名 "守望・智伴" 与环形色彩呼应',
-                                  o.jsx("br", {}),
-                                  '标语 "出入相友・守望相助・智慧陪伴" 传递品牌温度',
-                                ],
-                              }),
-                            ],
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Design.tsx:71:17",
-                            className: "p-4 rounded-xl bg-muted/50",
-                            children: [
-                              o.jsxs("h4", {
-                                "code-path": "src/sections/Design.tsx:72:19",
-                                className:
-                                  "font-semibold text-foreground mb-2 flex items-center gap-2",
-                                children: [
-                                  o.jsx(Xh, {
-                                    "code-path":
-                                      "src/sections/Design.tsx:73:21",
-                                    className: "w-4 h-4 text-primary",
-                                  }),
-                                  "命名释义",
-                                ],
-                              }),
-                              o.jsx("p", {
-                                "code-path": "src/sections/Design.tsx:76:19",
-                                className:
-                                  "text-sm text-muted-foreground leading-relaxed",
-                                children:
-                                  '"守望"取自学校"守望·常工业"社区育人品牌，寓意"出入相友、守望相助"；"智伴"代表AI智能伙伴，寓意有智慧的陪伴者。',
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-              o.jsxs("div", {
-                "code-path": "src/sections/Design.tsx:85:11",
-                className: `p-8 rounded-2xl bg-white border border-border shadow-sm transition-all duration-700 delay-100 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-                children: [
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Design.tsx:90:13",
-                    className: "flex items-center gap-3 mb-6",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Design.tsx:91:15",
-                        className:
-                          "w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center",
-                        children: o.jsx(Jh, {
-                          "code-path": "src/sections/Design.tsx:92:17",
-                          className: "w-5 h-5 text-secondary",
-                        }),
-                      }),
-                      o.jsx("h3", {
-                        "code-path": "src/sections/Design.tsx:94:15",
-                        className: "text-lg font-bold text-foreground",
-                        children: "智能体形象",
-                      }),
-                    ],
-                  }),
-                  o.jsxs("div", {
-                    "code-path": "src/sections/Design.tsx:97:13",
-                    className: "flex flex-col items-center",
-                    children: [
-                      o.jsx("div", {
-                        "code-path": "src/sections/Design.tsx:98:15",
-                        className:
-                          "w-56 h-72 rounded-2xl bg-gradient-to-br from-blue-50 to-orange-50 flex items-center justify-center p-4 mb-6",
-                        children: o.jsx("img", {
-                          "code-path": "src/sections/Design.tsx:99:17",
-                          src: "/images/mascot.png",
-                          alt: "智能体形象",
-                          className: "w-full h-full object-contain",
-                        }),
-                      }),
-                      o.jsxs("div", {
-                        "code-path": "src/sections/Design.tsx:106:15",
-                        className: "space-y-3 w-full",
-                        children: [
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Design.tsx:107:17",
-                            className: "p-4 rounded-xl bg-muted/50",
-                            children: [
-                              o.jsx("h4", {
-                                "code-path": "src/sections/Design.tsx:108:19",
-                                className: "font-semibold text-foreground mb-2",
-                                children: "形象设定",
-                              }),
-                              o.jsx("p", {
-                                "code-path": "src/sections/Design.tsx:109:19",
-                                className:
-                                  "text-sm text-muted-foreground leading-relaxed",
-                                children:
-                                  '"小望"——一个戴着学士帽的蓝色小机器人，胸前有温暖的心形标志，手持书卷。大眼睛和微笑表情传递友好与亲切，整体形象既有科技感又不失温度。',
-                              }),
-                            ],
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Design.tsx:114:17",
-                            className: "grid grid-cols-2 gap-3",
-                            children: [
-                              o.jsxs("div", {
-                                "code-path": "src/sections/Design.tsx:115:19",
-                                className:
-                                  "p-3 rounded-xl bg-blue-50 border border-blue-100",
-                                children: [
-                                  o.jsx("div", {
-                                    "code-path":
-                                      "src/sections/Design.tsx:116:21",
-                                    className:
-                                      "text-xs text-blue-600 font-semibold mb-1",
-                                    children: "主色调",
-                                  }),
-                                  o.jsxs("div", {
-                                    "code-path":
-                                      "src/sections/Design.tsx:117:21",
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                      o.jsx("div", {
-                                        "code-path":
-                                          "src/sections/Design.tsx:118:23",
-                                        className:
-                                          "w-4 h-4 rounded-full bg-[#2563eb]",
-                                      }),
-                                      o.jsx("span", {
-                                        "code-path":
-                                          "src/sections/Design.tsx:119:23",
-                                        className: "text-sm text-blue-900",
-                                        children: "科技蓝",
-                                      }),
-                                    ],
-                                  }),
-                                ],
-                              }),
-                              o.jsxs("div", {
-                                "code-path": "src/sections/Design.tsx:122:19",
-                                className:
-                                  "p-3 rounded-xl bg-orange-50 border border-orange-100",
-                                children: [
-                                  o.jsx("div", {
-                                    "code-path":
-                                      "src/sections/Design.tsx:123:21",
-                                    className:
-                                      "text-xs text-orange-600 font-semibold mb-1",
-                                    children: "辅助色",
-                                  }),
-                                  o.jsxs("div", {
-                                    "code-path":
-                                      "src/sections/Design.tsx:124:21",
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                      o.jsx("div", {
-                                        "code-path":
-                                          "src/sections/Design.tsx:125:23",
-                                        className:
-                                          "w-4 h-4 rounded-full bg-[#f59e0b]",
-                                      }),
-                                      o.jsx("span", {
-                                        "code-path":
-                                          "src/sections/Design.tsx:126:23",
-                                        className: "text-sm text-orange-900",
-                                        children: "温暖橙",
-                                      }),
-                                    ],
-                                  }),
-                                ],
-                              }),
-                            ],
-                          }),
-                          o.jsxs("div", {
-                            "code-path": "src/sections/Design.tsx:131:17",
-                            className:
-                              "p-4 rounded-xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white",
-                            children: [
-                              o.jsx("h4", {
-                                "code-path": "src/sections/Design.tsx:132:19",
-                                className: "font-semibold mb-2",
-                                children: "应用场景",
-                              }),
-                              o.jsxs("div", {
-                                "code-path": "src/sections/Design.tsx:133:19",
-                                className:
-                                  "grid grid-cols-2 gap-2 text-sm text-white/80",
-                                children: [
-                                  o.jsxs("div", {
-                                    "code-path":
-                                      "src/sections/Design.tsx:134:21",
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                      o.jsx("div", {
-                                        "code-path":
-                                          "src/sections/Design.tsx:135:23",
-                                        className:
-                                          "w-1.5 h-1.5 rounded-full bg-white",
-                                      }),
-                                      "微信公众号头像",
-                                    ],
-                                  }),
-                                  o.jsxs("div", {
-                                    "code-path":
-                                      "src/sections/Design.tsx:138:21",
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                      o.jsx("div", {
-                                        "code-path":
-                                          "src/sections/Design.tsx:139:23",
-                                        className:
-                                          "w-1.5 h-1.5 rounded-full bg-white",
-                                      }),
-                                      "钉钉群聊助手",
-                                    ],
-                                  }),
-                                  o.jsxs("div", {
-                                    "code-path":
-                                      "src/sections/Design.tsx:142:21",
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                      o.jsx("div", {
-                                        "code-path":
-                                          "src/sections/Design.tsx:143:23",
-                                        className:
-                                          "w-1.5 h-1.5 rounded-full bg-white",
-                                      }),
-                                      "小程序界面",
-                                    ],
-                                  }),
-                                  o.jsxs("div", {
-                                    "code-path":
-                                      "src/sections/Design.tsx:146:21",
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                      o.jsx("div", {
-                                        "code-path":
-                                          "src/sections/Design.tsx:147:23",
-                                        className:
-                                          "w-1.5 h-1.5 rounded-full bg-white",
-                                      }),
-                                      "宣传海报",
-                                    ],
-                                  }),
-                                ],
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-            ],
-          }),
-        ],
-      }),
-    })
-  );
-}
-const Ey = [
-    {
-      phase: "第一阶段",
-      period: "2025 Q2-Q3",
-      title: "基础能力建设",
-      items: [
-        "完成343条核心语料库建设",
-        "搭建扣子平台智能体基础框架",
-        "实现模糊搜索与知识库检索",
-        "配置心理危机识别与转接机制",
-      ],
-      status: "已完成",
-    },
-    {
-      phase: "第二阶段",
-      period: "2025 Q3-Q4",
-      title: "数据库连接与小范围试点",
-      items: [
-        "连接扣子数据库实现问题记录",
-        "接入未匹配问题自动记录功能",
-        "在1-2个学院开展小范围试点",
-        "收集反馈优化回答质量",
-      ],
-      status: "进行中",
-    },
-    {
-      phase: "第三阶段",
-      period: "2025 Q4-2026 Q1",
-      title: "AI数据分析与可视化",
-      items: [
-        "对接学工系统获取基础数据",
-        "构建学生行为分析模型",
-        "开发数据可视化大屏",
-        "实现高频问题预警机制",
-      ],
-      status: "规划中",
-    },
-    {
-      phase: "第四阶段",
-      period: "2026 Q1-Q2",
-      title: "学生画像与精准服务",
-      items: [
-        "构建多维度学生用户画像",
-        "实现个性化推荐与预警",
-        "打通家校数据闭环",
-        "全校推广覆盖15000+学生",
-      ],
-      status: "规划中",
-    },
-  ],
-  jy = [
-    {
-      icon: Wi,
-      label: "学业成绩",
-      desc: "绩点趋势、挂科预警、选课偏好",
-      color: "blue",
-    },
-    {
-      icon: $i,
-      label: "心理健康",
-      desc: "情绪波动、咨询记录、压力指数",
-      color: "violet",
-    },
-    {
-      icon: Ex,
-      label: "生活状态",
-      desc: "消费行为、作息规律、社交关系",
-      color: "emerald",
-    },
-    {
-      icon: _x,
-      label: "职业发展",
-      desc: "就业意向、技能评估、实习匹配",
-      color: "orange",
-    },
-    {
-      icon: Vh,
-      label: "活动参与",
-      desc: "社团活动、志愿服务、二课学分",
-      color: "pink",
-    },
-    {
-      icon: Fi,
-      label: "资助需求",
-      desc: "经济状况、奖助申请、困难等级",
-      color: "cyan",
-    },
-  ];
-function Ay() {
-  const [u, f] = j.useState(!1),
-    d = j.useRef(null);
-  return (
-    j.useEffect(() => {
-      const i = new IntersectionObserver(
-        ([h]) => {
-          h.isIntersecting && (f(!0), i.disconnect());
-        },
-        { threshold: 0.15 },
-      );
-      return (d.current && i.observe(d.current), () => i.disconnect());
-    }, []),
-    o.jsx("section", {
-      "code-path": "src/sections/Roadmap.tsx:83:5",
-      id: "roadmap",
-      className: "section-padding bg-white",
-      ref: d,
-      children: o.jsxs("div", {
-        "code-path": "src/sections/Roadmap.tsx:84:7",
-        className: "max-w-7xl mx-auto",
-        children: [
-          o.jsxs("div", {
-            "code-path": "src/sections/Roadmap.tsx:85:9",
-            className: "text-center mb-16",
-            children: [
-              o.jsx("span", {
-                "code-path": "src/sections/Roadmap.tsx:86:11",
-                className:
-                  "inline-block px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-sm font-medium mb-4",
-                children: "未来规划",
-              }),
-              o.jsx("h2", {
-                "code-path": "src/sections/Roadmap.tsx:89:11",
-                className:
-                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "AI数据分析与学生用户画像",
-              }),
-              o.jsx("p", {
-                "code-path": "src/sections/Roadmap.tsx:92:11",
-                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
-                children:
-                  '以智能体为数据入口，构建学生全维度画像，实现从"被动响应"到"主动关怀"的服务升级，打造精准思政新范式。',
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Roadmap.tsx:98:9",
-            className: "mb-20",
-            children: [
-              o.jsx("h3", {
-                "code-path": "src/sections/Roadmap.tsx:99:11",
-                className: "text-xl font-bold text-foreground mb-8 text-center",
-                children: "建设路线图",
-              }),
-              o.jsx("div", {
-                "code-path": "src/sections/Roadmap.tsx:100:11",
-                className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
-                children: Ey.map((i, h) =>
-                  o.jsxs(
-                    "div",
-                    {
-                      "code-path": "src/sections/Roadmap.tsx:102:15",
-                      className: `relative p-6 rounded-2xl border transition-all duration-700 hover:-translate-y-1 hover:shadow-lg ${i.status === "已完成" ? "bg-emerald-50 border-emerald-200" : i.status === "进行中" ? "bg-blue-50 border-blue-200" : "bg-muted/50 border-border"} ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-                      style: { transitionDelay: `${h * 150}ms` },
-                      children: [
-                        o.jsxs("div", {
-                          "code-path": "src/sections/Roadmap.tsx:113:17",
-                          className: "flex items-center justify-between mb-3",
-                          children: [
-                            o.jsx("span", {
-                              "code-path": "src/sections/Roadmap.tsx:114:19",
-                              className: `px-2 py-0.5 rounded-full text-xs font-semibold ${i.status === "已完成" ? "bg-emerald-200 text-emerald-800" : i.status === "进行中" ? "bg-blue-200 text-blue-800" : "bg-gray-200 text-gray-600"}`,
-                              children: i.status,
-                            }),
-                            o.jsx("span", {
-                              "code-path": "src/sections/Roadmap.tsx:125:19",
-                              className: "text-xs text-muted-foreground",
-                              children: i.period,
-                            }),
-                          ],
-                        }),
-                        o.jsx("h4", {
-                          "code-path": "src/sections/Roadmap.tsx:127:17",
-                          className: "font-bold text-foreground mb-1",
-                          children: i.phase,
-                        }),
-                        o.jsx("h5", {
-                          "code-path": "src/sections/Roadmap.tsx:128:17",
-                          className: "text-sm font-semibold text-primary mb-3",
-                          children: i.title,
-                        }),
-                        o.jsx("ul", {
-                          "code-path": "src/sections/Roadmap.tsx:129:17",
-                          className: "space-y-2",
-                          children: i.items.map((m) =>
-                            o.jsxs(
-                              "li",
-                              {
-                                "code-path": "src/sections/Roadmap.tsx:131:21",
-                                className:
-                                  "flex items-start gap-2 text-sm text-muted-foreground",
-                                children: [
-                                  o.jsx("div", {
-                                    "code-path":
-                                      "src/sections/Roadmap.tsx:132:23",
-                                    className:
-                                      "w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0",
-                                  }),
-                                  m,
-                                ],
-                              },
-                              m,
-                            ),
-                          ),
-                        }),
-                      ],
-                    },
-                    i.phase,
-                  ),
-                ),
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Roadmap.tsx:143:9",
-            className: "mb-12",
-            children: [
-              o.jsx("h3", {
-                "code-path": "src/sections/Roadmap.tsx:144:11",
-                className: "text-xl font-bold text-foreground mb-8 text-center",
-                children: "学生用户画像维度",
-              }),
-              o.jsx("div", {
-                "code-path": "src/sections/Roadmap.tsx:145:11",
-                className: "grid grid-cols-2 md:grid-cols-3 gap-4 mb-8",
-                children: jy.map((i, h) =>
-                  o.jsxs(
-                    "div",
-                    {
-                      "code-path": "src/sections/Roadmap.tsx:147:15",
-                      className: `p-5 rounded-xl bg-white border border-border hover:shadow-md transition-all duration-500 hover:-translate-y-0.5 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-                      style: { transitionDelay: `${300 + h * 100}ms` },
-                      children: [
-                        o.jsx(i.icon, {
-                          "code-path": "src/sections/Roadmap.tsx:154:17",
-                          className: `w-8 h-8 text-${i.color}-500 mb-3`,
-                          style: { color: `var(--color-${i.color})` },
-                        }),
-                        o.jsx("h4", {
-                          "code-path": "src/sections/Roadmap.tsx:155:17",
-                          className: "font-semibold text-foreground mb-1",
-                          children: i.label,
-                        }),
-                        o.jsx("p", {
-                          "code-path": "src/sections/Roadmap.tsx:156:17",
-                          className: "text-xs text-muted-foreground",
-                          children: i.desc,
-                        }),
-                      ],
-                    },
-                    i.label,
-                  ),
-                ),
-              }),
-            ],
-          }),
-          o.jsxs("div", {
-            "code-path": "src/sections/Roadmap.tsx:163:9",
-            className: `rounded-2xl overflow-hidden border border-border shadow-lg transition-all duration-700 delay-500 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
-            children: [
-              o.jsx("div", {
-                "code-path": "src/sections/Roadmap.tsx:168:11",
-                className:
-                  "p-4 bg-gradient-to-r from-[#0f172a] to-[#1e3a5f] text-white",
-                children: o.jsx("h3", {
-                  "code-path": "src/sections/Roadmap.tsx:169:13",
-                  className: "font-bold text-center",
-                  children: "学生数据AI分析可视化大屏（预览）",
-                }),
-              }),
-              o.jsx("img", {
-                "code-path": "src/sections/Roadmap.tsx:171:11",
-                src: "/images/user-persona.png",
-                alt: "学生用户画像可视化",
-                className: "w-full",
-              }),
-              o.jsx("div", {
-                "code-path": "src/sections/Roadmap.tsx:176:11",
-                className: "p-4 bg-muted/30 text-center",
-                children: o.jsx("p", {
-                  "code-path": "src/sections/Roadmap.tsx:177:13",
-                  className: "text-sm text-muted-foreground",
-                  children:
-                    "未来将通过AI算法整合多源数据，为每位学生生成个性化成长档案，实现精准预警与个性化服务推荐。",
-                }),
-              }),
-            ],
-          }),
-        ],
-      }),
-    })
-  );
-}
-const zy = [
-  {
-    school: "太原理工大学",
-    name: "AI辅导员",
-    type: "综合性AI辅导员",
-    highlight: "汇聚200余名优秀辅导员经验智慧",
-    desc: '覆盖校园事务办理、学习答疑、心理咨询与情绪陪伴等服务，实现对学生全天候、全方位的陪伴与关怀。入选教育部2025年高校"一站式"学生社区创新亮点。',
-    outcome: "教育部优秀成果入选",
-  },
-  {
-    school: "上海中医药大学",
-    name: "和小合",
-    type: "心理健康AI助手",
-    highlight: "传统文化+心理AI融合",
-    desc: "以中医药文化为基座的心理健康教育智能体，将《黄帝内经》智慧融入AI算法。被人民日报、中国新闻网报道，一周阅读量超46万。",
-    outcome: "全国优秀案例",
-  },
-  {
-    school: "天津大学",
-    name: "海棠棠",
-    type: "新生智能体",
-    highlight: "24小时实时在线",
-    desc: '以商业大模型为基座，汇集百余个官方媒体平台信息，为新生"秒抓取"全网信息，解决学习科研、校园生活、个人发展等常见问题。',
-    outcome: "新生服务全覆盖",
-  },
-  {
-    school: "华中科技大学",
-    name: "爱华导",
-    type: "AI思政教育",
-    highlight: "6类32项语料库",
-    desc: '构建知识图谱涵盖思政工作、安全保障、成长发展等6类32项语料库。提出"三级架构，六支队伍，两个融合"建设模式。',
-    outcome: "思政教育创新",
-  },
-  {
-    school: "重庆工程职业技术学院",
-    name: "筑智DeepSeek",
-    type: "DeepSeek本地化",
-    highlight: "全市高职首个DeepSeek",
-    desc: "依托华为昇腾AI计算集群，本地化部署DeepSeek-R1-671B大模型，具备政策解读、文献翻译、科研辅助等核心功能。",
-    outcome: "技术标杆",
-  },
-  {
-    school: "浙江大学",
-    name: "浙大先生",
-    type: "智能体开发平台",
-    highlight: "师生自建智能体",
-    desc: '推出智能体应用开发平台，完成从大模型到校园应用的"最后一公里"，让师生像拼乐高一样搭建智能体。',
-    outcome: "平台化创新",
-  },
-];
-function Ty() {
-  const [u, f] = j.useState(!1),
-    d = j.useRef(null);
-  return (
-    j.useEffect(() => {
-      const i = new IntersectionObserver(
-        ([h]) => {
-          h.isIntersecting && (f(!0), i.disconnect());
-        },
-        { threshold: 0.1 },
-      );
-      return (d.current && i.observe(d.current), () => i.disconnect());
     }, []),
     o.jsx("section", {
       "code-path": "src/sections/Cases.tsx:74:5",
@@ -17410,19 +15570,19 @@ function Ty() {
                 "code-path": "src/sections/Cases.tsx:77:11",
                 className:
                   "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
-                children: "同类案例",
+                children: "åŒç±»æ¡ˆä¾‹",
               }),
               o.jsx("h2", {
                 "code-path": "src/sections/Cases.tsx:80:11",
                 className:
                   "text-3xl md:text-4xl font-bold text-foreground mb-4",
-                children: "全国高校AI智能体建设实践",
+                children: "å…¨å›½é«˜æ ¡AIæ™ºèƒ½ä½“å»ºè®¾å®žè·µ",
               }),
               o.jsx("p", {
                 "code-path": "src/sections/Cases.tsx:83:11",
                 className: "text-muted-foreground text-lg max-w-3xl mx-auto",
                 children:
-                  '借鉴全国同类高校AI智能体建设经验，为常州工业职业技术学院"守望智伴"提供参考与启示。',
+                  'å€Ÿé‰´å…¨å›½åŒç±»é«˜æ ¡AIæ™ºèƒ½ä½“å»ºè®¾ç»éªŒï¼Œä¸ºå¸¸å·žå·¥ä¸šèŒä¸šæŠ€æœ¯å­¦é™¢"å®ˆæœ›æ™ºä¼´"æä¾›å‚è€ƒä¸Žå¯ç¤ºã€‚',
               }),
             ],
           }),
@@ -17538,7 +15698,7 @@ function Ty() {
               o.jsx("h3", {
                 "code-path": "src/sections/Cases.tsx:136:11",
                 className: "text-xl font-bold mb-4 text-center",
-                children: "经验启示",
+                children: "ç»éªŒå¯ç¤º",
               }),
               o.jsxs("div", {
                 "code-path": "src/sections/Cases.tsx:137:11",
@@ -17561,13 +15721,13 @@ function Ty() {
                       o.jsx("h4", {
                         "code-path": "src/sections/Cases.tsx:142:15",
                         className: "font-semibold mb-2",
-                        children: "语料库是核心",
+                        children: "è¯­æ–™åº“æ˜¯æ ¸å¿ƒ",
                       }),
                       o.jsx("p", {
                         "code-path": "src/sections/Cases.tsx:143:15",
                         className: "text-sm text-white/70",
                         children:
-                          "华中科大建设6类32项语料库，太原理工汇聚200余名辅导员智慧，高质量语料是智能体精准服务的基础。",
+                          "åŽä¸­ç§‘å¤§å»ºè®¾6ç±»32é¡¹è¯­æ–™åº“ï¼Œå¤ªåŽŸç†å·¥æ±‡èš200ä½™åè¾…å¯¼å‘˜æ™ºæ…§ï¼Œé«˜è´¨é‡è¯­æ–™æ˜¯æ™ºèƒ½ä½“ç²¾å‡†æœåŠ¡çš„åŸºç¡€ã€‚",
                       }),
                     ],
                   }),
@@ -17588,13 +15748,13 @@ function Ty() {
                       o.jsx("h4", {
                         "code-path": "src/sections/Cases.tsx:151:15",
                         className: "font-semibold mb-2",
-                        children: "安全机制不可少",
+                        children: "å®‰å…¨æœºåˆ¶ä¸å¯å°‘",
                       }),
                       o.jsx("p", {
                         "code-path": "src/sections/Cases.tsx:152:15",
                         className: "text-sm text-white/70",
                         children:
-                          "必须建立心理危机识别与人工转接机制，确保学生安全。内容可控、风险屏蔽、隐私保护是底线要求。",
+                          "å¿…é¡»å»ºç«‹å¿ƒç†å±æœºè¯†åˆ«ä¸Žäººå·¥è½¬æŽ¥æœºåˆ¶ï¼Œç¡®ä¿å­¦ç”Ÿå®‰å…¨ã€‚å†…å®¹å¯æŽ§ã€é£Žé™©å±è”½ã€éšç§ä¿æŠ¤æ˜¯åº•çº¿è¦æ±‚ã€‚",
                       }),
                     ],
                   }),
@@ -17615,13 +15775,13 @@ function Ty() {
                       o.jsx("h4", {
                         "code-path": "src/sections/Cases.tsx:160:15",
                         className: "font-semibold mb-2",
-                        children: "文化融合有特色",
+                        children: "æ–‡åŒ–èžåˆæœ‰ç‰¹è‰²",
                       }),
                       o.jsx("p", {
                         "code-path": "src/sections/Cases.tsx:161:15",
                         className: "text-sm text-white/70",
                         children:
-                          '上海中医大融入中医药文化，天津大学打造"海棠"品牌，结合学校特色打造差异化智能体更易获认可。',
+                          'ä¸Šæµ·ä¸­åŒ»å¤§èžå…¥ä¸­åŒ»è¯æ–‡åŒ–ï¼Œå¤©æ´¥å¤§å­¦æ‰“é€ "æµ·æ£ "å“ç‰Œï¼Œç»“åˆå­¦æ ¡ç‰¹è‰²æ‰“é€ å·®å¼‚åŒ–æ™ºèƒ½ä½“æ›´æ˜“èŽ·è®¤å¯ã€‚',
                       }),
                     ],
                   }),
@@ -17632,6 +15792,1846 @@ function Ty() {
         ],
       }),
     })
+    }, []),
+    o.jsx("section", {
+      "code-path": "src/sections/Corpus.tsx:72:5",
+      id: "corpus",
+      className: "section-padding bg-white",
+      ref: h,
+      children: o.jsxs("div", {
+        "code-path": "src/sections/Corpus.tsx:73:7",
+        className: "max-w-7xl mx-auto",
+        children: [
+          o.jsxs("div", {
+            "code-path": "src/sections/Corpus.tsx:74:9",
+            className: "text-center mb-16",
+            children: [
+              o.jsx("span", {
+                "code-path": "src/sections/Corpus.tsx:75:11",
+                className:
+                  "inline-block px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium mb-4",
+                children: "è¯­æ–™åº“å»ºè®¾",
+              }),
+              o.jsx("h2", {
+                "code-path": "src/sections/Corpus.tsx:78:11",
+                className:
+                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
+                children: "è¯­æ–™åº“çš„æ•´ç†ã€æ¸…æ´—ä¸Žåˆ†ç±»",
+              }),
+              o.jsx("p", {
+                "code-path": "src/sections/Corpus.tsx:81:11",
+                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
+                children:
+                  "é€šè¿‡ç³»ç»ŸåŒ–çš„å…­æ­¥å¤„ç†æµç¨‹ï¼Œå°†400+æ¡åŽŸå§‹é—®é¢˜è½¬åŒ–ä¸º343æ¡æ ‡å‡†åŒ–ã€ç»“æž„åŒ–çš„é«˜è´¨é‡è¯­æ–™ï¼Œä¸ºæ™ºèƒ½ä½“æä¾›ç²¾å‡†çŸ¥è¯†æ”¯æ’‘ã€‚",
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Corpus.tsx:87:9",
+            className: "mb-20",
+            children: [
+              o.jsx("div", {
+                "code-path": "src/sections/Corpus.tsx:88:11",
+                className: "flex flex-wrap justify-center gap-3 mb-8",
+                children: On.map((m, b) =>
+                  o.jsxs(
+                    "button",
+                    {
+                      "code-path": "src/sections/Corpus.tsx:90:15",
+                      onClick: () => i(b),
+                      className: `flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${d === b ? "bg-primary text-white shadow-lg" : "bg-muted text-muted-foreground hover:bg-muted/80"}`,
+                      children: [
+                        o.jsx(m.icon, {
+                          "code-path": "src/sections/Corpus.tsx:99:17",
+                          className: "w-4 h-4",
+                        }),
+                        m.title,
+                      ],
+                    },
+                    m.title,
+                  ),
+                ),
+              }),
+              o.jsx("div", {
+                "code-path": "src/sections/Corpus.tsx:105:11",
+                className: `p-8 rounded-2xl bg-gradient-to-br from-muted/50 to-muted border border-border transition-all duration-500 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`,
+                children: o.jsxs("div", {
+                  "code-path": "src/sections/Corpus.tsx:110:13",
+                  className: "flex items-start gap-4",
+                  children: [
+                    o.jsx("div", {
+                      "code-path": "src/sections/Corpus.tsx:111:15",
+                      className:
+                        "w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center shrink-0",
+                      children: (() => {
+                        const m = On[d].icon;
+                        return o.jsx(m, {
+                          "code-path": "src/sections/Corpus.tsx:114:26",
+                          className: "w-7 h-7 text-primary",
+                        });
+                      })(),
+                    }),
+                    o.jsxs("div", {
+                      "code-path": "src/sections/Corpus.tsx:117:15",
+                      children: [
+                        o.jsxs("h3", {
+                          "code-path": "src/sections/Corpus.tsx:118:17",
+                          className: "text-xl font-bold text-foreground mb-2",
+                          children: [d + 1, ". ", On[d].title],
+                        }),
+                        o.jsx("p", {
+                          "code-path": "src/sections/Corpus.tsx:121:17",
+                          className:
+                            "text-muted-foreground leading-relaxed mb-3",
+                          children: On[d].desc,
+                        }),
+                        o.jsx("span", {
+                          "code-path": "src/sections/Corpus.tsx:124:17",
+                          className:
+                            "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold",
+                          children: On[d].detail,
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Corpus.tsx:133:9",
+            className: "grid lg:grid-cols-2 gap-8",
+            children: [
+              o.jsxs("div", {
+                "code-path": "src/sections/Corpus.tsx:134:11",
+                children: [
+                  o.jsx("h3", {
+                    "code-path": "src/sections/Corpus.tsx:135:13",
+                    className: "text-xl font-bold text-foreground mb-6",
+                    children: "åˆ†ç±»ä½“ç³»å­—å…¸",
+                  }),
+                  o.jsx("div", {
+                    "code-path": "src/sections/Corpus.tsx:136:13",
+                    className: "space-y-3",
+                    children: dy.map((m) =>
+                      o.jsxs(
+                        "div",
+                        {
+                          "code-path": "src/sections/Corpus.tsx:138:17",
+                          className:
+                            "p-4 rounded-xl bg-muted/50 border border-border/50 hover:border-primary/30 transition-all",
+                          children: [
+                            o.jsxs("div", {
+                              "code-path": "src/sections/Corpus.tsx:142:19",
+                              className:
+                                "flex items-center justify-between mb-1",
+                              children: [
+                                o.jsx("span", {
+                                  "code-path": "src/sections/Corpus.tsx:143:21",
+                                  className: "font-semibold text-foreground",
+                                  children: m.name,
+                                }),
+                                o.jsxs("span", {
+                                  "code-path": "src/sections/Corpus.tsx:144:21",
+                                  className: "text-sm font-bold text-primary",
+                                  children: [m.count, "æ¡"],
+                                }),
+                              ],
+                            }),
+                            o.jsx("div", {
+                              "code-path": "src/sections/Corpus.tsx:146:19",
+                              className: "text-sm text-muted-foreground",
+                              children: m.sub,
+                            }),
+                            o.jsx("div", {
+                              "code-path": "src/sections/Corpus.tsx:147:19",
+                              className:
+                                "mt-2 h-2 rounded-full bg-muted overflow-hidden",
+                              children: o.jsx("div", {
+                                "code-path": "src/sections/Corpus.tsx:148:21",
+                                className:
+                                  "h-full rounded-full bg-gradient-brand transition-all duration-1000",
+                                style: { width: `${(m.count / 184) * 100}%` },
+                              }),
+                            }),
+                          ],
+                        },
+                        m.name,
+                      ),
+                    ),
+                  }),
+                ],
+              }),
+              o.jsxs("div", {
+                "code-path": "src/sections/Corpus.tsx:158:11",
+                children: [
+                  o.jsx("h3", {
+                    "code-path": "src/sections/Corpus.tsx:159:13",
+                    className: "text-xl font-bold text-foreground mb-6",
+                    children: "å¤„ç†æ ‡å‡†è§„èŒƒ",
+                  }),
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Corpus.tsx:160:13",
+                    className: "space-y-4",
+                    children: [
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Corpus.tsx:161:15",
+                        className:
+                          "p-5 rounded-xl bg-gradient-to-br from-blue-50 to-blue-100/50 border border-blue-200",
+                        children: [
+                          o.jsx("h4", {
+                            "code-path": "src/sections/Corpus.tsx:162:17",
+                            className: "font-semibold text-blue-900 mb-2",
+                            children: "ç­”æ¡ˆæ¨¡æ¿ï¼ˆä¸‰æ®µå¼ï¼‰",
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Corpus.tsx:163:17",
+                            className: "text-sm text-blue-800 space-y-1",
+                            children: [
+                              o.jsx("p", {
+                                "code-path": "src/sections/Corpus.tsx:164:19",
+                                children: "ã€ä¸€å¥è¯å›žç­”ã€‘30å­—ä»¥å†…æ¦‚æ‹¬æ ¸å¿ƒç­”æ¡ˆ",
+                              }),
+                              o.jsx("p", {
+                                "code-path": "src/sections/Corpus.tsx:165:19",
+                                children:
+                                  "ã€è¯¦ç»†è¯´æ˜Žã€‘æ¡ä»¶è¦æ±‚ã€åŠžç†æµç¨‹ã€æ‰€éœ€ææ–™ã€æ³¨æ„äº‹é¡¹",
+                              }),
+                              o.jsx("p", {
+                                "code-path": "src/sections/Corpus.tsx:166:19",
+                                children:
+                                  "ã€ç›¸å…³æŒ‡å¼•ã€‘åŠžç†åœ°ç‚¹ã€å’¨è¯¢ç”µè¯ã€å…³è”é—®é¢˜",
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Corpus.tsx:170:15",
+                        className:
+                          "p-5 rounded-xl bg-gradient-to-br from-orange-50 to-orange-100/50 border border-orange-200",
+                        children: [
+                          o.jsx("h4", {
+                            "code-path": "src/sections/Corpus.tsx:171:17",
+                            className: "font-semibold text-orange-900 mb-2",
+                            children: "å˜ä½“é—®é¢˜ç”ŸæˆæŠ€å·§",
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Corpus.tsx:172:17",
+                            className:
+                              "grid grid-cols-2 gap-2 text-sm text-orange-800",
+                            children: [
+                              o.jsxs("div", {
+                                "code-path": "src/sections/Corpus.tsx:173:19",
+                                className: "flex items-center gap-2",
+                                children: [
+                                  o.jsx("div", {
+                                    "code-path":
+                                      "src/sections/Corpus.tsx:174:21",
+                                    className:
+                                      "w-2 h-2 rounded-full bg-orange-500",
+                                  }),
+                                  "æ¢ä¸»è¯­ï¼ˆå¥–å­¦é‡‘â†’åŠ©å­¦é‡‘ï¼‰",
+                                ],
+                              }),
+                              o.jsxs("div", {
+                                "code-path": "src/sections/Corpus.tsx:177:19",
+                                className: "flex items-center gap-2",
+                                children: [
+                                  o.jsx("div", {
+                                    "code-path":
+                                      "src/sections/Corpus.tsx:178:21",
+                                    className:
+                                      "w-2 h-2 rounded-full bg-orange-500",
+                                  }),
+                                  "æ¢åŠ¨è¯ï¼ˆç”³è¯·â†’åŠžç†ï¼‰",
+                                ],
+                              }),
+                              o.jsxs("div", {
+                                "code-path": "src/sections/Corpus.tsx:181:19",
+                                className: "flex items-center gap-2",
+                                children: [
+                                  o.jsx("div", {
+                                    "code-path":
+                                      "src/sections/Corpus.tsx:182:21",
+                                    className:
+                                      "w-2 h-2 rounded-full bg-orange-500",
+                                  }),
+                                  "åŠ å£è¯­ï¼ˆå’‹ç”³è¯·ã€å•¥æµç¨‹ï¼‰",
+                                ],
+                              }),
+                              o.jsxs("div", {
+                                "code-path": "src/sections/Corpus.tsx:185:19",
+                                className: "flex items-center gap-2",
+                                children: [
+                                  o.jsx("div", {
+                                    "code-path":
+                                      "src/sections/Corpus.tsx:186:21",
+                                    className:
+                                      "w-2 h-2 rounded-full bg-orange-500",
+                                  }),
+                                  "åŠ åœºæ™¯ï¼ˆå¤§ä¸€æ–°ç”Ÿæ€Žä¹ˆï¼‰",
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Corpus.tsx:192:15",
+                        className:
+                          "p-5 rounded-xl bg-gradient-to-br from-violet-50 to-violet-100/50 border border-violet-200",
+                        children: [
+                          o.jsx("h4", {
+                            "code-path": "src/sections/Corpus.tsx:193:17",
+                            className: "font-semibold text-violet-900 mb-2",
+                            children: "çŠ¶æ€æµè½¬ç®¡ç†",
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Corpus.tsx:194:17",
+                            className:
+                              "flex items-center gap-2 text-sm text-violet-800",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Corpus.tsx:195:19",
+                                className: "px-2 py-1 rounded bg-gray-200",
+                                children: "å¾…å¤„ç†",
+                              }),
+                              o.jsx("span", {
+                                "code-path": "src/sections/Corpus.tsx:196:19",
+                                children: "â†’",
+                              }),
+                              o.jsx("span", {
+                                "code-path": "src/sections/Corpus.tsx:197:19",
+                                className: "px-2 py-1 rounded bg-yellow-200",
+                                children: "ç¼–è¾‘ä¸­",
+                              }),
+                              o.jsx("span", {
+                                "code-path": "src/sections/Corpus.tsx:198:19",
+                                children: "â†’",
+                              }),
+                              o.jsx("span", {
+                                "code-path": "src/sections/Corpus.tsx:199:19",
+                                className: "px-2 py-1 rounded bg-orange-200",
+                                children: "å¾…è´¨æ£€",
+                              }),
+                              o.jsx("span", {
+                                "code-path": "src/sections/Corpus.tsx:200:19",
+                                children: "â†’",
+                              }),
+                              o.jsx("span", {
+                                "code-path": "src/sections/Corpus.tsx:201:19",
+                                className: "px-2 py-1 rounded bg-green-200",
+                                children: "å·²å®Œæˆ",
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      }),
+    })
+  );
+}
+const my = [
+    { name: "å­¦ç”Ÿäº‹åŠ¡", count: 184, color: "#2563eb" },
+    { name: "ç”Ÿæ´»æœåŠ¡", count: 73, color: "#f59e0b" },
+    { name: "èŒä¸šå‘å±•", count: 47, color: "#8b5cf6" },
+    { name: "å…šå›¢å»ºè®¾", count: 27, color: "#10b981" },
+    { name: "å…¶ä»–", count: 10, color: "#6b7280" },
+    { name: "ç½‘ç»œæ€æ”¿", count: 1, color: "#ec4899" },
+  ],
+  py = [
+    { name: "å­¦ä¸šå‘å±•", count: 54 },
+    { name: "èµ„åŠ©è‚²äºº", count: 39 },
+    { name: "æ—¥å¸¸æœåŠ¡", count: 39 },
+    { name: "å°±ä¸šæŒ‡å¯¼", count: 37 },
+    { name: "å¿ƒç†å¥åº·", count: 35 },
+    { name: "ä½å®¿ç®¡ç†", count: 30 },
+    { name: "æ ¡å›­å®‰å…¨", count: 19 },
+    { name: "ç»„ç»‡å»ºè®¾", count: 17 },
+    { name: "å›¢å‘˜ç®¡ç†", count: 16 },
+  ];
+function xy({ data: u, maxVal: f }) {
+  return o.jsx("div", {
+    "code-path": "src/sections/Analytics.tsx:29:5",
+    className: "space-y-3",
+    children: u.map((d) =>
+      o.jsxs(
+        "div",
+        {
+          "code-path": "src/sections/Analytics.tsx:31:9",
+          className: "flex items-center gap-3",
+          children: [
+            o.jsx("span", {
+              "code-path": "src/sections/Analytics.tsx:32:11",
+              className:
+                "text-sm text-muted-foreground w-20 text-right shrink-0",
+              children: d.name,
+            }),
+            o.jsx("div", {
+              "code-path": "src/sections/Analytics.tsx:33:11",
+              className: "flex-1 h-8 bg-muted rounded-full overflow-hidden",
+              children: o.jsx("div", {
+                "code-path": "src/sections/Analytics.tsx:34:13",
+                className:
+                  "h-full rounded-full transition-all duration-1000 ease-out flex items-center justify-end pr-3",
+                style: {
+                  width: `${(d.count / f) * 100}%`,
+                  backgroundColor: d.color || "#2563eb",
+                },
+                children: o.jsx("span", {
+                  "code-path": "src/sections/Analytics.tsx:41:15",
+                  className: "text-xs font-semibold text-white",
+                  children: d.count,
+                }),
+              }),
+            }),
+          ],
+        },
+        d.name,
+      ),
+    ),
+  });
+}
+function yy({ data: u }) {
+  const f = Math.max(...u.map((d) => d.count));
+  return o.jsx("div", {
+    "code-path": "src/sections/Analytics.tsx:53:5",
+    className: "space-y-2.5",
+    children: u.map((d) =>
+      o.jsxs(
+        "div",
+        {
+          "code-path": "src/sections/Analytics.tsx:55:9",
+          children: [
+            o.jsxs("div", {
+              "code-path": "src/sections/Analytics.tsx:56:11",
+              className: "flex justify-between text-sm mb-1",
+              children: [
+                o.jsx("span", {
+                  "code-path": "src/sections/Analytics.tsx:57:13",
+                  className: "text-foreground font-medium",
+                  children: d.name,
+                }),
+                o.jsxs("span", {
+                  "code-path": "src/sections/Analytics.tsx:58:13",
+                  className: "text-muted-foreground",
+                  children: [d.count, "æ¡"],
+                }),
+              ],
+            }),
+            o.jsx("div", {
+              "code-path": "src/sections/Analytics.tsx:60:11",
+              className: "h-2.5 bg-muted rounded-full overflow-hidden",
+              children: o.jsx("div", {
+                "code-path": "src/sections/Analytics.tsx:61:13",
+                className:
+                  "h-full rounded-full bg-gradient-to-r from-blue-500 to-blue-400 transition-all duration-1000",
+                style: { width: `${(d.count / f) * 100}%` },
+              }),
+            }),
+          ],
+        },
+        d.name,
+      ),
+    ),
+  });
+}
+function vy() {
+  const [u, f] = j.useState(!1),
+    d = j.useRef(null);
+  return (
+    j.useEffect(() => {
+      const i = new IntersectionObserver(
+        ([h]) => {
+          h.isIntersecting && (f(!0), i.disconnect());
+        },
+        { threshold: 0.15 },
+      );
+      return (d.current && i.observe(d.current), () => i.disconnect());
+    }, []),
+    o.jsx("section", {
+      "code-path": "src/sections/Analytics.tsx:91:5",
+      id: "analytics",
+      className: "section-padding bg-muted/20",
+      ref: d,
+      children: o.jsxs("div", {
+        "code-path": "src/sections/Analytics.tsx:92:7",
+        className: "max-w-7xl mx-auto",
+        children: [
+          o.jsxs("div", {
+            "code-path": "src/sections/Analytics.tsx:93:9",
+            className: "text-center mb-16",
+            children: [
+              o.jsx("span", {
+                "code-path": "src/sections/Analytics.tsx:94:11",
+                className:
+                  "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
+                children: "æ•°æ®åˆ†æž",
+              }),
+              o.jsx("h2", {
+                "code-path": "src/sections/Analytics.tsx:97:11",
+                className:
+                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
+                children: "çŸ¥è¯†åº“æ•°æ®å¯è§†åŒ–åˆ†æž",
+              }),
+              o.jsx("p", {
+                "code-path": "src/sections/Analytics.tsx:100:11",
+                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
+                children:
+                  "å¯¹343æ¡è¯­æ–™è¿›è¡Œå¤šç»´åº¦åˆ†æžï¼Œæ´žå¯Ÿå­¦ç”Ÿå…³æ³¨çƒ­ç‚¹ï¼Œä¸ºæ™ºèƒ½ä½“ä¼˜åŒ–ä¸ŽæœåŠ¡æ”¹è¿›æä¾›æ•°æ®æ”¯æ’‘ã€‚",
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Analytics.tsx:105:9",
+            className: "grid lg:grid-cols-2 gap-8 mb-12",
+            children: [
+              o.jsxs("div", {
+                "code-path": "src/sections/Analytics.tsx:107:11",
+                className: `p-6 md:p-8 rounded-2xl bg-white border border-border shadow-sm transition-all duration-700 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                children: [
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Analytics.tsx:112:13",
+                    className: "flex items-center gap-3 mb-6",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Analytics.tsx:113:15",
+                        className:
+                          "w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center",
+                        children: o.jsx(gx, {
+                          "code-path": "src/sections/Analytics.tsx:114:17",
+                          className: "w-5 h-5 text-primary",
+                        }),
+                      }),
+                      o.jsx("h3", {
+                        "code-path": "src/sections/Analytics.tsx:116:15",
+                        className: "text-lg font-bold text-foreground",
+                        children: "ä¸€çº§åˆ†ç±»åˆ†å¸ƒ",
+                      }),
+                    ],
+                  }),
+                  o.jsx(xy, {
+                    "code-path": "src/sections/Analytics.tsx:118:13",
+                    data: my,
+                    maxVal: 184,
+                  }),
+                ],
+              }),
+              o.jsxs("div", {
+                "code-path": "src/sections/Analytics.tsx:122:11",
+                className: `p-6 md:p-8 rounded-2xl bg-white border border-border shadow-sm transition-all duration-700 delay-100 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                children: [
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Analytics.tsx:127:13",
+                    className: "flex items-center gap-3 mb-6",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Analytics.tsx:128:15",
+                        className:
+                          "w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center",
+                        children: o.jsx(Vh, {
+                          "code-path": "src/sections/Analytics.tsx:129:17",
+                          className: "w-5 h-5 text-secondary",
+                        }),
+                      }),
+                      o.jsx("h3", {
+                        "code-path": "src/sections/Analytics.tsx:131:15",
+                        className: "text-lg font-bold text-foreground",
+                        children: "äºŒçº§åˆ†ç±»TOP9",
+                      }),
+                    ],
+                  }),
+                  o.jsx(yy, {
+                    "code-path": "src/sections/Analytics.tsx:133:13",
+                    data: py,
+                  }),
+                ],
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Analytics.tsx:138:9",
+            className: `p-6 md:p-8 rounded-2xl bg-white border border-border shadow-sm mb-8 transition-all duration-700 delay-200 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+            children: [
+              o.jsxs("div", {
+                "code-path": "src/sections/Analytics.tsx:143:11",
+                className: "flex items-center gap-3 mb-6",
+                children: [
+                  o.jsx("div", {
+                    "code-path": "src/sections/Analytics.tsx:144:13",
+                    className:
+                      "w-10 h-10 rounded-lg bg-violet-100 flex items-center justify-center",
+                    children: o.jsx(gh, {
+                      "code-path": "src/sections/Analytics.tsx:145:15",
+                      className: "w-5 h-5 text-violet-600",
+                    }),
+                  }),
+                  o.jsx("h3", {
+                    "code-path": "src/sections/Analytics.tsx:147:13",
+                    className: "text-lg font-bold text-foreground",
+                    children: "é—®é¢˜å…³é”®è¯äº‘",
+                  }),
+                ],
+              }),
+              o.jsx("div", {
+                "code-path": "src/sections/Analytics.tsx:149:11",
+                className: "relative",
+                children: o.jsx("img", {
+                  "code-path": "src/sections/Analytics.tsx:150:13",
+                  src: "/images/wordcloud.png",
+                  alt: "é—®é¢˜è¯äº‘",
+                  className: "w-full rounded-xl",
+                }),
+              }),
+            ],
+          }),
+          o.jsx("div", {
+            "code-path": "src/sections/Analytics.tsx:159:9",
+            className: `grid grid-cols-2 lg:grid-cols-4 gap-4 transition-all duration-700 delay-300 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+            children: [
+              { label: "å¹³å‡ç­”æ¡ˆå­—æ•°", value: "238", unit: "å­—", icon: Wi },
+              { label: "å¹³å‡å˜ä½“æ•°", value: "4.1", unit: "ä¸ª/é—®é¢˜", icon: gh },
+              { label: "è´¨æ£€åˆæ ¼çŽ‡", value: "99.4", unit: "%", icon: gy },
+              { label: "å”¯ä¸€æ ‡ç­¾æ•°", value: "330", unit: "ä¸ª", icon: by },
+            ].map((i) =>
+              o.jsxs(
+                "div",
+                {
+                  "code-path": "src/sections/Analytics.tsx:170:13",
+                  className:
+                    "p-5 rounded-xl bg-gradient-to-br from-white to-muted border border-border text-center",
+                  children: [
+                    o.jsx(i.icon, {
+                      "code-path": "src/sections/Analytics.tsx:174:15",
+                      className: "w-6 h-6 text-primary mx-auto mb-2",
+                    }),
+                    o.jsxs("div", {
+                      "code-path": "src/sections/Analytics.tsx:175:15",
+                      className:
+                        "text-2xl md:text-3xl font-bold text-foreground",
+                      children: [
+                        i.value,
+                        o.jsx("span", {
+                          "code-path": "src/sections/Analytics.tsx:177:17",
+                          className:
+                            "text-sm font-normal text-muted-foreground ml-1",
+                          children: i.unit,
+                        }),
+                      ],
+                    }),
+                    o.jsx("div", {
+                      "code-path": "src/sections/Analytics.tsx:179:15",
+                      className: "text-sm text-muted-foreground mt-1",
+                      children: i.label,
+                    }),
+                  ],
+                },
+                i.label,
+              ),
+            ),
+          }),
+        ],
+      }),
+    })
+  );
+}
+function gy({ className: u }) {
+  return o.jsxs("svg", {
+    "code-path": "src/sections/Analytics.tsx:190:5",
+    className: u,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "2",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    children: [
+      o.jsx("path", {
+        "code-path": "src/sections/Analytics.tsx:191:7",
+        d: "M22 11.08V12a10 10 0 1 1-5.93-9.14",
+      }),
+      o.jsx("polyline", {
+        "code-path": "src/sections/Analytics.tsx:192:7",
+        points: "22 4 12 14.01 9 11.01",
+      }),
+    ],
+  });
+}
+function by({ className: u }) {
+  return o.jsxs("svg", {
+    "code-path": "src/sections/Analytics.tsx:199:5",
+    className: u,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "2",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    children: [
+      o.jsx("path", {
+        "code-path": "src/sections/Analytics.tsx:200:7",
+        d: "M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z",
+      }),
+      o.jsx("line", {
+        "code-path": "src/sections/Analytics.tsx:201:7",
+        x1: "7",
+        y1: "7",
+        x2: "7.01",
+        y2: "7",
+      }),
+    ],
+  });
+}
+const Un = [
+    {
+      icon: $i,
+      title: "è¯­ä¹‰ç†è§£ä¸Žæ¨¡ç³ŠåŒ¹é…",
+      desc: 'åŸºäºŽå¤§æ¨¡åž‹è¯­ä¹‰ç†è§£èƒ½åŠ›ï¼Œæ”¯æŒå­¦ç”Ÿç”¨ä¸åŒæ–¹å¼è¡¨è¾¾åŒä¸€é—®é¢˜ã€‚å¦‚"å¥–å­¦é‡‘å•¥æ—¶å€™å‘"å’Œ"å¥–å­¦é‡‘ä»€ä¹ˆæ—¶å€™åˆ°è´¦"ä¼šè¢«è¯†åˆ«ä¸ºåŒä¸€é—®é¢˜ï¼Œç†è§£å£è¯­åŒ–ã€ç®€åŒ–çš„è¡¨è¾¾æ–¹å¼ã€‚',
+      highlight: "æ”¯æŒå£è¯­åŒ–æé—®",
+    },
+    {
+      icon: Vx,
+      title: "çŸ¥è¯†åº“æ™ºèƒ½æ£€ç´¢",
+      desc: "ä»Žå·²é…ç½®çš„343æ¡çŸ¥è¯†åº“ä¸­æ£€ç´¢æœ€åŒ¹é…çš„ç­”æ¡ˆï¼Œå¬å›žæ•°é‡3-5æ¡ï¼Œç›¸ä¼¼åº¦é˜ˆå€¼0.6-0.7ã€‚æä¾›ç»“æž„åŒ–ã€æ¸…æ™°çš„å›žç­”ï¼Œä¼˜å…ˆåŒ¹é…å˜ä½“é—®é¢˜å­—æ®µï¼Œç»“åˆæ ‡ç­¾è¿›è¡Œè¯­ä¹‰æ‰©å±•ã€‚",
+      highlight: "343æ¡ç²¾å‡†è¯­æ–™",
+    },
+    {
+      icon: Jh,
+      title: "å…³é”®åœºæ™¯è¯†åˆ«ä¸Žè½¬æŽ¥",
+      desc: "æ™ºèƒ½è¯†åˆ«å¿ƒç†å±æœºï¼ˆè‡ªæ€å€¾å‘ã€ä¸¥é‡æŠ‘éƒï¼‰ã€ç´§æ€¥å®‰å…¨äº‹ä»¶ã€å¤æ‚æŠ•è¯‰ç­‰éœ€äººå·¥ä»‹å…¥çš„åœºæ™¯ï¼Œè‡ªåŠ¨è§¦å‘è½¬æŽ¥æœºåˆ¶ï¼Œæä¾›è¾…å¯¼å‘˜è”ç³»æ–¹å¼å’Œå±æœºçƒ­çº¿ï¼Œç¡®ä¿å­¦ç”Ÿå®‰å…¨ã€‚",
+      highlight: "å®‰å…¨ç¬¬ä¸€",
+    },
+    {
+      icon: Fi,
+      title: "æœªåŒ¹é…é—®é¢˜è®°å½•",
+      desc: "å½“åŒ¹é…åº¦ä½ŽäºŽ50%æˆ–æ£€ç´¢ä¸ºç©ºæ—¶ï¼Œè‡ªåŠ¨è®°å½•é—®é¢˜åˆ°æ•°æ®åº“ï¼ˆæ”¯æŒæ‰£å­æ•°æ®åº“/é£žä¹¦è¡¨æ ¼/ä¼å¾®ç¾¤ï¼‰ï¼ŒåŒ…å«æé—®æ—¶é—´ã€é—®é¢˜æ„å›¾ã€åŒ¹é…åˆ†æ•°ç­‰ï¼Œä¾¿äºŽè¾…å¯¼å‘˜åŽæœŸè¡¥å……çŸ¥è¯†åº“ã€‚",
+      highlight: "æŒç»­ä¼˜åŒ–",
+    },
+    {
+      icon: sy,
+      title: "ä¸‰æ®µå¼å›žç­”æ¨¡æ¿",
+      desc: 'æ‰€æœ‰å›žç­”ç»Ÿä¸€é‡‡ç”¨"ä¸€å¥è¯æ¦‚æ‹¬+è¯¦ç»†è¯´æ˜Žï¼ˆè¦ç‚¹åŒ–ï¼‰+ç›¸å…³æŒ‡å¼•ï¼ˆè”ç³»æ–¹å¼/å…³è”é—®é¢˜ï¼‰"çš„ç»“æž„ï¼Œç¡®ä¿å­¦ç”Ÿå¿«é€ŸèŽ·å–æ ¸å¿ƒä¿¡æ¯ï¼ŒåŒæ—¶æä¾›æ·±åº¦è§£ç­”ã€‚',
+      highlight: "ç»“æž„æ¸…æ™°",
+    },
+    {
+      icon: Kh,
+      title: "äº²åˆ‡æ¸©æš–çš„äº¤äº’é£Žæ ¼",
+      desc: 'åƒæœ‹å‹ä¸€æ ·èŠå¤©ï¼Œé¿å…å®˜æ–¹è¯­æ°”ã€‚ä½¿ç”¨"åŒå­¦ä½ å¥½å‘€ï½ž"ç­‰äº²åˆ‡é—®å€™ï¼Œé€‚åº¦ä½¿ç”¨emojiå¢žåŠ äº²åˆ‡æ„Ÿï¼Œå›žç­”æœ«å°¾ä¸»åŠ¨æä¾›å»¶ä¼¸å»ºè®®ï¼Œè®©æŠ€æœ¯æœ‰æ¸©åº¦ã€‚',
+      highlight: "æœ‰æ¸©åº¦çš„AI",
+    },
+  ],
+  Bi = {
+    name: "å­¦ç”Ÿä¸€ç«™å¼ç¤¾åŒºåŠ©æ‰‹",
+    welcome:
+      "ä½ å¥½å‘€ï¼æˆ‘æ˜¯å­¦ç”Ÿç¤¾åŒºåŠ©æ‰‹ï¼Œæœ‰ä»€ä¹ˆæƒ³é—®çš„å°½ç®¡è¯´ï½žä¸ç®¡æ˜¯é€‰è¯¾ã€å¥–å­¦é‡‘ã€å®¿èˆé—®é¢˜è¿˜æ˜¯å¿ƒæƒ…ä¸å¥½æƒ³èŠèŠï¼Œæˆ‘éƒ½åœ¨å“¦ï¼",
+    principles: [
+      "äº²åˆ‡æ„Ÿï¼šåƒæœ‹å‹ä¸€æ ·èŠå¤©",
+      "å‡†ç¡®æ€§ï¼šä¸çŸ¥é“å°±è¯´ä¸çŸ¥é“",
+      "ä¸»åŠ¨æ€§ï¼šæä¾›å»¶ä¼¸å»ºè®®",
+      "å®‰å…¨æ€§ï¼šå…³æ³¨å¿ƒç†å¥åº·",
+    ],
+  };
+function Sy() {
+  const [u, f] = j.useState(!1),
+    [d, i] = j.useState(0),
+    h = j.useRef(null);
+  return (
+    j.useEffect(() => {
+      const m = new IntersectionObserver(
+        ([b]) => {
+          b.isIntersecting && (f(!0), m.disconnect());
+        },
+        { threshold: 0.15 },
+      );
+      return (h.current && m.observe(h.current), () => m.disconnect());
+    }, []),
+    o.jsx("section", {
+      "code-path": "src/sections/Features.tsx:70:5",
+      id: "features",
+      className: "section-padding bg-white",
+      ref: h,
+      children: o.jsxs("div", {
+        "code-path": "src/sections/Features.tsx:71:7",
+        className: "max-w-7xl mx-auto",
+        children: [
+          o.jsxs("div", {
+            "code-path": "src/sections/Features.tsx:72:9",
+            className: "text-center mb-16",
+            children: [
+              o.jsx("span", {
+                "code-path": "src/sections/Features.tsx:73:11",
+                className:
+                  "inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4",
+                children: "æ™ºèƒ½ä½“åŠŸèƒ½",
+              }),
+              o.jsx("h2", {
+                "code-path": "src/sections/Features.tsx:76:11",
+                className:
+                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
+                children: '"å®ˆæœ›æ™ºä¼´"æ ¸å¿ƒèƒ½åŠ›',
+              }),
+              o.jsx("p", {
+                "code-path": "src/sections/Features.tsx:79:11",
+                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
+                children:
+                  "åŸºäºŽæ‰£å­å¹³å°æ­å»ºçš„æ™ºèƒ½ä½“å…·å¤‡å…­å¤§æ ¸å¿ƒèƒ½åŠ›ï¼Œè¦†ç›–ä»Žè¯­ä¹‰ç†è§£åˆ°å®‰å…¨è½¬æŽ¥çš„å…¨é“¾è·¯æœåŠ¡åœºæ™¯ã€‚",
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Features.tsx:84:9",
+            className: "grid lg:grid-cols-3 gap-8 mb-16",
+            children: [
+              o.jsx("div", {
+                "code-path": "src/sections/Features.tsx:86:11",
+                className: "lg:col-span-1 space-y-3",
+                children: Un.map((m, b) =>
+                  o.jsx(
+                    "button",
+                    {
+                      "code-path": "src/sections/Features.tsx:88:15",
+                      onClick: () => i(b),
+                      className: `w-full text-left p-4 rounded-xl transition-all duration-300 ${d === b ? "bg-primary text-white shadow-lg" : "bg-muted text-foreground hover:bg-muted/80"}`,
+                      children: o.jsxs("div", {
+                        "code-path": "src/sections/Features.tsx:97:17",
+                        className: "flex items-center gap-3",
+                        children: [
+                          o.jsx(m.icon, {
+                            "code-path": "src/sections/Features.tsx:98:19",
+                            className: `w-5 h-5 ${d === b ? "text-white" : "text-primary"}`,
+                          }),
+                          o.jsx("span", {
+                            "code-path": "src/sections/Features.tsx:99:19",
+                            className: "font-semibold text-sm",
+                            children: m.title,
+                          }),
+                        ],
+                      }),
+                    },
+                    m.title,
+                  ),
+                ),
+              }),
+              o.jsx("div", {
+                "code-path": "src/sections/Features.tsx:106:11",
+                className: "lg:col-span-2",
+                children: o.jsxs("div", {
+                  "code-path": "src/sections/Features.tsx:107:13",
+                  className: `p-8 rounded-2xl bg-gradient-to-br from-muted/50 to-muted border border-border h-full transition-all duration-500 ${u ? "opacity-100 translate-x-0" : "opacity-0 translate-x-6"}`,
+                  children: [
+                    o.jsxs("div", {
+                      "code-path": "src/sections/Features.tsx:112:15",
+                      className: "flex items-center gap-3 mb-4",
+                      children: [
+                        o.jsx("div", {
+                          "code-path": "src/sections/Features.tsx:113:17",
+                          className:
+                            "w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center",
+                          children: (() => {
+                            const m = Un[d].icon;
+                            return o.jsx(m, {
+                              "code-path": "src/sections/Features.tsx:116:28",
+                              className: "w-6 h-6 text-primary",
+                            });
+                          })(),
+                        }),
+                        o.jsxs("div", {
+                          "code-path": "src/sections/Features.tsx:119:17",
+                          children: [
+                            o.jsx("h3", {
+                              "code-path": "src/sections/Features.tsx:120:19",
+                              className: "text-xl font-bold text-foreground",
+                              children: Un[d].title,
+                            }),
+                            o.jsx("span", {
+                              "code-path": "src/sections/Features.tsx:123:19",
+                              className:
+                                "inline-block mt-1 px-2 py-0.5 rounded-full bg-primary/10 text-primary text-xs font-semibold",
+                              children: Un[d].highlight,
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    o.jsx("p", {
+                      "code-path": "src/sections/Features.tsx:128:15",
+                      className: "text-muted-foreground leading-relaxed mb-6",
+                      children: Un[d].desc,
+                    }),
+                    d === 0 &&
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Features.tsx:134:17",
+                        className: "space-y-3",
+                        children: [
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:135:19",
+                            className:
+                              "p-3 rounded-xl bg-white border border-border text-sm",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:136:21",
+                                className:
+                                  "text-muted-foreground text-xs block mb-1",
+                                children: "å­¦ç”Ÿæé—®A",
+                              }),
+                              '"å¥–å­¦é‡‘å•¥æ—¶å€™å‘ï¼Ÿ"',
+                            ],
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:139:19",
+                            className:
+                              "p-3 rounded-xl bg-white border border-border text-sm",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:140:21",
+                                className:
+                                  "text-muted-foreground text-xs block mb-1",
+                                children: "å­¦ç”Ÿæé—®B",
+                              }),
+                              '"å¥–å­¦é‡‘ä»€ä¹ˆæ—¶å€™åˆ°è´¦"',
+                            ],
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:143:19",
+                            className:
+                              "p-3 rounded-xl bg-primary/5 border border-primary/20 text-sm text-primary",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:144:21",
+                                className: "text-xs block mb-1",
+                                children: "æ™ºèƒ½ä½“è¯†åˆ«ç»“æžœ",
+                              }),
+                              "è¯­ä¹‰ç›¸ä¼¼åº¦ 95% â†’ åŒ¹é…åŒä¸€ç­”æ¡ˆ",
+                            ],
+                          }),
+                        ],
+                      }),
+                    d === 2 &&
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Features.tsx:151:17",
+                        className: "space-y-3",
+                        children: [
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:152:19",
+                            className:
+                              "p-3 rounded-xl bg-red-50 border border-red-200 text-sm text-red-800",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:153:21",
+                                className: "text-xs block mb-1",
+                                children: "å±æœºå…³é”®è¯è§¦å‘",
+                              }),
+                              '"æˆ‘è§‰å¾—æ´»ç€æ²¡æ„ä¹‰ï¼Œç‰¹åˆ«ç»æœ›"',
+                            ],
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:156:19",
+                            className:
+                              "p-3 rounded-xl bg-primary/5 border border-primary/20 text-sm",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:157:21",
+                                className: "text-primary text-xs block mb-1",
+                                children: "æ™ºèƒ½ä½“å“åº”",
+                              }),
+                              "è¯†åˆ«åˆ°å¿ƒç†å±æœºä¿¡å· â†’ è‡ªåŠ¨æŽ¨é€è¾…å¯¼å‘˜è”ç³»æ–¹å¼ + å¿ƒç†çƒ­çº¿",
+                            ],
+                          }),
+                        ],
+                      }),
+                    d === 3 &&
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Features.tsx:164:17",
+                        className: "space-y-3",
+                        children: [
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:165:19",
+                            className:
+                              "p-3 rounded-xl bg-muted border border-border text-sm",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:166:21",
+                                className:
+                                  "text-muted-foreground text-xs block mb-1",
+                                children: "å­¦ç”Ÿæé—®ï¼ˆçŸ¥è¯†åº“æœªè¦†ç›–ï¼‰",
+                              }),
+                              '"å­¦æ ¡æ–°å¼€çš„å’–å•¡åº—è€æ¿æ˜¯è°ï¼Ÿ"',
+                            ],
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:169:19",
+                            className:
+                              "p-3 rounded-xl bg-yellow-50 border border-yellow-200 text-sm text-yellow-800",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:170:21",
+                                className: "text-xs block mb-1",
+                                children: "ç³»ç»Ÿè®°å½•",
+                              }),
+                              'åŒ¹é…åº¦: 12% | è‡ªåŠ¨è®°å½•åˆ°"æœªåŒ¹é…é—®é¢˜"è¡¨ | çŠ¶æ€: å¾…å¤„ç†',
+                            ],
+                          }),
+                        ],
+                      }),
+                    d === 5 &&
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Features.tsx:177:17",
+                        className: "space-y-3",
+                        children: [
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:178:19",
+                            className:
+                              "p-3 rounded-xl bg-primary/5 border border-primary/20 text-sm text-primary",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:179:21",
+                                className: "text-xs block mb-1",
+                                children: "å¼€åœºç™½ç¤ºä¾‹",
+                              }),
+                              "ä½ å¥½å‘€ï¼æˆ‘æ˜¯å­¦ç”Ÿç¤¾åŒºåŠ©æ‰‹ ðŸŒŸ æ— è®ºæ˜¯å­¦ä¸šé—®é¢˜ã€ç”Ÿæ´»å›°æ‰°ï¼Œè¿˜æ˜¯å¿ƒæƒ…ä¸å¥½æƒ³èŠèŠï¼Œéƒ½å¯ä»¥é—®æˆ‘å“¦ï¼",
+                            ],
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Features.tsx:182:19",
+                            className:
+                              "p-3 rounded-xl bg-muted border border-border text-sm",
+                            children: [
+                              o.jsx("span", {
+                                "code-path": "src/sections/Features.tsx:183:21",
+                                className:
+                                  "text-muted-foreground text-xs block mb-1",
+                                children: "å›žç­”ç¤ºä¾‹",
+                              }),
+                              "åŒå­¦ä½ å¥½å‘€ï½žå…³äºŽå¥–å­¦é‡‘å‘æ”¾æ—¶é—´ï¼Œæ¯å­¦æœŸè¯„å¥–ç»“æŸåŽå‘æ”¾ï¼Œä¸ŠåŠå¹´çº¦6æœˆï¼Œä¸‹åŠå¹´çº¦12æœˆã€‚å¦‚æžœä½ è¿˜æœ‰ç–‘é—®ï¼Œå¯ä»¥ç»§ç»­é—®æˆ‘å“¦ ðŸ’¡",
+                            ],
+                          }),
+                        ],
+                      }),
+                  ],
+                }),
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Features.tsx:193:9",
+            className: `p-6 md:p-8 rounded-2xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white transition-all duration-700 delay-200 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+            children: [
+              o.jsx("h3", {
+                "code-path": "src/sections/Features.tsx:198:11",
+                className: "text-xl font-bold mb-4",
+                children: "Boté…ç½®æ¦‚è§ˆ",
+              }),
+              o.jsxs("div", {
+                "code-path": "src/sections/Features.tsx:199:11",
+                className: "grid md:grid-cols-2 gap-6",
+                children: [
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Features.tsx:200:13",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Features.tsx:201:15",
+                        className: "text-white/60 text-sm mb-1",
+                        children: "Botåç§°",
+                      }),
+                      o.jsx("div", {
+                        "code-path": "src/sections/Features.tsx:202:15",
+                        className: "font-semibold",
+                        children: Bi.name,
+                      }),
+                    ],
+                  }),
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Features.tsx:204:13",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Features.tsx:205:15",
+                        className: "text-white/60 text-sm mb-1",
+                        children: "æ¬¢è¿Žè¯­",
+                      }),
+                      o.jsx("div", {
+                        "code-path": "src/sections/Features.tsx:206:15",
+                        className: "font-semibold text-sm",
+                        children: Bi.welcome,
+                      }),
+                    ],
+                  }),
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Features.tsx:208:13",
+                    className: "md:col-span-2",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Features.tsx:209:15",
+                        className: "text-white/60 text-sm mb-2",
+                        children: "æ ¸å¿ƒåŽŸåˆ™",
+                      }),
+                      o.jsx("div", {
+                        "code-path": "src/sections/Features.tsx:210:15",
+                        className: "flex flex-wrap gap-2",
+                        children: Bi.principles.map((m) =>
+                          o.jsx(
+                            "span",
+                            {
+                              "code-path": "src/sections/Features.tsx:212:19",
+                              className:
+                                "px-3 py-1 rounded-full bg-white/10 text-sm",
+                              children: m,
+                            },
+                            m,
+                          ),
+                        ),
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      }),
+    })
+  );
+}
+function Ny() {
+  const [u, f] = j.useState(!1),
+    d = j.useRef(null);
+  return (
+    j.useEffect(() => {
+      const i = new IntersectionObserver(
+        ([h]) => {
+          h.isIntersecting && (f(!0), i.disconnect());
+        },
+        { threshold: 0.15 },
+      );
+      return (d.current && i.observe(d.current), () => i.disconnect());
+    }, []),
+    o.jsx("section", {
+      "code-path": "src/sections/Design.tsx:23:5",
+      id: "design",
+      className: "section-padding bg-muted/20",
+      ref: d,
+      children: o.jsxs("div", {
+        "code-path": "src/sections/Design.tsx:24:7",
+        className: "max-w-7xl mx-auto",
+        children: [
+          o.jsxs("div", {
+            "code-path": "src/sections/Design.tsx:25:9",
+            className: "text-center mb-16",
+            children: [
+              o.jsx("span", {
+                "code-path": "src/sections/Design.tsx:26:11",
+                className:
+                  "inline-block px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium mb-4",
+                children: "å½¢è±¡è®¾è®¡",
+              }),
+              o.jsx("h2", {
+                "code-path": "src/sections/Design.tsx:29:11",
+                className:
+                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
+                children: "Logoä¸Žæ™ºèƒ½ä½“å½¢è±¡",
+              }),
+              o.jsx("p", {
+                "code-path": "src/sections/Design.tsx:32:11",
+                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
+                children:
+                  '"å®ˆæœ›æ™ºä¼´"å“ç‰Œè§†è§‰ä½“ç³»èžåˆå¸¸å·žå·¥ä¸šèŒä¸šæŠ€æœ¯å­¦é™¢ç‰¹è‰²ä¸Žä¸€ç«™å¼å­¦ç”Ÿç¤¾åŒºç†å¿µï¼Œä¼ é€’"å‡ºå…¥ç›¸å‹ã€å®ˆæœ›ç›¸åŠ©"çš„ç¤¾åŒºæ–‡åŒ–ã€‚',
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Design.tsx:37:9",
+            className: "grid lg:grid-cols-2 gap-8 mb-12",
+            children: [
+              o.jsxs("div", {
+                "code-path": "src/sections/Design.tsx:39:11",
+                className: `p-8 rounded-2xl bg-white border border-border shadow-sm transition-all duration-700 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                children: [
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Design.tsx:44:13",
+                    className: "flex items-center gap-3 mb-6",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Design.tsx:45:15",
+                        className:
+                          "w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center",
+                        children: o.jsx(kx, {
+                          "code-path": "src/sections/Design.tsx:46:17",
+                          className: "w-5 h-5 text-primary",
+                        }),
+                      }),
+                      o.jsx("h3", {
+                        "code-path": "src/sections/Design.tsx:48:15",
+                        className: "text-lg font-bold text-foreground",
+                        children: "å“ç‰ŒLogo",
+                      }),
+                    ],
+                  }),
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Design.tsx:51:13",
+                    className: "flex flex-col items-center",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Design.tsx:52:15",
+                        className:
+                          "w-64 h-64 rounded-2xl bg-gradient-to-br from-muted/50 to-muted flex items-center justify-center p-6 mb-6",
+                        children: o.jsx("img", {
+                          "code-path": "src/sections/Design.tsx:53:17",
+                          src: "/images/logo.png",
+                          alt: "å®ˆæœ›æ™ºä¼´Logo",
+                          className: "w-full h-full object-contain",
+                        }),
+                      }),
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Design.tsx:60:15",
+                        className: "space-y-3 w-full",
+                        children: [
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Design.tsx:61:17",
+                            className: "p-4 rounded-xl bg-muted/50",
+                            children: [
+                              o.jsxs("h4", {
+                                "code-path": "src/sections/Design.tsx:62:19",
+                                className:
+                                  "font-semibold text-foreground mb-2 flex items-center gap-2",
+                                children: [
+                                  o.jsx(kh, {
+                                    "code-path":
+                                      "src/sections/Design.tsx:63:21",
+                                    className: "w-4 h-4 text-secondary",
+                                  }),
+                                  "è®¾è®¡ç†å¿µ",
+                                ],
+                              }),
+                              o.jsx("p", {
+                                "code-path": "src/sections/Design.tsx:66:19",
+                                className:
+                                  "text-sm text-muted-foreground leading-relaxed",
+                                children: [
+                                  "å¼€æ”¾å¼åŒè‰²çŽ¯å½¢ï¼šå·¦è“ï¼ˆç§‘æŠ€ï¼‰å³æ©™ï¼ˆæ¸©æš–ï¼‰",
+                                  o.jsx("br", {}),
+                                  "åŒæ‰‹æ‰˜ä¸¾å½¢æˆå¿ƒå½¢ï¼šè±¡å¾å®ˆæŠ¤ä¸Žå…³çˆ±",
+                                  o.jsx("br", {}),
+                                  'å“ç‰Œå "å®ˆæœ›ãƒ»æ™ºä¼´" ä¸ŽçŽ¯å½¢è‰²å½©å‘¼åº”',
+                                  o.jsx("br", {}),
+                                  'æ ‡è¯­ "å‡ºå…¥ç›¸å‹ãƒ»å®ˆæœ›ç›¸åŠ©ãƒ»æ™ºæ…§é™ªä¼´" ä¼ é€’å“ç‰Œæ¸©åº¦',
+                                ],
+                              }),
+                            ],
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Design.tsx:71:17",
+                            className: "p-4 rounded-xl bg-muted/50",
+                            children: [
+                              o.jsxs("h4", {
+                                "code-path": "src/sections/Design.tsx:72:19",
+                                className:
+                                  "font-semibold text-foreground mb-2 flex items-center gap-2",
+                                children: [
+                                  o.jsx(Xh, {
+                                    "code-path":
+                                      "src/sections/Design.tsx:73:21",
+                                    className: "w-4 h-4 text-primary",
+                                  }),
+                                  "å‘½åé‡Šä¹‰",
+                                ],
+                              }),
+                              o.jsx("p", {
+                                "code-path": "src/sections/Design.tsx:76:19",
+                                className:
+                                  "text-sm text-muted-foreground leading-relaxed",
+                                children:
+                                  '"å®ˆæœ›"å–è‡ªå­¦æ ¡"å®ˆæœ›Â·å¸¸å·¥ä¸š"ç¤¾åŒºè‚²äººå“ç‰Œï¼Œå¯“æ„"å‡ºå…¥ç›¸å‹ã€å®ˆæœ›ç›¸åŠ©"ï¼›"æ™ºä¼´"ä»£è¡¨AIæ™ºèƒ½ä¼™ä¼´ï¼Œå¯“æ„æœ‰æ™ºæ…§çš„é™ªä¼´è€…ã€‚',
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+              o.jsxs("div", {
+                "code-path": "src/sections/Design.tsx:85:11",
+                className: `p-8 rounded-2xl bg-white border border-border shadow-sm transition-all duration-700 delay-100 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                children: [
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Design.tsx:90:13",
+                    className: "flex items-center gap-3 mb-6",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Design.tsx:91:15",
+                        className:
+                          "w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center",
+                        children: o.jsx(Jh, {
+                          "code-path": "src/sections/Design.tsx:92:17",
+                          className: "w-5 h-5 text-secondary",
+                        }),
+                      }),
+                      o.jsx("h3", {
+                        "code-path": "src/sections/Design.tsx:94:15",
+                        className: "text-lg font-bold text-foreground",
+                        children: "æ™ºèƒ½ä½“å½¢è±¡",
+                      }),
+                    ],
+                  }),
+                  o.jsxs("div", {
+                    "code-path": "src/sections/Design.tsx:97:13",
+                    className: "flex flex-col items-center",
+                    children: [
+                      o.jsx("div", {
+                        "code-path": "src/sections/Design.tsx:98:15",
+                        className:
+                          "w-56 h-72 rounded-2xl bg-gradient-to-br from-blue-50 to-orange-50 flex items-center justify-center p-4 mb-6",
+                        children: o.jsx("img", {
+                          "code-path": "src/sections/Design.tsx:99:17",
+                          src: "/images/mascot.png",
+                          alt: "æ™ºèƒ½ä½“å½¢è±¡",
+                          className: "w-full h-full object-contain",
+                        }),
+                      }),
+                      o.jsxs("div", {
+                        "code-path": "src/sections/Design.tsx:106:15",
+                        className: "space-y-3 w-full",
+                        children: [
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Design.tsx:107:17",
+                            className: "p-4 rounded-xl bg-muted/50",
+                            children: [
+                              o.jsx("h4", {
+                                "code-path": "src/sections/Design.tsx:108:19",
+                                className: "font-semibold text-foreground mb-2",
+                                children: "å½¢è±¡è®¾å®š",
+                              }),
+                              o.jsx("p", {
+                                "code-path": "src/sections/Design.tsx:109:19",
+                                className:
+                                  "text-sm text-muted-foreground leading-relaxed",
+                                children:
+                                  '"å°æœ›"â€”â€”ä¸€ä¸ªæˆ´ç€å­¦å£«å¸½çš„è“è‰²å°æœºå™¨äººï¼Œèƒ¸å‰æœ‰æ¸©æš–çš„å¿ƒå½¢æ ‡å¿—ï¼Œæ‰‹æŒä¹¦å·ã€‚å¤§çœ¼ç›å’Œå¾®ç¬‘è¡¨æƒ…ä¼ é€’å‹å¥½ä¸Žäº²åˆ‡ï¼Œæ•´ä½“å½¢è±¡æ—¢æœ‰ç§‘æŠ€æ„Ÿåˆä¸å¤±æ¸©åº¦ã€‚',
+                              }),
+                            ],
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Design.tsx:114:17",
+                            className: "grid grid-cols-2 gap-3",
+                            children: [
+                              o.jsxs("div", {
+                                "code-path": "src/sections/Design.tsx:115:19",
+                                className:
+                                  "p-3 rounded-xl bg-blue-50 border border-blue-100",
+                                children: [
+                                  o.jsx("div", {
+                                    "code-path":
+                                      "src/sections/Design.tsx:116:21",
+                                    className:
+                                      "text-xs text-blue-600 font-semibold mb-1",
+                                    children: "ä¸»è‰²è°ƒ",
+                                  }),
+                                  o.jsxs("div", {
+                                    "code-path":
+                                      "src/sections/Design.tsx:117:21",
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                      o.jsx("div", {
+                                        "code-path":
+                                          "src/sections/Design.tsx:118:23",
+                                        className:
+                                          "w-4 h-4 rounded-full bg-[#2563eb]",
+                                      }),
+                                      o.jsx("span", {
+                                        "code-path":
+                                          "src/sections/Design.tsx:119:23",
+                                        className: "text-sm text-blue-900",
+                                        children: "ç§‘æŠ€è“",
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                              o.jsxs("div", {
+                                "code-path": "src/sections/Design.tsx:122:19",
+                                className:
+                                  "p-3 rounded-xl bg-orange-50 border border-orange-100",
+                                children: [
+                                  o.jsx("div", {
+                                    "code-path":
+                                      "src/sections/Design.tsx:123:21",
+                                    className:
+                                      "text-xs text-orange-600 font-semibold mb-1",
+                                    children: "è¾…åŠ©è‰²",
+                                  }),
+                                  o.jsxs("div", {
+                                    "code-path":
+                                      "src/sections/Design.tsx:124:21",
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                      o.jsx("div", {
+                                        "code-path":
+                                          "src/sections/Design.tsx:125:23",
+                                        className:
+                                          "w-4 h-4 rounded-full bg-[#f59e0b]",
+                                      }),
+                                      o.jsx("span", {
+                                        "code-path":
+                                          "src/sections/Design.tsx:126:23",
+                                        className: "text-sm text-orange-900",
+                                        children: "æ¸©æš–æ©™",
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                          o.jsxs("div", {
+                            "code-path": "src/sections/Design.tsx:131:17",
+                            className:
+                              "p-4 rounded-xl bg-gradient-to-r from-[#1e3a5f] to-[#2563eb] text-white",
+                            children: [
+                              o.jsx("h4", {
+                                "code-path": "src/sections/Design.tsx:132:19",
+                                className: "font-semibold mb-2",
+                                children: "åº”ç”¨åœºæ™¯",
+                              }),
+                              o.jsxs("div", {
+                                "code-path": "src/sections/Design.tsx:133:19",
+                                className:
+                                  "grid grid-cols-2 gap-2 text-sm text-white/80",
+                                children: [
+                                  o.jsxs("div", {
+                                    "code-path":
+                                      "src/sections/Design.tsx:134:21",
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                      o.jsx("div", {
+                                        "code-path":
+                                          "src/sections/Design.tsx:135:23",
+                                        className:
+                                          "w-1.5 h-1.5 rounded-full bg-white",
+                                      }),
+                                      "å¾®ä¿¡å…¬ä¼—å·å¤´åƒ",
+                                    ],
+                                  }),
+                                  o.jsxs("div", {
+                                    "code-path":
+                                      "src/sections/Design.tsx:138:21",
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                      o.jsx("div", {
+                                        "code-path":
+                                          "src/sections/Design.tsx:139:23",
+                                        className:
+                                          "w-1.5 h-1.5 rounded-full bg-white",
+                                      }),
+                                      "é’‰é’‰ç¾¤èŠåŠ©æ‰‹",
+                                    ],
+                                  }),
+                                  o.jsxs("div", {
+                                    "code-path":
+                                      "src/sections/Design.tsx:142:21",
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                      o.jsx("div", {
+                                        "code-path":
+                                          "src/sections/Design.tsx:143:23",
+                                        className:
+                                          "w-1.5 h-1.5 rounded-full bg-white",
+                                      }),
+                                      "å°ç¨‹åºç•Œé¢",
+                                    ],
+                                  }),
+                                  o.jsxs("div", {
+                                    "code-path":
+                                      "src/sections/Design.tsx:146:21",
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                      o.jsx("div", {
+                                        "code-path":
+                                          "src/sections/Design.tsx:147:23",
+                                        className:
+                                          "w-1.5 h-1.5 rounded-full bg-white",
+                                      }),
+                                      "å®£ä¼ æµ·æŠ¥",
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      }),
+    })
+  );
+}
+const Ey = [
+    {
+      phase: "ç¬¬ä¸€é˜¶æ®µ",
+      period: "2025 Q2-Q3",
+      title: "åŸºç¡€èƒ½åŠ›å»ºè®¾",
+      items: [
+        "å®Œæˆ343æ¡æ ¸å¿ƒè¯­æ–™åº“å»ºè®¾",
+        "æ­å»ºæ‰£å­å¹³å°æ™ºèƒ½ä½“åŸºç¡€æ¡†æž¶",
+        "å®žçŽ°æ¨¡ç³Šæœç´¢ä¸ŽçŸ¥è¯†åº“æ£€ç´¢",
+        "é…ç½®å¿ƒç†å±æœºè¯†åˆ«ä¸Žè½¬æŽ¥æœºåˆ¶",
+      ],
+      status: "å·²å®Œæˆ",
+    },
+    {
+      phase: "ç¬¬äºŒé˜¶æ®µ",
+      period: "2025 Q3-Q4",
+      title: "æ•°æ®åº“è¿žæŽ¥ä¸Žå°èŒƒå›´è¯•ç‚¹",
+      items: [
+        "è¿žæŽ¥æ‰£å­æ•°æ®åº“å®žçŽ°é—®é¢˜è®°å½•",
+        "æŽ¥å…¥æœªåŒ¹é…é—®é¢˜è‡ªåŠ¨è®°å½•åŠŸèƒ½",
+        "åœ¨1-2ä¸ªå­¦é™¢å¼€å±•å°èŒƒå›´è¯•ç‚¹",
+        "æ”¶é›†åé¦ˆä¼˜åŒ–å›žç­”è´¨é‡",
+      ],
+      status: "è¿›è¡Œä¸­",
+    },
+    {
+      phase: "ç¬¬ä¸‰é˜¶æ®µ",
+      period: "2025 Q4-2026 Q1",
+      title: "AIæ•°æ®åˆ†æžä¸Žå¯è§†åŒ–",
+      items: [
+        "å¯¹æŽ¥å­¦å·¥ç³»ç»ŸèŽ·å–åŸºç¡€æ•°æ®",
+        "æž„å»ºå­¦ç”Ÿè¡Œä¸ºåˆ†æžæ¨¡åž‹",
+        "å¼€å‘æ•°æ®å¯è§†åŒ–å¤§å±",
+        "å®žçŽ°é«˜é¢‘é—®é¢˜é¢„è­¦æœºåˆ¶",
+      ],
+      status: "è§„åˆ’ä¸­",
+    },
+    {
+      phase: "ç¬¬å››é˜¶æ®µ",
+      period: "2026 Q1-Q2",
+      title: "å­¦ç”Ÿç”»åƒä¸Žç²¾å‡†æœåŠ¡",
+      items: [
+        "æž„å»ºå¤šç»´åº¦å­¦ç”Ÿç”¨æˆ·ç”»åƒ",
+        "å®žçŽ°ä¸ªæ€§åŒ–æŽ¨èä¸Žé¢„è­¦",
+        "æ‰“é€šå®¶æ ¡æ•°æ®é—­çŽ¯",
+        "å…¨æ ¡æŽ¨å¹¿è¦†ç›–15000+å­¦ç”Ÿ",
+      ],
+      status: "è§„åˆ’ä¸­",
+    },
+  ],
+  jy = [
+    {
+      icon: Wi,
+      label: "å­¦ä¸šæˆç»©",
+      desc: "ç»©ç‚¹è¶‹åŠ¿ã€æŒ‚ç§‘é¢„è­¦ã€é€‰è¯¾åå¥½",
+      color: "blue",
+    },
+    {
+      icon: $i,
+      label: "å¿ƒç†å¥åº·",
+      desc: "æƒ…ç»ªæ³¢åŠ¨ã€å’¨è¯¢è®°å½•ã€åŽ‹åŠ›æŒ‡æ•°",
+      color: "violet",
+    },
+    {
+      icon: Ex,
+      label: "ç”Ÿæ´»çŠ¶æ€",
+      desc: "æ¶ˆè´¹è¡Œä¸ºã€ä½œæ¯è§„å¾‹ã€ç¤¾äº¤å…³ç³»",
+      color: "emerald",
+    },
+    {
+      icon: _x,
+      label: "èŒä¸šå‘å±•",
+      desc: "å°±ä¸šæ„å‘ã€æŠ€èƒ½è¯„ä¼°ã€å®žä¹ åŒ¹é…",
+      color: "orange",
+    },
+    {
+      icon: Vh,
+      label: "æ´»åŠ¨å‚ä¸Ž",
+      desc: "ç¤¾å›¢æ´»åŠ¨ã€å¿—æ„¿æœåŠ¡ã€äºŒè¯¾å­¦åˆ†",
+      color: "pink",
+    },
+    {
+      icon: Fi,
+      label: "èµ„åŠ©éœ€æ±‚",
+      desc: "ç»æµŽçŠ¶å†µã€å¥–åŠ©ç”³è¯·ã€å›°éš¾ç­‰çº§",
+      color: "cyan",
+    },
+  ];
+function Ay() {
+  const [u, f] = j.useState(!1),
+    d = j.useRef(null);
+  return (
+    j.useEffect(() => {
+      const i = new IntersectionObserver(
+        ([h]) => {
+          h.isIntersecting && (f(!0), i.disconnect());
+        },
+        { threshold: 0.15 },
+      );
+      return (d.current && i.observe(d.current), () => i.disconnect());
+    }, []),
+    o.jsx("section", {
+      "code-path": "src/sections/Roadmap.tsx:83:5",
+      id: "roadmap",
+      className: "section-padding bg-white",
+      ref: d,
+      children: o.jsxs("div", {
+        "code-path": "src/sections/Roadmap.tsx:84:7",
+        className: "max-w-7xl mx-auto",
+        children: [
+          o.jsxs("div", {
+            "code-path": "src/sections/Roadmap.tsx:85:9",
+            className: "text-center mb-16",
+            children: [
+              o.jsx("span", {
+                "code-path": "src/sections/Roadmap.tsx:86:11",
+                className:
+                  "inline-block px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-sm font-medium mb-4",
+                children: "æœªæ¥è§„åˆ’",
+              }),
+              o.jsx("h2", {
+                "code-path": "src/sections/Roadmap.tsx:89:11",
+                className:
+                  "text-3xl md:text-4xl font-bold text-foreground mb-4",
+                children: "AIæ•°æ®åˆ†æžä¸Žå­¦ç”Ÿç”¨æˆ·ç”»åƒ",
+              }),
+              o.jsx("p", {
+                "code-path": "src/sections/Roadmap.tsx:92:11",
+                className: "text-muted-foreground text-lg max-w-3xl mx-auto",
+                children:
+                  'ä»¥æ™ºèƒ½ä½“ä¸ºæ•°æ®å…¥å£ï¼Œæž„å»ºå­¦ç”Ÿå…¨ç»´åº¦ç”»åƒï¼Œå®žçŽ°ä»Ž"è¢«åŠ¨å“åº”"åˆ°"ä¸»åŠ¨å…³æ€€"çš„æœåŠ¡å‡çº§ï¼Œæ‰“é€ ç²¾å‡†æ€æ”¿æ–°èŒƒå¼ã€‚',
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Roadmap.tsx:98:9",
+            className: "mb-20",
+            children: [
+              o.jsx("h3", {
+                "code-path": "src/sections/Roadmap.tsx:99:11",
+                className: "text-xl font-bold text-foreground mb-8 text-center",
+                children: "å»ºè®¾è·¯çº¿å›¾",
+              }),
+              o.jsx("div", {
+                "code-path": "src/sections/Roadmap.tsx:100:11",
+                className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
+                children: Ey.map((i, h) =>
+                  o.jsxs(
+                    "div",
+                    {
+                      "code-path": "src/sections/Roadmap.tsx:102:15",
+                      className: `relative p-6 rounded-2xl border transition-all duration-700 hover:-translate-y-1 hover:shadow-lg ${i.status === "å·²å®Œæˆ" ? "bg-emerald-50 border-emerald-200" : i.status === "è¿›è¡Œä¸­" ? "bg-blue-50 border-blue-200" : "bg-muted/50 border-border"} ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                      style: { transitionDelay: `${h * 150}ms` },
+                      children: [
+                        o.jsxs("div", {
+                          "code-path": "src/sections/Roadmap.tsx:113:17",
+                          className: "flex items-center justify-between mb-3",
+                          children: [
+                            o.jsx("span", {
+                              "code-path": "src/sections/Roadmap.tsx:114:19",
+                              className: `px-2 py-0.5 rounded-full text-xs font-semibold ${i.status === "å·²å®Œæˆ" ? "bg-emerald-200 text-emerald-800" : i.status === "è¿›è¡Œä¸­" ? "bg-blue-200 text-blue-800" : "bg-gray-200 text-gray-600"}`,
+                              children: i.status,
+                            }),
+                            o.jsx("span", {
+                              "code-path": "src/sections/Roadmap.tsx:125:19",
+                              className: "text-xs text-muted-foreground",
+                              children: i.period,
+                            }),
+                          ],
+                        }),
+                        o.jsx("h4", {
+                          "code-path": "src/sections/Roadmap.tsx:127:17",
+                          className: "font-bold text-foreground mb-1",
+                          children: i.phase,
+                        }),
+                        o.jsx("h5", {
+                          "code-path": "src/sections/Roadmap.tsx:128:17",
+                          className: "text-sm font-semibold text-primary mb-3",
+                          children: i.title,
+                        }),
+                        o.jsx("ul", {
+                          "code-path": "src/sections/Roadmap.tsx:129:17",
+                          className: "space-y-2",
+                          children: i.items.map((m) =>
+                            o.jsxs(
+                              "li",
+                              {
+                                "code-path": "src/sections/Roadmap.tsx:131:21",
+                                className:
+                                  "flex items-start gap-2 text-sm text-muted-foreground",
+                                children: [
+                                  o.jsx("div", {
+                                    "code-path":
+                                      "src/sections/Roadmap.tsx:132:23",
+                                    className:
+                                      "w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0",
+                                  }),
+                                  m,
+                                ],
+                              },
+                              m,
+                            ),
+                          ),
+                        }),
+                      ],
+                    },
+                    i.phase,
+                  ),
+                ),
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Roadmap.tsx:143:9",
+            className: "mb-12",
+            children: [
+              o.jsx("h3", {
+                "code-path": "src/sections/Roadmap.tsx:144:11",
+                className: "text-xl font-bold text-foreground mb-8 text-center",
+                children: "å­¦ç”Ÿç”¨æˆ·ç”»åƒç»´åº¦",
+              }),
+              o.jsx("div", {
+                "code-path": "src/sections/Roadmap.tsx:145:11",
+                className: "grid grid-cols-2 md:grid-cols-3 gap-4 mb-8",
+                children: jy.map((i, h) =>
+                  o.jsxs(
+                    "div",
+                    {
+                      "code-path": "src/sections/Roadmap.tsx:147:15",
+                      className: `p-5 rounded-xl bg-white border border-border hover:shadow-md transition-all duration-500 hover:-translate-y-0.5 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+                      style: { transitionDelay: `${300 + h * 100}ms` },
+                      children: [
+                        o.jsx(i.icon, {
+                          "code-path": "src/sections/Roadmap.tsx:154:17",
+                          className: `w-8 h-8 text-${i.color}-500 mb-3`,
+                          style: { color: `var(--color-${i.color})` },
+                        }),
+                        o.jsx("h4", {
+                          "code-path": "src/sections/Roadmap.tsx:155:17",
+                          className: "font-semibold text-foreground mb-1",
+                          children: i.label,
+                        }),
+                        o.jsx("p", {
+                          "code-path": "src/sections/Roadmap.tsx:156:17",
+                          className: "text-xs text-muted-foreground",
+                          children: i.desc,
+                        }),
+                      ],
+                    },
+                    i.label,
+                  ),
+                ),
+              }),
+            ],
+          }),
+          o.jsxs("div", {
+            "code-path": "src/sections/Roadmap.tsx:163:9",
+            className: `rounded-2xl overflow-hidden border border-border shadow-lg transition-all duration-700 delay-500 ${u ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`,
+            children: [
+              o.jsx("div", {
+                "code-path": "src/sections/Roadmap.tsx:168:11",
+                className:
+                  "p-4 bg-gradient-to-r from-[#0f172a] to-[#1e3a5f] text-white",
+                children: o.jsx("h3", {
+                  "code-path": "src/sections/Roadmap.tsx:169:13",
+                  className: "font-bold text-center",
+                  children: "å­¦ç”Ÿæ•°æ®AIåˆ†æžå¯è§†åŒ–å¤§å±ï¼ˆé¢„è§ˆï¼‰",
+                }),
+              }),
+              o.jsx("img", {
+                "code-path": "src/sections/Roadmap.tsx:171:11",
+                src: "/images/user-persona.png",
+                alt: "å­¦ç”Ÿç”¨æˆ·ç”»åƒå¯è§†åŒ–",
+                className: "w-full",
+              }),
+              o.jsx("div", {
+                "code-path": "src/sections/Roadmap.tsx:176:11",
+                className: "p-4 bg-muted/30 text-center",
+                children: o.jsx("p", {
+                  "code-path": "src/sections/Roadmap.tsx:177:13",
+                  className: "text-sm text-muted-foreground",
+                  children:
+                    "æœªæ¥å°†é€šè¿‡AIç®—æ³•æ•´åˆå¤šæºæ•°æ®ï¼Œä¸ºæ¯ä½å­¦ç”Ÿç”Ÿæˆä¸ªæ€§åŒ–æˆé•¿æ¡£æ¡ˆï¼Œå®žçŽ°ç²¾å‡†é¢„è­¦ä¸Žä¸ªæ€§åŒ–æœåŠ¡æŽ¨èã€‚",
+                }),
+              }),
+            ],
+          }),
+        ],
+      }),
+    })
+  );
+}
+const zy = [
+  {
+    school: "å¤ªåŽŸç†å·¥å¤§å­¦",
+    name: "AIè¾…å¯¼å‘˜",
+    type: "ç»¼åˆæ€§AIè¾…å¯¼å‘˜",
+    highlight: "æ±‡èš200ä½™åä¼˜ç§€è¾…å¯¼å‘˜ç»éªŒæ™ºæ…§",
+    desc: 'è¦†ç›–æ ¡å›­äº‹åŠ¡åŠžç†ã€å­¦ä¹ ç­”ç–‘ã€å¿ƒç†å’¨è¯¢ä¸Žæƒ…ç»ªé™ªä¼´ç­‰æœåŠ¡ï¼Œå®žçŽ°å¯¹å­¦ç”Ÿå…¨å¤©å€™ã€å…¨æ–¹ä½çš„é™ªä¼´ä¸Žå…³æ€€ã€‚å…¥é€‰æ•™è‚²éƒ¨2025å¹´é«˜æ ¡"ä¸€ç«™å¼"å­¦ç”Ÿç¤¾åŒºåˆ›æ–°äº®ç‚¹ã€‚',
+    outcome: "æ•™è‚²éƒ¨ä¼˜ç§€æˆæžœå…¥é€‰",
+  },
+  {
+    school: "ä¸Šæµ·ä¸­åŒ»è¯å¤§å­¦",
+    name: "å’Œå°åˆ",
+    type: "å¿ƒç†å¥åº·AIåŠ©æ‰‹",
+    highlight: "ä¼ ç»Ÿæ–‡åŒ–+å¿ƒç†AIèžåˆ",
+    desc: "ä»¥ä¸­åŒ»è¯æ–‡åŒ–ä¸ºåŸºåº§çš„å¿ƒç†å¥åº·æ•™è‚²æ™ºèƒ½ä½“ï¼Œå°†ã€Šé»„å¸å†…ç»ã€‹æ™ºæ…§èžå…¥AIç®—æ³•ã€‚è¢«äººæ°‘æ—¥æŠ¥ã€ä¸­å›½æ–°é—»ç½‘æŠ¥é“ï¼Œä¸€å‘¨é˜…è¯»é‡è¶…46ä¸‡ã€‚",
+    outcome: "å…¨å›½ä¼˜ç§€æ¡ˆä¾‹",
+  },
+  {
+    school: "å¤©æ´¥å¤§å­¦",
+    name: "æµ·æ£ æ£ ",
+    type: "æ–°ç”Ÿæ™ºèƒ½ä½“",
+    highlight: "24å°æ—¶å®žæ—¶åœ¨çº¿",
+    desc: 'ä»¥å•†ä¸šå¤§æ¨¡åž‹ä¸ºåŸºåº§ï¼Œæ±‡é›†ç™¾ä½™ä¸ªå®˜æ–¹åª’ä½“å¹³å°ä¿¡æ¯ï¼Œä¸ºæ–°ç”Ÿ"ç§’æŠ“å–"å…¨ç½‘ä¿¡æ¯ï¼Œè§£å†³å­¦ä¹ ç§‘ç ”ã€æ ¡å›­ç”Ÿæ´»ã€ä¸ªäººå‘å±•ç­‰å¸¸è§é—®é¢˜ã€‚',
+    outcome: "æ–°ç”ŸæœåŠ¡å…¨è¦†ç›–",
+  },
+  {
+    school: "åŽä¸­ç§‘æŠ€å¤§å­¦",
+    name: "çˆ±åŽå¯¼",
+    type: "AIæ€æ”¿æ•™è‚²",
+    highlight: "6ç±»32é¡¹è¯­æ–™åº“",
+    desc: 'æž„å»ºçŸ¥è¯†å›¾è°±æ¶µç›–æ€æ”¿å·¥ä½œã€å®‰å…¨ä¿éšœã€æˆé•¿å‘å±•ç­‰6ç±»32é¡¹è¯­æ–™åº“ã€‚æå‡º"ä¸‰çº§æž¶æž„ï¼Œå…­æ”¯é˜Ÿä¼ï¼Œä¸¤ä¸ªèžåˆ"å»ºè®¾æ¨¡å¼ã€‚',
+    outcome: "æ€æ”¿æ•™è‚²åˆ›æ–°",
+  },
+  {
+    school: "é‡åº†å·¥ç¨‹èŒä¸šæŠ€æœ¯å­¦é™¢",
+    name: "ç­‘æ™ºDeepSeek",
+    type: "DeepSeekæœ¬åœ°åŒ–",
+    highlight: "å…¨å¸‚é«˜èŒé¦–ä¸ªDeepSeek",
+    desc: "ä¾æ‰˜åŽä¸ºæ˜‡è…¾AIè®¡ç®—é›†ç¾¤ï¼Œæœ¬åœ°åŒ–éƒ¨ç½²DeepSeek-R1-671Bå¤§æ¨¡åž‹ï¼Œå…·å¤‡æ”¿ç­–è§£è¯»ã€æ–‡çŒ®ç¿»è¯‘ã€ç§‘ç ”è¾…åŠ©ç­‰æ ¸å¿ƒåŠŸèƒ½ã€‚",
+    outcome: "æŠ€æœ¯æ ‡æ†",
+  },
+  {
+    school: "æµ™æ±Ÿå¤§å­¦",
+    name: "æµ™å¤§å…ˆç”Ÿ",
+    type: "æ™ºèƒ½ä½“å¼€å‘å¹³å°",
+    highlight: "å¸ˆç”Ÿè‡ªå»ºæ™ºèƒ½ä½“",
+    desc: 'æŽ¨å‡ºæ™ºèƒ½ä½“åº”ç”¨å¼€å‘å¹³å°ï¼Œå®Œæˆä»Žå¤§æ¨¡åž‹åˆ°æ ¡å›­åº”ç”¨çš„"æœ€åŽä¸€å…¬é‡Œ"ï¼Œè®©å¸ˆç”Ÿåƒæ‹¼ä¹é«˜ä¸€æ ·æ­å»ºæ™ºèƒ½ä½“ã€‚',
+    outcome: "å¹³å°åŒ–åˆ›æ–°",
+  },
+];
+function Ty() {
+  const [u, f] = j.useState(!1),
+    d = j.useRef(null);
+  return (
+    j.useEffect(() => {
+      const i = new IntersectionObserver(
+        ([h]) => {
+          h.isIntersecting && (f(!0), i.disconnect());
+        },
+        { threshold: 0.1 },
+      );
+      return (d.current && i.observe(d.current), () => i.disconnect());
   );
 }
 function Cy() {
@@ -17665,7 +17665,7 @@ function Cy() {
                     o.jsx("span", {
                       "code-path": "src/sections/Footer.tsx:13:15",
                       className: "font-bold text-lg",
-                      children: "守望智伴",
+                      children: "å®ˆæœ›æ™ºä¼´",
                     }),
                   ],
                 }),
@@ -17673,7 +17673,7 @@ function Cy() {
                   "code-path": "src/sections/Footer.tsx:15:13",
                   className: "text-sm text-white/60 leading-relaxed",
                   children:
-                    "常州工业职业技术学院一站式学生社区AI智能体，致力于为每位学生提供有温度、有深度的智慧服务。",
+                    "å¸¸å·žå·¥ä¸šèŒä¸šæŠ€æœ¯å­¦é™¢ä¸€ç«™å¼å­¦ç”Ÿç¤¾åŒºAIæ™ºèƒ½ä½“ï¼Œè‡´åŠ›äºŽä¸ºæ¯ä½å­¦ç”Ÿæä¾›æœ‰æ¸©åº¦ã€æœ‰æ·±åº¦çš„æ™ºæ…§æœåŠ¡ã€‚",
                 }),
               ],
             }),
@@ -17683,7 +17683,7 @@ function Cy() {
                 o.jsx("h4", {
                   "code-path": "src/sections/Footer.tsx:21:13",
                   className: "font-semibold mb-4",
-                  children: "快速导航",
+                  children: "å¿«é€Ÿå¯¼èˆª",
                 }),
                 o.jsxs("div", {
                   "code-path": "src/sections/Footer.tsx:22:13",
@@ -17693,43 +17693,43 @@ function Cy() {
                       "code-path": "src/sections/Footer.tsx:23:15",
                       href: "#background",
                       className: "hover:text-white transition-colors",
-                      children: "项目背景",
+                      children: "é¡¹ç›®èƒŒæ™¯",
                     }),
                     o.jsx("a", {
                       "code-path": "src/sections/Footer.tsx:24:15",
-                      href: "#corpus",
+                      href: "#cases",
                       className: "hover:text-white transition-colors",
-                      children: "语料库建设",
+                      children: "åŒç±»æ¡ˆä¾‹",
                     }),
                     o.jsx("a", {
                       "code-path": "src/sections/Footer.tsx:25:15",
-                      href: "#analytics",
+                      href: "#corpus",
                       className: "hover:text-white transition-colors",
-                      children: "数据分析",
+                      children: "è¯­æ–™åº“å»ºè®¾",
                     }),
                     o.jsx("a", {
                       "code-path": "src/sections/Footer.tsx:26:15",
-                      href: "#features",
+                      href: "#analytics",
                       className: "hover:text-white transition-colors",
-                      children: "智能体功能",
+                      children: "æ•°æ®åˆ†æž",
                     }),
                     o.jsx("a", {
                       "code-path": "src/sections/Footer.tsx:27:15",
-                      href: "#design",
+                      href: "#features",
                       className: "hover:text-white transition-colors",
-                      children: "形象设计",
+                      children: "æ™ºèƒ½ä½“åŠŸèƒ½",
                     }),
                     o.jsx("a", {
                       "code-path": "src/sections/Footer.tsx:28:15",
-                      href: "#roadmap",
+                      href: "#design",
                       className: "hover:text-white transition-colors",
-                      children: "未来规划",
+                      children: "å½¢è±¡è®¾è®¡",
                     }),
                     o.jsx("a", {
                       "code-path": "src/sections/Footer.tsx:29:15",
-                      href: "#cases",
+                      href: "#roadmap",
                       className: "hover:text-white transition-colors",
-                      children: "同类案例",
+                      children: "æœªæ¥è§„åˆ’",
                     }),
                   ],
                 }),
@@ -17741,7 +17741,7 @@ function Cy() {
                 o.jsx("h4", {
                   "code-path": "src/sections/Footer.tsx:34:13",
                   className: "font-semibold mb-4",
-                  children: "项目信息",
+                  children: "é¡¹ç›®ä¿¡æ¯",
                 }),
                 o.jsxs("div", {
                   "code-path": "src/sections/Footer.tsx:35:13",
@@ -17757,7 +17757,7 @@ function Cy() {
                         }),
                         o.jsx("span", {
                           "code-path": "src/sections/Footer.tsx:38:17",
-                          children: "学工处 · 常州工业职业技术学院",
+                          children: "å­¦å·¥å¤„ Â· å¸¸å·žå·¥ä¸šèŒä¸šæŠ€æœ¯å­¦é™¢",
                         }),
                       ],
                     }),
@@ -17771,7 +17771,7 @@ function Cy() {
                         }),
                         o.jsx("span", {
                           "code-path": "src/sections/Footer.tsx:42:17",
-                          children: '全国A级"一站式"学生社区',
+                          children: 'å…¨å›½Açº§"ä¸€ç«™å¼"å­¦ç”Ÿç¤¾åŒº',
                         }),
                       ],
                     }),
@@ -17787,7 +17787,7 @@ function Cy() {
             "pt-8 border-t border-white/10 text-center text-sm text-white/40",
           children: o.jsx("p", {
             "code-path": "src/sections/Footer.tsx:49:11",
-            children: " 常州工业职业技术学院 · 守望智伴 AI智能体项目组",
+            children: " å¸¸å·žå·¥ä¸šèŒä¸šæŠ€æœ¯å­¦é™¢ Â· å®ˆæœ›æ™ºä¼´ AIæ™ºèƒ½ä½“é¡¹ç›®ç»„",
           }),
         }),
       ],
