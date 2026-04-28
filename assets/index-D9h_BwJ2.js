@@ -17646,7 +17646,7 @@ function Cy() {
       children: [
         o.jsxs("div", {
           "code-path": "src/sections/Footer.tsx:7:9",
-          className: "grid md:grid-cols-3 gap-8",
+          className: "grid md:grid-cols-3 gap-8 mb-8",
           children: [
             o.jsxs("div", {
               "code-path": "src/sections/Footer.tsx:8:11",
@@ -17782,18 +17782,19 @@ function Cy() {
               ],
             }),
           ],
+        }),
+        o.jsx("div", {
+          "code-path": "src/sections/Footer.tsx:48:9",
+          className:
+            "pt-8 border-t border-white/10 text-center text-sm text-white/40",
+          children: o.jsx("p", {
+            "code-path": "src/sections/Footer.tsx:49:11",
+            children: " 常州工业职业技术学院 · 守望智伴 AI智能体项目组",
+          }),
+        }),
+      ],
     }),
-    o.jsx("div", {
-      "code-path": "src/sections/Footer.tsx:48:9",
-      className:
-        "border-t border-white/10 text-center text-sm text-white/40 py-4",
-      children: o.jsx("p", {
-        "code-path": "src/sections/Footer.tsx:49:11",
-        children: "常州工业职业技术学院 · 守望智伴 AI智能体项目组",
-      }),
-    }),
-  ],
-});
+  });
 }
 function Ry() {
   return o.jsxs("div", {
